@@ -1,0 +1,1 @@
+export declare class r100 { static hash(str: string, raw?: false): string; static hashBinary(arr: ArrayBuffer, raw?: false): string; } 

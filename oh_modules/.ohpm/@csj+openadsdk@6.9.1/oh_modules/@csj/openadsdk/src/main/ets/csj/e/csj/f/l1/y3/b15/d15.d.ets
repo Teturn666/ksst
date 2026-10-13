@@ -1,0 +1,1 @@
+import { c106 } from "../../../../../../e3/g3"; import { h1 } from "../../../../../../e3/g3"; export declare const e106 = "zaid"; export declare class f106 implements h1 { private z77; i3(): Map<string, string>; b78(context: Context, config: c106): Promise<object>; } 

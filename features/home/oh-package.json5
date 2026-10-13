@@ -1,0 +1,22 @@
+{
+  "name": "home",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "Index.ets",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "network": "file:../../commons/network",
+    "utils": "file:../../commons/utils",
+    "search": "file:../../commons/search",
+    "encryption": "file:../../commons/encryption",
+    "db": "file:../../commons/db",
+    "web": "file:../../commons/web",
+    "photo": "file:../photo",
+    "view": "file:../view",
+    "widget": "file:../../commons/widget",
+    "bank": 'file:../../features/bank',
+    "setting": 'file:../setting'
+  }
+}
+

@@ -1,0 +1,1 @@
+import { taskpool } from '@kit.ArkTS'; export interface j143 { getTask(): taskpool.Task; } export interface k143 { execute(task: j143): Promise<Object>; } 

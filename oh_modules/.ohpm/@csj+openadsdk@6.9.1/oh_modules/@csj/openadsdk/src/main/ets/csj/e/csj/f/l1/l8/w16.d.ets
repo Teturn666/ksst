@@ -1,0 +1,1 @@
+export declare class ExpressClickInfoIdl { readonly down_x: number; readonly down_y: number; readonly up_x: number; readonly up_y: number; readonly down_time: number; readonly up_time: number; readonly button_x: number; readonly button_y: number; readonly button_width: number; readonly button_height: number; } 

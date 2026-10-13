@@ -1,0 +1,2164 @@
+{
+  "ohos-module-entry": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "/Users/fire/Desktop/programs/ksst/products/entry/build",
+    "DEPENDENCY_INFO": {
+      "bank": "/Users/fire/Desktop/programs/ksst/features/bank",
+      "mine": "/Users/fire/Desktop/programs/ksst/features/mine",
+      "db": "/Users/fire/Desktop/programs/ksst/commons/db",
+      "login": "/Users/fire/Desktop/programs/ksst/features/login",
+      "utils": "/Users/fire/Desktop/programs/ksst/commons/utils",
+      "search": "/Users/fire/Desktop/programs/ksst/commons/search",
+      "network": "/Users/fire/Desktop/programs/ksst/commons/network",
+      "@csj/openadsdk": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+openadsdk@6.9.1/oh_modules/@csj/openadsdk",
+      "@csj/adapter_ks": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+adapter_ks@3.0.6-1/oh_modules/@csj/adapter_ks",
+      "@csj/adapter_gdt": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+adapter_gdt@1.1.0-1/oh_modules/@csj/adapter_gdt",
+      "encryption": "/Users/fire/Desktop/programs/ksst/commons/encryption",
+      "widget": "/Users/fire/Desktop/programs/ksst/commons/widget",
+      "points": "/Users/fire/Desktop/programs/ksst/features/points",
+      "setting": "/Users/fire/Desktop/programs/ksst/features/setting",
+      "pay": "/Users/fire/Desktop/programs/ksst/features/pay",
+      "@tencent/wechat_open_sdk": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@tencent+wechat_open_sdk@1.0.14/oh_modules/@tencent/wechat_open_sdk",
+      "@candies/image_cropper": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@candies+image_cropper@1.1.1/oh_modules/@candies/image_cropper",
+      "@csj/panglearmor": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+panglearmor@cksmdebfkaayuazinfq2bjsbl2liolozgz0idliqkoi=/oh_modules/@csj/panglearmor",
+      "@bdms/bdmssdk_pgl": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@bdms+bdmssdk_pgl@uj8yipotnt2kw6duljuflmytrqjyvr8n+3zwgb2vucm=/oh_modules/@bdms/bdmssdk_pgl",
+      "@hpem/apmplus_crash_lite": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@hpem+apmplus_crash_lite@172xrcqiqpb07ddsgbluiijz24mrpldphza+5vlddka=/oh_modules/@hpem/apmplus_crash_lite",
+      "@dp/applog": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@dp+applog@+e6gtiy4h3epopwj9muptqswanljuqcdrohmi055hmq=/oh_modules/@dp/applog",
+      "@ohos/lottie": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+lottie@2.0.20/oh_modules/@ohos/lottie",
+      "@candies/image_editor": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@candies+image_editor@1.0.0/oh_modules/@candies/image_editor",
+      "@ohos/axios": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+axios@2.2.4/oh_modules/@ohos/axios",
+      "@ohos/okio": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+okio@2.0.1/oh_modules/@ohos/okio",
+      "@umeng/common": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@umeng+common@1.1.3/oh_modules/@umeng/common",
+      "@umeng/analytics": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@umeng+analytics@1.2.4/oh_modules/@umeng/analytics"
+    },
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "/Users/fire/Desktop/programs/ksst/products/entry/src/main",
+        "RESOURCES_PATH": [
+          "/Users/fire/Desktop/programs/ksst/products/entry/src/main/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Users/fire/Desktop/programs/ksst/products/entry/build/default/outputs/default",
+          "INTERMEDIA_PATH": "/Users/fire/Desktop/programs/ksst/products/entry/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/fire/Desktop/programs/ksst/products/entry/build/default/intermediates/loader_out/default",
+          "JS_LITE_ASSETS_PATH": "/Users/fire/Desktop/programs/ksst/products/entry/build/default/intermediates/loader_out_lite/default",
+          "RES_PATH": "/Users/fire/Desktop/programs/ksst/products/entry/build/default/intermediates/res/default",
+          "RES_PROFILE_PATH": "/Users/fire/Desktop/programs/ksst/products/entry/build/default/intermediates/res/default/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/fire/Desktop/programs/ksst/products/entry/build/default/cache/default/default@CompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/fire/Desktop/programs/ksst/products/entry/build/default/cache/default/default@CompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/fire/Desktop/programs/ksst/products/entry/build/default/intermediates/loader/default/loader.json",
+          "MANIFEST_JSON": "/Users/fire/Desktop/programs/ksst/products/entry/build/default/intermediates/manifest/default",
+          "OUTPUT_METADATA_JSON": "/Users/fire/Desktop/programs/ksst/products/entry/build/default/intermediates/hap_metadata/default/output_metadata.json",
+          "SOURCE_MAP_DIR": "/Users/fire/Desktop/programs/ksst/products/entry/build/default/intermediates/source_map/default"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      },
+      "ohosTest": {
+        "SOURCE_ROOT": "/Users/fire/Desktop/programs/ksst/products/entry/src/ohosTest",
+        "RESOURCES_PATH": [
+          "/Users/fire/Desktop/programs/ksst/products/entry/src/ohosTest/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Users/fire/Desktop/programs/ksst/products/entry/build/default/outputs/ohosTest",
+          "INTERMEDIA_PATH": "/Users/fire/Desktop/programs/ksst/products/entry/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/fire/Desktop/programs/ksst/products/entry/build/default/intermediates/loader_out/ohosTest",
+          "JS_LITE_ASSETS_PATH": "/Users/fire/Desktop/programs/ksst/products/entry/build/default/intermediates/loader_out_lite/ohosTest",
+          "RES_PATH": "/Users/fire/Desktop/programs/ksst/products/entry/build/default/intermediates/res/ohosTest",
+          "RES_PROFILE_PATH": "/Users/fire/Desktop/programs/ksst/products/entry/build/default/intermediates/res/ohosTest/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/fire/Desktop/programs/ksst/products/entry/build/default/cache/ohosTest/ohosTest@OhosTestCompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/fire/Desktop/programs/ksst/products/entry/build/default/cache/ohosTest/ohosTest@OhosTestCompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/fire/Desktop/programs/ksst/products/entry/build/default/intermediates/loader/ohosTest/loader.json",
+          "MANIFEST_JSON": "/Users/fire/Desktop/programs/ksst/products/entry/build/default/intermediates/manifest/ohosTest",
+          "OUTPUT_METADATA_JSON": "/Users/fire/Desktop/programs/ksst/products/entry/build/default/intermediates/hap_metadata/ohosTest/output_metadata.json",
+          "SOURCE_MAP_DIR": "/Users/fire/Desktop/programs/ksst/products/entry/build/default/intermediates/source_map/ohosTest"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "strictMode": {
+          "useNormalizedOHMUrl": true
+        },
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {},
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "runtimeOnly": {
+              "packages": [
+                "@csj/adapter_ks",
+                "@csj/adapter_gdt"
+              ]
+            },
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": true,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "ohosTest"
+        }
+      ]
+    },
+    "BUILD_CACHE_DIR": ""
+  },
+  "ohos-module-mine": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "/Users/fire/Desktop/programs/ksst/features/mine/build",
+    "DEPENDENCY_INFO": {
+      "widget": "/Users/fire/Desktop/programs/ksst/commons/widget",
+      "utils": "/Users/fire/Desktop/programs/ksst/commons/utils",
+      "login": "/Users/fire/Desktop/programs/ksst/features/login",
+      "points": "/Users/fire/Desktop/programs/ksst/features/points",
+      "setting": "/Users/fire/Desktop/programs/ksst/features/setting",
+      "pay": "/Users/fire/Desktop/programs/ksst/features/pay",
+      "@csj/openadsdk": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+openadsdk@6.9.1/oh_modules/@csj/openadsdk",
+      "@csj/adapter_ks": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+adapter_ks@3.0.6-1/oh_modules/@csj/adapter_ks",
+      "@csj/adapter_gdt": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+adapter_gdt@1.1.0-1/oh_modules/@csj/adapter_gdt",
+      "@candies/image_cropper": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@candies+image_cropper@1.1.1/oh_modules/@candies/image_cropper",
+      "@tencent/wechat_open_sdk": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@tencent+wechat_open_sdk@1.0.14/oh_modules/@tencent/wechat_open_sdk",
+      "search": "/Users/fire/Desktop/programs/ksst/commons/search",
+      "db": "/Users/fire/Desktop/programs/ksst/commons/db",
+      "network": "/Users/fire/Desktop/programs/ksst/commons/network",
+      "@csj/panglearmor": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+panglearmor@cksmdebfkaayuazinfq2bjsbl2liolozgz0idliqkoi=/oh_modules/@csj/panglearmor",
+      "@bdms/bdmssdk_pgl": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@bdms+bdmssdk_pgl@uj8yipotnt2kw6duljuflmytrqjyvr8n+3zwgb2vucm=/oh_modules/@bdms/bdmssdk_pgl",
+      "@hpem/apmplus_crash_lite": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@hpem+apmplus_crash_lite@172xrcqiqpb07ddsgbluiijz24mrpldphza+5vlddka=/oh_modules/@hpem/apmplus_crash_lite",
+      "@dp/applog": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@dp+applog@+e6gtiy4h3epopwj9muptqswanljuqcdrohmi055hmq=/oh_modules/@dp/applog",
+      "@ohos/lottie": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+lottie@2.0.20/oh_modules/@ohos/lottie",
+      "@candies/image_editor": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@candies+image_editor@1.0.0/oh_modules/@candies/image_editor",
+      "encryption": "/Users/fire/Desktop/programs/ksst/commons/encryption",
+      "@ohos/axios": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+axios@2.2.4/oh_modules/@ohos/axios",
+      "@ohos/okio": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+okio@2.0.1/oh_modules/@ohos/okio",
+      "@umeng/common": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@umeng+common@1.1.3/oh_modules/@umeng/common",
+      "@umeng/analytics": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@umeng+analytics@1.2.4/oh_modules/@umeng/analytics"
+    },
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "/Users/fire/Desktop/programs/ksst/features/mine/src/main",
+        "RESOURCES_PATH": [
+          "/Users/fire/Desktop/programs/ksst/features/mine/src/main/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Users/fire/Desktop/programs/ksst/features/mine/build/default/outputs/default",
+          "INTERMEDIA_PATH": "/Users/fire/Desktop/programs/ksst/features/mine/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/fire/Desktop/programs/ksst/features/mine/build/default/intermediates/loader_out/default",
+          "JS_LITE_ASSETS_PATH": "/Users/fire/Desktop/programs/ksst/features/mine/build/default/intermediates/loader_out_lite/default",
+          "RES_PATH": "/Users/fire/Desktop/programs/ksst/features/mine/build/default/intermediates/res/default",
+          "RES_PROFILE_PATH": "/Users/fire/Desktop/programs/ksst/features/mine/build/default/intermediates/res/default/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/fire/Desktop/programs/ksst/features/mine/build/default/cache/default/default@HarCompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/fire/Desktop/programs/ksst/features/mine/build/default/cache/default/default@HarCompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/fire/Desktop/programs/ksst/features/mine/build/default/intermediates/loader/default/loader.json",
+          "MANIFEST_JSON": "/Users/fire/Desktop/programs/ksst/features/mine/build/default/intermediates/manifest/default",
+          "OUTPUT_METADATA_JSON": "/Users/fire/Desktop/programs/ksst/features/mine/build/default/intermediates/hap_metadata/default/output_metadata.json",
+          "SOURCE_MAP_DIR": "/Users/fire/Desktop/programs/ksst/features/mine/build/default/intermediates/source_map/default"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "strictMode": {
+          "useNormalizedOHMUrl": true
+        },
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {},
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": true,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        }
+      ]
+    },
+    "BUILD_CACHE_DIR": ""
+  },
+  "ohos-module-home": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "/Users/fire/Desktop/programs/ksst/features/home/build",
+    "DEPENDENCY_INFO": {
+      "network": "/Users/fire/Desktop/programs/ksst/commons/network",
+      "utils": "/Users/fire/Desktop/programs/ksst/commons/utils",
+      "search": "/Users/fire/Desktop/programs/ksst/commons/search",
+      "encryption": "/Users/fire/Desktop/programs/ksst/commons/encryption",
+      "db": "/Users/fire/Desktop/programs/ksst/commons/db",
+      "web": "/Users/fire/Desktop/programs/ksst/commons/web",
+      "parseexcel": "/Users/fire/Desktop/programs/ksst/commons/parseExcel",
+      "photo": "/Users/fire/Desktop/programs/ksst/features/photo",
+      "view": "/Users/fire/Desktop/programs/ksst/features/view",
+      "widget": "/Users/fire/Desktop/programs/ksst/commons/widget",
+      "bank": "/Users/fire/Desktop/programs/ksst/features/bank",
+      "setting": "/Users/fire/Desktop/programs/ksst/features/setting",
+      "@candies/image_cropper": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@candies+image_cropper@1.1.1/oh_modules/@candies/image_cropper",
+      "@csj/openadsdk": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+openadsdk@6.9.1/oh_modules/@csj/openadsdk",
+      "@csj/adapter_ks": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+adapter_ks@3.0.6-1/oh_modules/@csj/adapter_ks",
+      "@csj/adapter_gdt": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+adapter_gdt@1.1.0-1/oh_modules/@csj/adapter_gdt",
+      "login": "/Users/fire/Desktop/programs/ksst/features/login",
+      "@candies/image_editor": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@candies+image_editor@1.0.0/oh_modules/@candies/image_editor",
+      "@csj/panglearmor": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+panglearmor@cksmdebfkaayuazinfq2bjsbl2liolozgz0idliqkoi=/oh_modules/@csj/panglearmor",
+      "@bdms/bdmssdk_pgl": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@bdms+bdmssdk_pgl@uj8yipotnt2kw6duljuflmytrqjyvr8n+3zwgb2vucm=/oh_modules/@bdms/bdmssdk_pgl",
+      "@hpem/apmplus_crash_lite": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@hpem+apmplus_crash_lite@172xrcqiqpb07ddsgbluiijz24mrpldphza+5vlddka=/oh_modules/@hpem/apmplus_crash_lite",
+      "@dp/applog": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@dp+applog@+e6gtiy4h3epopwj9muptqswanljuqcdrohmi055hmq=/oh_modules/@dp/applog",
+      "@ohos/lottie": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+lottie@2.0.20/oh_modules/@ohos/lottie",
+      "@tencent/wechat_open_sdk": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@tencent+wechat_open_sdk@1.0.14/oh_modules/@tencent/wechat_open_sdk",
+      "@ohos/axios": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+axios@2.2.4/oh_modules/@ohos/axios",
+      "@ohos/okio": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+okio@2.0.1/oh_modules/@ohos/okio",
+      "@umeng/common": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@umeng+common@1.1.3/oh_modules/@umeng/common",
+      "@umeng/analytics": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@umeng+analytics@1.2.4/oh_modules/@umeng/analytics"
+    },
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "/Users/fire/Desktop/programs/ksst/features/home/src/main",
+        "RESOURCES_PATH": [
+          "/Users/fire/Desktop/programs/ksst/features/home/src/main/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Users/fire/Desktop/programs/ksst/features/home/build/default/outputs/default",
+          "INTERMEDIA_PATH": "/Users/fire/Desktop/programs/ksst/features/home/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/fire/Desktop/programs/ksst/features/home/build/default/intermediates/loader_out/default",
+          "JS_LITE_ASSETS_PATH": "/Users/fire/Desktop/programs/ksst/features/home/build/default/intermediates/loader_out_lite/default",
+          "RES_PATH": "/Users/fire/Desktop/programs/ksst/features/home/build/default/intermediates/res/default",
+          "RES_PROFILE_PATH": "/Users/fire/Desktop/programs/ksst/features/home/build/default/intermediates/res/default/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/fire/Desktop/programs/ksst/features/home/build/default/cache/default/default@CompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/fire/Desktop/programs/ksst/features/home/build/default/cache/default/default@CompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/fire/Desktop/programs/ksst/features/home/build/default/intermediates/loader/default/loader.json",
+          "MANIFEST_JSON": "/Users/fire/Desktop/programs/ksst/features/home/build/default/intermediates/manifest/default",
+          "OUTPUT_METADATA_JSON": "/Users/fire/Desktop/programs/ksst/features/home/build/default/intermediates/hsp_metadata/default/output_metadata.json",
+          "SOURCE_MAP_DIR": "/Users/fire/Desktop/programs/ksst/features/home/build/default/intermediates/source_map/default"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "strictMode": {
+          "useNormalizedOHMUrl": true
+        },
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {},
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": true,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        }
+      ]
+    },
+    "BUILD_CACHE_DIR": ""
+  },
+  "ohos-module-utils": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "/Users/fire/Desktop/programs/ksst/commons/utils/build",
+    "DEPENDENCY_INFO": {
+      "@csj/openadsdk": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+openadsdk@6.9.1/oh_modules/@csj/openadsdk",
+      "@csj/adapter_ks": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+adapter_ks@3.0.6-1/oh_modules/@csj/adapter_ks",
+      "@csj/adapter_gdt": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+adapter_gdt@1.1.0-1/oh_modules/@csj/adapter_gdt",
+      "@candies/image_cropper": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@candies+image_cropper@1.1.1/oh_modules/@candies/image_cropper",
+      "@csj/panglearmor": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+panglearmor@cksmdebfkaayuazinfq2bjsbl2liolozgz0idliqkoi=/oh_modules/@csj/panglearmor",
+      "@bdms/bdmssdk_pgl": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@bdms+bdmssdk_pgl@uj8yipotnt2kw6duljuflmytrqjyvr8n+3zwgb2vucm=/oh_modules/@bdms/bdmssdk_pgl",
+      "@hpem/apmplus_crash_lite": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@hpem+apmplus_crash_lite@172xrcqiqpb07ddsgbluiijz24mrpldphza+5vlddka=/oh_modules/@hpem/apmplus_crash_lite",
+      "@dp/applog": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@dp+applog@+e6gtiy4h3epopwj9muptqswanljuqcdrohmi055hmq=/oh_modules/@dp/applog",
+      "@ohos/lottie": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+lottie@2.0.20/oh_modules/@ohos/lottie",
+      "@candies/image_editor": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@candies+image_editor@1.0.0/oh_modules/@candies/image_editor",
+      "@ohos/axios": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+axios@2.2.4/oh_modules/@ohos/axios",
+      "@ohos/okio": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+okio@2.0.1/oh_modules/@ohos/okio",
+      "@umeng/common": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@umeng+common@1.1.3/oh_modules/@umeng/common",
+      "@umeng/analytics": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@umeng+analytics@1.2.4/oh_modules/@umeng/analytics",
+      "@tencent/wechat_open_sdk": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@tencent+wechat_open_sdk@1.0.14/oh_modules/@tencent/wechat_open_sdk"
+    },
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "/Users/fire/Desktop/programs/ksst/commons/utils/src/main",
+        "RESOURCES_PATH": [
+          "/Users/fire/Desktop/programs/ksst/commons/utils/src/main/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Users/fire/Desktop/programs/ksst/commons/utils/build/default/outputs/default",
+          "INTERMEDIA_PATH": "/Users/fire/Desktop/programs/ksst/commons/utils/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/fire/Desktop/programs/ksst/commons/utils/build/default/intermediates/loader_out/default",
+          "JS_LITE_ASSETS_PATH": "/Users/fire/Desktop/programs/ksst/commons/utils/build/default/intermediates/loader_out_lite/default",
+          "RES_PATH": "/Users/fire/Desktop/programs/ksst/commons/utils/build/default/intermediates/res/default",
+          "RES_PROFILE_PATH": "/Users/fire/Desktop/programs/ksst/commons/utils/build/default/intermediates/res/default/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/fire/Desktop/programs/ksst/commons/utils/build/default/cache/default/default@HarCompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/fire/Desktop/programs/ksst/commons/utils/build/default/cache/default/default@HarCompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/fire/Desktop/programs/ksst/commons/utils/build/default/intermediates/loader/default/loader.json",
+          "MANIFEST_JSON": "/Users/fire/Desktop/programs/ksst/commons/utils/build/default/intermediates/manifest/default",
+          "OUTPUT_METADATA_JSON": "/Users/fire/Desktop/programs/ksst/commons/utils/build/default/intermediates/hap_metadata/default/output_metadata.json",
+          "SOURCE_MAP_DIR": "/Users/fire/Desktop/programs/ksst/commons/utils/build/default/intermediates/source_map/default"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "strictMode": {
+          "useNormalizedOHMUrl": true
+        },
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {},
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "runtimeOnly": {
+              "packages": [
+                "@csj/adapter_ks",
+                "@csj/adapter_gdt"
+              ]
+            },
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": true,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        }
+      ]
+    },
+    "BUILD_CACHE_DIR": ""
+  },
+  "ohos-module-network": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "/Users/fire/Desktop/programs/ksst/commons/network/build",
+    "DEPENDENCY_INFO": {
+      "utils": "/Users/fire/Desktop/programs/ksst/commons/utils",
+      "@csj/openadsdk": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+openadsdk@6.9.1/oh_modules/@csj/openadsdk",
+      "@csj/adapter_ks": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+adapter_ks@3.0.6-1/oh_modules/@csj/adapter_ks",
+      "@csj/adapter_gdt": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+adapter_gdt@1.1.0-1/oh_modules/@csj/adapter_gdt",
+      "@candies/image_cropper": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@candies+image_cropper@1.1.1/oh_modules/@candies/image_cropper",
+      "@csj/panglearmor": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+panglearmor@cksmdebfkaayuazinfq2bjsbl2liolozgz0idliqkoi=/oh_modules/@csj/panglearmor",
+      "@bdms/bdmssdk_pgl": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@bdms+bdmssdk_pgl@uj8yipotnt2kw6duljuflmytrqjyvr8n+3zwgb2vucm=/oh_modules/@bdms/bdmssdk_pgl",
+      "@hpem/apmplus_crash_lite": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@hpem+apmplus_crash_lite@172xrcqiqpb07ddsgbluiijz24mrpldphza+5vlddka=/oh_modules/@hpem/apmplus_crash_lite",
+      "@dp/applog": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@dp+applog@+e6gtiy4h3epopwj9muptqswanljuqcdrohmi055hmq=/oh_modules/@dp/applog",
+      "@ohos/lottie": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+lottie@2.0.20/oh_modules/@ohos/lottie",
+      "@candies/image_editor": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@candies+image_editor@1.0.0/oh_modules/@candies/image_editor",
+      "@ohos/axios": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+axios@2.2.4/oh_modules/@ohos/axios",
+      "@ohos/okio": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+okio@2.0.1/oh_modules/@ohos/okio",
+      "@umeng/common": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@umeng+common@1.1.3/oh_modules/@umeng/common",
+      "@umeng/analytics": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@umeng+analytics@1.2.4/oh_modules/@umeng/analytics",
+      "@tencent/wechat_open_sdk": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@tencent+wechat_open_sdk@1.0.14/oh_modules/@tencent/wechat_open_sdk"
+    },
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "/Users/fire/Desktop/programs/ksst/commons/network/src/main",
+        "RESOURCES_PATH": [
+          "/Users/fire/Desktop/programs/ksst/commons/network/src/main/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Users/fire/Desktop/programs/ksst/commons/network/build/default/outputs/default",
+          "INTERMEDIA_PATH": "/Users/fire/Desktop/programs/ksst/commons/network/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/fire/Desktop/programs/ksst/commons/network/build/default/intermediates/loader_out/default",
+          "JS_LITE_ASSETS_PATH": "/Users/fire/Desktop/programs/ksst/commons/network/build/default/intermediates/loader_out_lite/default",
+          "RES_PATH": "/Users/fire/Desktop/programs/ksst/commons/network/build/default/intermediates/res/default",
+          "RES_PROFILE_PATH": "/Users/fire/Desktop/programs/ksst/commons/network/build/default/intermediates/res/default/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/fire/Desktop/programs/ksst/commons/network/build/default/cache/default/default@HarCompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/fire/Desktop/programs/ksst/commons/network/build/default/cache/default/default@HarCompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/fire/Desktop/programs/ksst/commons/network/build/default/intermediates/loader/default/loader.json",
+          "MANIFEST_JSON": "/Users/fire/Desktop/programs/ksst/commons/network/build/default/intermediates/manifest/default",
+          "OUTPUT_METADATA_JSON": "/Users/fire/Desktop/programs/ksst/commons/network/build/default/intermediates/hap_metadata/default/output_metadata.json",
+          "SOURCE_MAP_DIR": "/Users/fire/Desktop/programs/ksst/commons/network/build/default/intermediates/source_map/default"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "strictMode": {
+          "useNormalizedOHMUrl": true
+        },
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {},
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": true,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        }
+      ]
+    },
+    "BUILD_CACHE_DIR": ""
+  },
+  "ohos-module-encryption": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "/Users/fire/Desktop/programs/ksst/commons/encryption/build",
+    "DEPENDENCY_INFO": {
+      "utils": "/Users/fire/Desktop/programs/ksst/commons/utils",
+      "@csj/openadsdk": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+openadsdk@6.9.1/oh_modules/@csj/openadsdk",
+      "@csj/adapter_ks": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+adapter_ks@3.0.6-1/oh_modules/@csj/adapter_ks",
+      "@csj/adapter_gdt": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+adapter_gdt@1.1.0-1/oh_modules/@csj/adapter_gdt",
+      "@candies/image_cropper": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@candies+image_cropper@1.1.1/oh_modules/@candies/image_cropper",
+      "@csj/panglearmor": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+panglearmor@cksmdebfkaayuazinfq2bjsbl2liolozgz0idliqkoi=/oh_modules/@csj/panglearmor",
+      "@bdms/bdmssdk_pgl": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@bdms+bdmssdk_pgl@uj8yipotnt2kw6duljuflmytrqjyvr8n+3zwgb2vucm=/oh_modules/@bdms/bdmssdk_pgl",
+      "@hpem/apmplus_crash_lite": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@hpem+apmplus_crash_lite@172xrcqiqpb07ddsgbluiijz24mrpldphza+5vlddka=/oh_modules/@hpem/apmplus_crash_lite",
+      "@dp/applog": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@dp+applog@+e6gtiy4h3epopwj9muptqswanljuqcdrohmi055hmq=/oh_modules/@dp/applog",
+      "@ohos/lottie": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+lottie@2.0.20/oh_modules/@ohos/lottie",
+      "@candies/image_editor": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@candies+image_editor@1.0.0/oh_modules/@candies/image_editor",
+      "@ohos/axios": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+axios@2.2.4/oh_modules/@ohos/axios",
+      "@ohos/okio": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+okio@2.0.1/oh_modules/@ohos/okio",
+      "@umeng/common": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@umeng+common@1.1.3/oh_modules/@umeng/common",
+      "@umeng/analytics": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@umeng+analytics@1.2.4/oh_modules/@umeng/analytics",
+      "@tencent/wechat_open_sdk": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@tencent+wechat_open_sdk@1.0.14/oh_modules/@tencent/wechat_open_sdk"
+    },
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "/Users/fire/Desktop/programs/ksst/commons/encryption/src/main",
+        "RESOURCES_PATH": [
+          "/Users/fire/Desktop/programs/ksst/commons/encryption/src/main/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Users/fire/Desktop/programs/ksst/commons/encryption/build/default/outputs/default",
+          "INTERMEDIA_PATH": "/Users/fire/Desktop/programs/ksst/commons/encryption/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/fire/Desktop/programs/ksst/commons/encryption/build/default/intermediates/loader_out/default",
+          "JS_LITE_ASSETS_PATH": "/Users/fire/Desktop/programs/ksst/commons/encryption/build/default/intermediates/loader_out_lite/default",
+          "RES_PATH": "/Users/fire/Desktop/programs/ksst/commons/encryption/build/default/intermediates/res/default",
+          "RES_PROFILE_PATH": "/Users/fire/Desktop/programs/ksst/commons/encryption/build/default/intermediates/res/default/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/fire/Desktop/programs/ksst/commons/encryption/build/default/cache/default/default@HarCompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/fire/Desktop/programs/ksst/commons/encryption/build/default/cache/default/default@HarCompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/fire/Desktop/programs/ksst/commons/encryption/build/default/intermediates/loader/default/loader.json",
+          "MANIFEST_JSON": "/Users/fire/Desktop/programs/ksst/commons/encryption/build/default/intermediates/manifest/default",
+          "OUTPUT_METADATA_JSON": "/Users/fire/Desktop/programs/ksst/commons/encryption/build/default/intermediates/hap_metadata/default/output_metadata.json",
+          "SOURCE_MAP_DIR": "/Users/fire/Desktop/programs/ksst/commons/encryption/build/default/intermediates/source_map/default"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "strictMode": {
+          "useNormalizedOHMUrl": true
+        },
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {},
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": true,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        }
+      ]
+    },
+    "BUILD_CACHE_DIR": ""
+  },
+  "ohos-module-db": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "/Users/fire/Desktop/programs/ksst/commons/db/build",
+    "DEPENDENCY_INFO": {
+      "utils": "/Users/fire/Desktop/programs/ksst/commons/utils",
+      "encryption": "/Users/fire/Desktop/programs/ksst/commons/encryption",
+      "@csj/openadsdk": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+openadsdk@6.9.1/oh_modules/@csj/openadsdk",
+      "@csj/adapter_ks": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+adapter_ks@3.0.6-1/oh_modules/@csj/adapter_ks",
+      "@csj/adapter_gdt": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+adapter_gdt@1.1.0-1/oh_modules/@csj/adapter_gdt",
+      "@candies/image_cropper": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@candies+image_cropper@1.1.1/oh_modules/@candies/image_cropper",
+      "@csj/panglearmor": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+panglearmor@cksmdebfkaayuazinfq2bjsbl2liolozgz0idliqkoi=/oh_modules/@csj/panglearmor",
+      "@bdms/bdmssdk_pgl": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@bdms+bdmssdk_pgl@uj8yipotnt2kw6duljuflmytrqjyvr8n+3zwgb2vucm=/oh_modules/@bdms/bdmssdk_pgl",
+      "@hpem/apmplus_crash_lite": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@hpem+apmplus_crash_lite@172xrcqiqpb07ddsgbluiijz24mrpldphza+5vlddka=/oh_modules/@hpem/apmplus_crash_lite",
+      "@dp/applog": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@dp+applog@+e6gtiy4h3epopwj9muptqswanljuqcdrohmi055hmq=/oh_modules/@dp/applog",
+      "@ohos/lottie": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+lottie@2.0.20/oh_modules/@ohos/lottie",
+      "@candies/image_editor": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@candies+image_editor@1.0.0/oh_modules/@candies/image_editor",
+      "@ohos/axios": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+axios@2.2.4/oh_modules/@ohos/axios",
+      "@ohos/okio": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+okio@2.0.1/oh_modules/@ohos/okio",
+      "@umeng/common": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@umeng+common@1.1.3/oh_modules/@umeng/common",
+      "@umeng/analytics": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@umeng+analytics@1.2.4/oh_modules/@umeng/analytics",
+      "@tencent/wechat_open_sdk": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@tencent+wechat_open_sdk@1.0.14/oh_modules/@tencent/wechat_open_sdk"
+    },
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "/Users/fire/Desktop/programs/ksst/commons/db/src/main",
+        "RESOURCES_PATH": [
+          "/Users/fire/Desktop/programs/ksst/commons/db/src/main/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Users/fire/Desktop/programs/ksst/commons/db/build/default/outputs/default",
+          "INTERMEDIA_PATH": "/Users/fire/Desktop/programs/ksst/commons/db/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/fire/Desktop/programs/ksst/commons/db/build/default/intermediates/loader_out/default",
+          "JS_LITE_ASSETS_PATH": "/Users/fire/Desktop/programs/ksst/commons/db/build/default/intermediates/loader_out_lite/default",
+          "RES_PATH": "/Users/fire/Desktop/programs/ksst/commons/db/build/default/intermediates/res/default",
+          "RES_PROFILE_PATH": "/Users/fire/Desktop/programs/ksst/commons/db/build/default/intermediates/res/default/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/fire/Desktop/programs/ksst/commons/db/build/default/cache/default/default@HarCompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/fire/Desktop/programs/ksst/commons/db/build/default/cache/default/default@HarCompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/fire/Desktop/programs/ksst/commons/db/build/default/intermediates/loader/default/loader.json",
+          "MANIFEST_JSON": "/Users/fire/Desktop/programs/ksst/commons/db/build/default/intermediates/manifest/default",
+          "OUTPUT_METADATA_JSON": "/Users/fire/Desktop/programs/ksst/commons/db/build/default/intermediates/hap_metadata/default/output_metadata.json",
+          "SOURCE_MAP_DIR": "/Users/fire/Desktop/programs/ksst/commons/db/build/default/intermediates/source_map/default"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "strictMode": {
+          "useNormalizedOHMUrl": true
+        },
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {},
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": true,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        }
+      ]
+    },
+    "BUILD_CACHE_DIR": ""
+  },
+  "ohos-module-parseExcel": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "/Users/fire/Desktop/programs/ksst/commons/parseExcel/build",
+    "DEPENDENCY_INFO": {
+      "@ohos/axios": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+axios@2.2.4/oh_modules/@ohos/axios",
+      "@ohos/okio": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+okio@2.0.1/oh_modules/@ohos/okio",
+      "@umeng/common": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@umeng+common@1.1.3/oh_modules/@umeng/common",
+      "@umeng/analytics": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@umeng+analytics@1.2.4/oh_modules/@umeng/analytics",
+      "@tencent/wechat_open_sdk": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@tencent+wechat_open_sdk@1.0.14/oh_modules/@tencent/wechat_open_sdk",
+      "@ohos/lottie": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+lottie@2.0.20/oh_modules/@ohos/lottie"
+    },
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "/Users/fire/Desktop/programs/ksst/commons/parseExcel/src/main",
+        "RESOURCES_PATH": [
+          "/Users/fire/Desktop/programs/ksst/commons/parseExcel/src/main/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Users/fire/Desktop/programs/ksst/commons/parseExcel/build/default/outputs/default",
+          "INTERMEDIA_PATH": "/Users/fire/Desktop/programs/ksst/commons/parseExcel/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/fire/Desktop/programs/ksst/commons/parseExcel/build/default/intermediates/loader_out/default",
+          "JS_LITE_ASSETS_PATH": "/Users/fire/Desktop/programs/ksst/commons/parseExcel/build/default/intermediates/loader_out_lite/default",
+          "RES_PATH": "/Users/fire/Desktop/programs/ksst/commons/parseExcel/build/default/intermediates/res/default",
+          "RES_PROFILE_PATH": "/Users/fire/Desktop/programs/ksst/commons/parseExcel/build/default/intermediates/res/default/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/fire/Desktop/programs/ksst/commons/parseExcel/build/default/cache/default/default@HarCompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/fire/Desktop/programs/ksst/commons/parseExcel/build/default/cache/default/default@HarCompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/fire/Desktop/programs/ksst/commons/parseExcel/build/default/intermediates/loader/default/loader.json",
+          "MANIFEST_JSON": "/Users/fire/Desktop/programs/ksst/commons/parseExcel/build/default/intermediates/manifest/default",
+          "OUTPUT_METADATA_JSON": "/Users/fire/Desktop/programs/ksst/commons/parseExcel/build/default/intermediates/hap_metadata/default/output_metadata.json",
+          "SOURCE_MAP_DIR": "/Users/fire/Desktop/programs/ksst/commons/parseExcel/build/default/intermediates/source_map/default"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "strictMode": {
+          "useNormalizedOHMUrl": true
+        },
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {},
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": true,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              },
+              "consumerFiles": [
+                "./consumer-rules.txt"
+              ]
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "ohosTest"
+        }
+      ]
+    },
+    "BUILD_CACHE_DIR": ""
+  },
+  "ohos-module-photo": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "/Users/fire/Desktop/programs/ksst/features/photo/build",
+    "DEPENDENCY_INFO": {
+      "utils": "/Users/fire/Desktop/programs/ksst/commons/utils",
+      "widget": "/Users/fire/Desktop/programs/ksst/commons/widget",
+      "search": "/Users/fire/Desktop/programs/ksst/commons/search",
+      "db": "/Users/fire/Desktop/programs/ksst/commons/db",
+      "network": "/Users/fire/Desktop/programs/ksst/commons/network",
+      "@csj/openadsdk": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+openadsdk@6.9.1/oh_modules/@csj/openadsdk",
+      "@csj/adapter_ks": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+adapter_ks@3.0.6-1/oh_modules/@csj/adapter_ks",
+      "@csj/adapter_gdt": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+adapter_gdt@1.1.0-1/oh_modules/@csj/adapter_gdt",
+      "@candies/image_cropper": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@candies+image_cropper@1.1.1/oh_modules/@candies/image_cropper",
+      "encryption": "/Users/fire/Desktop/programs/ksst/commons/encryption",
+      "@csj/panglearmor": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+panglearmor@cksmdebfkaayuazinfq2bjsbl2liolozgz0idliqkoi=/oh_modules/@csj/panglearmor",
+      "@bdms/bdmssdk_pgl": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@bdms+bdmssdk_pgl@uj8yipotnt2kw6duljuflmytrqjyvr8n+3zwgb2vucm=/oh_modules/@bdms/bdmssdk_pgl",
+      "@hpem/apmplus_crash_lite": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@hpem+apmplus_crash_lite@172xrcqiqpb07ddsgbluiijz24mrpldphza+5vlddka=/oh_modules/@hpem/apmplus_crash_lite",
+      "@dp/applog": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@dp+applog@+e6gtiy4h3epopwj9muptqswanljuqcdrohmi055hmq=/oh_modules/@dp/applog",
+      "@ohos/lottie": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+lottie@2.0.20/oh_modules/@ohos/lottie",
+      "@candies/image_editor": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@candies+image_editor@1.0.0/oh_modules/@candies/image_editor",
+      "@ohos/axios": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+axios@2.2.4/oh_modules/@ohos/axios",
+      "@ohos/okio": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+okio@2.0.1/oh_modules/@ohos/okio",
+      "@umeng/common": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@umeng+common@1.1.3/oh_modules/@umeng/common",
+      "@umeng/analytics": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@umeng+analytics@1.2.4/oh_modules/@umeng/analytics",
+      "@tencent/wechat_open_sdk": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@tencent+wechat_open_sdk@1.0.14/oh_modules/@tencent/wechat_open_sdk"
+    },
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "/Users/fire/Desktop/programs/ksst/features/photo/src/main",
+        "RESOURCES_PATH": [
+          "/Users/fire/Desktop/programs/ksst/features/photo/src/main/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Users/fire/Desktop/programs/ksst/features/photo/build/default/outputs/default",
+          "INTERMEDIA_PATH": "/Users/fire/Desktop/programs/ksst/features/photo/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/fire/Desktop/programs/ksst/features/photo/build/default/intermediates/loader_out/default",
+          "JS_LITE_ASSETS_PATH": "/Users/fire/Desktop/programs/ksst/features/photo/build/default/intermediates/loader_out_lite/default",
+          "RES_PATH": "/Users/fire/Desktop/programs/ksst/features/photo/build/default/intermediates/res/default",
+          "RES_PROFILE_PATH": "/Users/fire/Desktop/programs/ksst/features/photo/build/default/intermediates/res/default/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/fire/Desktop/programs/ksst/features/photo/build/default/cache/default/default@HarCompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/fire/Desktop/programs/ksst/features/photo/build/default/cache/default/default@HarCompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/fire/Desktop/programs/ksst/features/photo/build/default/intermediates/loader/default/loader.json",
+          "MANIFEST_JSON": "/Users/fire/Desktop/programs/ksst/features/photo/build/default/intermediates/manifest/default",
+          "OUTPUT_METADATA_JSON": "/Users/fire/Desktop/programs/ksst/features/photo/build/default/intermediates/hap_metadata/default/output_metadata.json",
+          "SOURCE_MAP_DIR": "/Users/fire/Desktop/programs/ksst/features/photo/build/default/intermediates/source_map/default"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "strictMode": {
+          "useNormalizedOHMUrl": true
+        },
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {},
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": true,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        }
+      ]
+    },
+    "BUILD_CACHE_DIR": ""
+  },
+  "ohos-module-search": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "/Users/fire/Desktop/programs/ksst/commons/search/build",
+    "DEPENDENCY_INFO": {
+      "utils": "/Users/fire/Desktop/programs/ksst/commons/utils",
+      "db": "/Users/fire/Desktop/programs/ksst/commons/db",
+      "encryption": "/Users/fire/Desktop/programs/ksst/commons/encryption",
+      "@csj/openadsdk": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+openadsdk@6.9.1/oh_modules/@csj/openadsdk",
+      "@csj/adapter_ks": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+adapter_ks@3.0.6-1/oh_modules/@csj/adapter_ks",
+      "@csj/adapter_gdt": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+adapter_gdt@1.1.0-1/oh_modules/@csj/adapter_gdt",
+      "@candies/image_cropper": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@candies+image_cropper@1.1.1/oh_modules/@candies/image_cropper",
+      "@csj/panglearmor": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+panglearmor@cksmdebfkaayuazinfq2bjsbl2liolozgz0idliqkoi=/oh_modules/@csj/panglearmor",
+      "@bdms/bdmssdk_pgl": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@bdms+bdmssdk_pgl@uj8yipotnt2kw6duljuflmytrqjyvr8n+3zwgb2vucm=/oh_modules/@bdms/bdmssdk_pgl",
+      "@hpem/apmplus_crash_lite": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@hpem+apmplus_crash_lite@172xrcqiqpb07ddsgbluiijz24mrpldphza+5vlddka=/oh_modules/@hpem/apmplus_crash_lite",
+      "@dp/applog": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@dp+applog@+e6gtiy4h3epopwj9muptqswanljuqcdrohmi055hmq=/oh_modules/@dp/applog",
+      "@ohos/lottie": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+lottie@2.0.20/oh_modules/@ohos/lottie",
+      "@candies/image_editor": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@candies+image_editor@1.0.0/oh_modules/@candies/image_editor",
+      "@ohos/axios": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+axios@2.2.4/oh_modules/@ohos/axios",
+      "@ohos/okio": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+okio@2.0.1/oh_modules/@ohos/okio",
+      "@umeng/common": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@umeng+common@1.1.3/oh_modules/@umeng/common",
+      "@umeng/analytics": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@umeng+analytics@1.2.4/oh_modules/@umeng/analytics",
+      "@tencent/wechat_open_sdk": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@tencent+wechat_open_sdk@1.0.14/oh_modules/@tencent/wechat_open_sdk"
+    },
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "/Users/fire/Desktop/programs/ksst/commons/search/src/main",
+        "RESOURCES_PATH": [
+          "/Users/fire/Desktop/programs/ksst/commons/search/src/main/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Users/fire/Desktop/programs/ksst/commons/search/build/default/outputs/default",
+          "INTERMEDIA_PATH": "/Users/fire/Desktop/programs/ksst/commons/search/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/fire/Desktop/programs/ksst/commons/search/build/default/intermediates/loader_out/default",
+          "JS_LITE_ASSETS_PATH": "/Users/fire/Desktop/programs/ksst/commons/search/build/default/intermediates/loader_out_lite/default",
+          "RES_PATH": "/Users/fire/Desktop/programs/ksst/commons/search/build/default/intermediates/res/default",
+          "RES_PROFILE_PATH": "/Users/fire/Desktop/programs/ksst/commons/search/build/default/intermediates/res/default/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/fire/Desktop/programs/ksst/commons/search/build/default/cache/default/default@HarCompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/fire/Desktop/programs/ksst/commons/search/build/default/cache/default/default@HarCompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/fire/Desktop/programs/ksst/commons/search/build/default/intermediates/loader/default/loader.json",
+          "MANIFEST_JSON": "/Users/fire/Desktop/programs/ksst/commons/search/build/default/intermediates/manifest/default",
+          "OUTPUT_METADATA_JSON": "/Users/fire/Desktop/programs/ksst/commons/search/build/default/intermediates/hap_metadata/default/output_metadata.json",
+          "SOURCE_MAP_DIR": "/Users/fire/Desktop/programs/ksst/commons/search/build/default/intermediates/source_map/default"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "strictMode": {
+          "useNormalizedOHMUrl": true
+        },
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {},
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": true,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        }
+      ]
+    },
+    "BUILD_CACHE_DIR": ""
+  },
+  "ohos-module-widget": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "/Users/fire/Desktop/programs/ksst/commons/widget/build",
+    "DEPENDENCY_INFO": {
+      "@ohos/axios": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+axios@2.2.4/oh_modules/@ohos/axios",
+      "@ohos/okio": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+okio@2.0.1/oh_modules/@ohos/okio",
+      "@umeng/common": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@umeng+common@1.1.3/oh_modules/@umeng/common",
+      "@umeng/analytics": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@umeng+analytics@1.2.4/oh_modules/@umeng/analytics",
+      "@tencent/wechat_open_sdk": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@tencent+wechat_open_sdk@1.0.14/oh_modules/@tencent/wechat_open_sdk",
+      "@ohos/lottie": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+lottie@2.0.20/oh_modules/@ohos/lottie"
+    },
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "/Users/fire/Desktop/programs/ksst/commons/widget/src/main",
+        "RESOURCES_PATH": [
+          "/Users/fire/Desktop/programs/ksst/commons/widget/src/main/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Users/fire/Desktop/programs/ksst/commons/widget/build/default/outputs/default",
+          "INTERMEDIA_PATH": "/Users/fire/Desktop/programs/ksst/commons/widget/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/fire/Desktop/programs/ksst/commons/widget/build/default/intermediates/loader_out/default",
+          "JS_LITE_ASSETS_PATH": "/Users/fire/Desktop/programs/ksst/commons/widget/build/default/intermediates/loader_out_lite/default",
+          "RES_PATH": "/Users/fire/Desktop/programs/ksst/commons/widget/build/default/intermediates/res/default",
+          "RES_PROFILE_PATH": "/Users/fire/Desktop/programs/ksst/commons/widget/build/default/intermediates/res/default/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/fire/Desktop/programs/ksst/commons/widget/build/default/cache/default/default@HarCompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/fire/Desktop/programs/ksst/commons/widget/build/default/cache/default/default@HarCompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/fire/Desktop/programs/ksst/commons/widget/build/default/intermediates/loader/default/loader.json",
+          "MANIFEST_JSON": "/Users/fire/Desktop/programs/ksst/commons/widget/build/default/intermediates/manifest/default",
+          "OUTPUT_METADATA_JSON": "/Users/fire/Desktop/programs/ksst/commons/widget/build/default/intermediates/hap_metadata/default/output_metadata.json",
+          "SOURCE_MAP_DIR": "/Users/fire/Desktop/programs/ksst/commons/widget/build/default/intermediates/source_map/default"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "strictMode": {
+          "useNormalizedOHMUrl": true
+        },
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {},
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": true,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        }
+      ]
+    },
+    "BUILD_CACHE_DIR": ""
+  },
+  "ohos-module-view": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "/Users/fire/Desktop/programs/ksst/features/view/build",
+    "DEPENDENCY_INFO": {
+      "@ohos/axios": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+axios@2.2.4/oh_modules/@ohos/axios",
+      "@ohos/okio": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+okio@2.0.1/oh_modules/@ohos/okio",
+      "@umeng/common": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@umeng+common@1.1.3/oh_modules/@umeng/common",
+      "@umeng/analytics": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@umeng+analytics@1.2.4/oh_modules/@umeng/analytics",
+      "@tencent/wechat_open_sdk": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@tencent+wechat_open_sdk@1.0.14/oh_modules/@tencent/wechat_open_sdk",
+      "@ohos/lottie": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+lottie@2.0.20/oh_modules/@ohos/lottie"
+    },
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "/Users/fire/Desktop/programs/ksst/features/view/src/main",
+        "RESOURCES_PATH": [
+          "/Users/fire/Desktop/programs/ksst/features/view/src/main/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Users/fire/Desktop/programs/ksst/features/view/build/default/outputs/default",
+          "INTERMEDIA_PATH": "/Users/fire/Desktop/programs/ksst/features/view/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/fire/Desktop/programs/ksst/features/view/build/default/intermediates/loader_out/default",
+          "JS_LITE_ASSETS_PATH": "/Users/fire/Desktop/programs/ksst/features/view/build/default/intermediates/loader_out_lite/default",
+          "RES_PATH": "/Users/fire/Desktop/programs/ksst/features/view/build/default/intermediates/res/default",
+          "RES_PROFILE_PATH": "/Users/fire/Desktop/programs/ksst/features/view/build/default/intermediates/res/default/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/fire/Desktop/programs/ksst/features/view/build/default/cache/default/default@HarCompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/fire/Desktop/programs/ksst/features/view/build/default/cache/default/default@HarCompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/fire/Desktop/programs/ksst/features/view/build/default/intermediates/loader/default/loader.json",
+          "MANIFEST_JSON": "/Users/fire/Desktop/programs/ksst/features/view/build/default/intermediates/manifest/default",
+          "OUTPUT_METADATA_JSON": "/Users/fire/Desktop/programs/ksst/features/view/build/default/intermediates/hap_metadata/default/output_metadata.json",
+          "SOURCE_MAP_DIR": "/Users/fire/Desktop/programs/ksst/features/view/build/default/intermediates/source_map/default"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "strictMode": {
+          "useNormalizedOHMUrl": true
+        },
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {},
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": true,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        }
+      ]
+    },
+    "BUILD_CACHE_DIR": ""
+  },
+  "ohos-module-bank": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "/Users/fire/Desktop/programs/ksst/features/bank/build",
+    "DEPENDENCY_INFO": {
+      "network": "/Users/fire/Desktop/programs/ksst/commons/network",
+      "utils": "/Users/fire/Desktop/programs/ksst/commons/utils",
+      "search": "/Users/fire/Desktop/programs/ksst/commons/search",
+      "encryption": "/Users/fire/Desktop/programs/ksst/commons/encryption",
+      "db": "/Users/fire/Desktop/programs/ksst/commons/db",
+      "widget": "/Users/fire/Desktop/programs/ksst/commons/widget",
+      "@csj/openadsdk": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+openadsdk@6.9.1/oh_modules/@csj/openadsdk",
+      "@csj/adapter_ks": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+adapter_ks@3.0.6-1/oh_modules/@csj/adapter_ks",
+      "@csj/adapter_gdt": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+adapter_gdt@1.1.0-1/oh_modules/@csj/adapter_gdt",
+      "@candies/image_cropper": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@candies+image_cropper@1.1.1/oh_modules/@candies/image_cropper",
+      "@csj/panglearmor": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+panglearmor@cksmdebfkaayuazinfq2bjsbl2liolozgz0idliqkoi=/oh_modules/@csj/panglearmor",
+      "@bdms/bdmssdk_pgl": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@bdms+bdmssdk_pgl@uj8yipotnt2kw6duljuflmytrqjyvr8n+3zwgb2vucm=/oh_modules/@bdms/bdmssdk_pgl",
+      "@hpem/apmplus_crash_lite": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@hpem+apmplus_crash_lite@172xrcqiqpb07ddsgbluiijz24mrpldphza+5vlddka=/oh_modules/@hpem/apmplus_crash_lite",
+      "@dp/applog": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@dp+applog@+e6gtiy4h3epopwj9muptqswanljuqcdrohmi055hmq=/oh_modules/@dp/applog",
+      "@ohos/lottie": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+lottie@2.0.20/oh_modules/@ohos/lottie",
+      "@candies/image_editor": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@candies+image_editor@1.0.0/oh_modules/@candies/image_editor",
+      "@ohos/axios": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+axios@2.2.4/oh_modules/@ohos/axios",
+      "@ohos/okio": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+okio@2.0.1/oh_modules/@ohos/okio",
+      "@umeng/common": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@umeng+common@1.1.3/oh_modules/@umeng/common",
+      "@umeng/analytics": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@umeng+analytics@1.2.4/oh_modules/@umeng/analytics",
+      "@tencent/wechat_open_sdk": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@tencent+wechat_open_sdk@1.0.14/oh_modules/@tencent/wechat_open_sdk"
+    },
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "/Users/fire/Desktop/programs/ksst/features/bank/src/main",
+        "RESOURCES_PATH": [
+          "/Users/fire/Desktop/programs/ksst/features/bank/src/main/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Users/fire/Desktop/programs/ksst/features/bank/build/default/outputs/default",
+          "INTERMEDIA_PATH": "/Users/fire/Desktop/programs/ksst/features/bank/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/fire/Desktop/programs/ksst/features/bank/build/default/intermediates/loader_out/default",
+          "JS_LITE_ASSETS_PATH": "/Users/fire/Desktop/programs/ksst/features/bank/build/default/intermediates/loader_out_lite/default",
+          "RES_PATH": "/Users/fire/Desktop/programs/ksst/features/bank/build/default/intermediates/res/default",
+          "RES_PROFILE_PATH": "/Users/fire/Desktop/programs/ksst/features/bank/build/default/intermediates/res/default/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/fire/Desktop/programs/ksst/features/bank/build/default/cache/default/default@HarCompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/fire/Desktop/programs/ksst/features/bank/build/default/cache/default/default@HarCompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/fire/Desktop/programs/ksst/features/bank/build/default/intermediates/loader/default/loader.json",
+          "MANIFEST_JSON": "/Users/fire/Desktop/programs/ksst/features/bank/build/default/intermediates/manifest/default",
+          "OUTPUT_METADATA_JSON": "/Users/fire/Desktop/programs/ksst/features/bank/build/default/intermediates/hap_metadata/default/output_metadata.json",
+          "SOURCE_MAP_DIR": "/Users/fire/Desktop/programs/ksst/features/bank/build/default/intermediates/source_map/default"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "strictMode": {
+          "useNormalizedOHMUrl": true
+        },
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {},
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": true,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "ohosTest"
+        }
+      ]
+    },
+    "BUILD_CACHE_DIR": ""
+  },
+  "ohos-module-points": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "/Users/fire/Desktop/programs/ksst/features/points/build",
+    "DEPENDENCY_INFO": {
+      "utils": "/Users/fire/Desktop/programs/ksst/commons/utils",
+      "widget": "/Users/fire/Desktop/programs/ksst/commons/widget",
+      "search": "/Users/fire/Desktop/programs/ksst/commons/search",
+      "db": "/Users/fire/Desktop/programs/ksst/commons/db",
+      "network": "/Users/fire/Desktop/programs/ksst/commons/network",
+      "@csj/openadsdk": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+openadsdk@6.9.1/oh_modules/@csj/openadsdk",
+      "@csj/adapter_ks": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+adapter_ks@3.0.6-1/oh_modules/@csj/adapter_ks",
+      "@csj/adapter_gdt": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+adapter_gdt@1.1.0-1/oh_modules/@csj/adapter_gdt",
+      "@candies/image_cropper": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@candies+image_cropper@1.1.1/oh_modules/@candies/image_cropper",
+      "encryption": "/Users/fire/Desktop/programs/ksst/commons/encryption",
+      "@csj/panglearmor": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+panglearmor@cksmdebfkaayuazinfq2bjsbl2liolozgz0idliqkoi=/oh_modules/@csj/panglearmor",
+      "@bdms/bdmssdk_pgl": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@bdms+bdmssdk_pgl@uj8yipotnt2kw6duljuflmytrqjyvr8n+3zwgb2vucm=/oh_modules/@bdms/bdmssdk_pgl",
+      "@hpem/apmplus_crash_lite": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@hpem+apmplus_crash_lite@172xrcqiqpb07ddsgbluiijz24mrpldphza+5vlddka=/oh_modules/@hpem/apmplus_crash_lite",
+      "@dp/applog": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@dp+applog@+e6gtiy4h3epopwj9muptqswanljuqcdrohmi055hmq=/oh_modules/@dp/applog",
+      "@ohos/lottie": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+lottie@2.0.20/oh_modules/@ohos/lottie",
+      "@candies/image_editor": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@candies+image_editor@1.0.0/oh_modules/@candies/image_editor",
+      "@ohos/axios": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+axios@2.2.4/oh_modules/@ohos/axios",
+      "@ohos/okio": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+okio@2.0.1/oh_modules/@ohos/okio",
+      "@umeng/common": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@umeng+common@1.1.3/oh_modules/@umeng/common",
+      "@umeng/analytics": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@umeng+analytics@1.2.4/oh_modules/@umeng/analytics",
+      "@tencent/wechat_open_sdk": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@tencent+wechat_open_sdk@1.0.14/oh_modules/@tencent/wechat_open_sdk"
+    },
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "/Users/fire/Desktop/programs/ksst/features/points/src/main",
+        "RESOURCES_PATH": [
+          "/Users/fire/Desktop/programs/ksst/features/points/src/main/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Users/fire/Desktop/programs/ksst/features/points/build/default/outputs/default",
+          "INTERMEDIA_PATH": "/Users/fire/Desktop/programs/ksst/features/points/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/fire/Desktop/programs/ksst/features/points/build/default/intermediates/loader_out/default",
+          "JS_LITE_ASSETS_PATH": "/Users/fire/Desktop/programs/ksst/features/points/build/default/intermediates/loader_out_lite/default",
+          "RES_PATH": "/Users/fire/Desktop/programs/ksst/features/points/build/default/intermediates/res/default",
+          "RES_PROFILE_PATH": "/Users/fire/Desktop/programs/ksst/features/points/build/default/intermediates/res/default/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/fire/Desktop/programs/ksst/features/points/build/default/cache/default/default@HarCompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/fire/Desktop/programs/ksst/features/points/build/default/cache/default/default@HarCompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/fire/Desktop/programs/ksst/features/points/build/default/intermediates/loader/default/loader.json",
+          "MANIFEST_JSON": "/Users/fire/Desktop/programs/ksst/features/points/build/default/intermediates/manifest/default",
+          "OUTPUT_METADATA_JSON": "/Users/fire/Desktop/programs/ksst/features/points/build/default/intermediates/hap_metadata/default/output_metadata.json",
+          "SOURCE_MAP_DIR": "/Users/fire/Desktop/programs/ksst/features/points/build/default/intermediates/source_map/default"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "strictMode": {
+          "useNormalizedOHMUrl": true
+        },
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {},
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": false,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "ohosTest"
+        }
+      ]
+    },
+    "BUILD_CACHE_DIR": ""
+  },
+  "ohos-module-pay": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "/Users/fire/Desktop/programs/ksst/features/pay/build",
+    "DEPENDENCY_INFO": {
+      "network": "/Users/fire/Desktop/programs/ksst/commons/network",
+      "utils": "/Users/fire/Desktop/programs/ksst/commons/utils",
+      "@csj/openadsdk": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+openadsdk@6.9.1/oh_modules/@csj/openadsdk",
+      "@csj/adapter_ks": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+adapter_ks@3.0.6-1/oh_modules/@csj/adapter_ks",
+      "@csj/adapter_gdt": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+adapter_gdt@1.1.0-1/oh_modules/@csj/adapter_gdt",
+      "@candies/image_cropper": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@candies+image_cropper@1.1.1/oh_modules/@candies/image_cropper",
+      "@csj/panglearmor": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+panglearmor@cksmdebfkaayuazinfq2bjsbl2liolozgz0idliqkoi=/oh_modules/@csj/panglearmor",
+      "@bdms/bdmssdk_pgl": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@bdms+bdmssdk_pgl@uj8yipotnt2kw6duljuflmytrqjyvr8n+3zwgb2vucm=/oh_modules/@bdms/bdmssdk_pgl",
+      "@hpem/apmplus_crash_lite": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@hpem+apmplus_crash_lite@172xrcqiqpb07ddsgbluiijz24mrpldphza+5vlddka=/oh_modules/@hpem/apmplus_crash_lite",
+      "@dp/applog": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@dp+applog@+e6gtiy4h3epopwj9muptqswanljuqcdrohmi055hmq=/oh_modules/@dp/applog",
+      "@ohos/lottie": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+lottie@2.0.20/oh_modules/@ohos/lottie",
+      "@candies/image_editor": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@candies+image_editor@1.0.0/oh_modules/@candies/image_editor",
+      "@ohos/axios": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+axios@2.2.4/oh_modules/@ohos/axios",
+      "@ohos/okio": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+okio@2.0.1/oh_modules/@ohos/okio",
+      "@umeng/common": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@umeng+common@1.1.3/oh_modules/@umeng/common",
+      "@umeng/analytics": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@umeng+analytics@1.2.4/oh_modules/@umeng/analytics",
+      "@tencent/wechat_open_sdk": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@tencent+wechat_open_sdk@1.0.14/oh_modules/@tencent/wechat_open_sdk"
+    },
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "/Users/fire/Desktop/programs/ksst/features/pay/src/main",
+        "RESOURCES_PATH": [
+          "/Users/fire/Desktop/programs/ksst/features/pay/src/main/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Users/fire/Desktop/programs/ksst/features/pay/build/default/outputs/default",
+          "INTERMEDIA_PATH": "/Users/fire/Desktop/programs/ksst/features/pay/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/fire/Desktop/programs/ksst/features/pay/build/default/intermediates/loader_out/default",
+          "JS_LITE_ASSETS_PATH": "/Users/fire/Desktop/programs/ksst/features/pay/build/default/intermediates/loader_out_lite/default",
+          "RES_PATH": "/Users/fire/Desktop/programs/ksst/features/pay/build/default/intermediates/res/default",
+          "RES_PROFILE_PATH": "/Users/fire/Desktop/programs/ksst/features/pay/build/default/intermediates/res/default/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/fire/Desktop/programs/ksst/features/pay/build/default/cache/default/default@HarCompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/fire/Desktop/programs/ksst/features/pay/build/default/cache/default/default@HarCompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/fire/Desktop/programs/ksst/features/pay/build/default/intermediates/loader/default/loader.json",
+          "MANIFEST_JSON": "/Users/fire/Desktop/programs/ksst/features/pay/build/default/intermediates/manifest/default",
+          "OUTPUT_METADATA_JSON": "/Users/fire/Desktop/programs/ksst/features/pay/build/default/intermediates/hap_metadata/default/output_metadata.json",
+          "SOURCE_MAP_DIR": "/Users/fire/Desktop/programs/ksst/features/pay/build/default/intermediates/source_map/default"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "strictMode": {
+          "useNormalizedOHMUrl": true
+        },
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {},
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": false,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "ohosTest"
+        }
+      ]
+    },
+    "BUILD_CACHE_DIR": ""
+  },
+  "ohos-module-login": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "/Users/fire/Desktop/programs/ksst/features/login/build",
+    "DEPENDENCY_INFO": {
+      "@tencent/wechat_open_sdk": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@tencent+wechat_open_sdk@1.0.14/oh_modules/@tencent/wechat_open_sdk",
+      "@ohos/axios": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+axios@2.2.4/oh_modules/@ohos/axios",
+      "@ohos/okio": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+okio@2.0.1/oh_modules/@ohos/okio",
+      "@umeng/common": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@umeng+common@1.1.3/oh_modules/@umeng/common",
+      "@umeng/analytics": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@umeng+analytics@1.2.4/oh_modules/@umeng/analytics",
+      "@ohos/lottie": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+lottie@2.0.20/oh_modules/@ohos/lottie"
+    },
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "/Users/fire/Desktop/programs/ksst/features/login/src/main",
+        "RESOURCES_PATH": [
+          "/Users/fire/Desktop/programs/ksst/features/login/src/main/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Users/fire/Desktop/programs/ksst/features/login/build/default/outputs/default",
+          "INTERMEDIA_PATH": "/Users/fire/Desktop/programs/ksst/features/login/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/fire/Desktop/programs/ksst/features/login/build/default/intermediates/loader_out/default",
+          "JS_LITE_ASSETS_PATH": "/Users/fire/Desktop/programs/ksst/features/login/build/default/intermediates/loader_out_lite/default",
+          "RES_PATH": "/Users/fire/Desktop/programs/ksst/features/login/build/default/intermediates/res/default",
+          "RES_PROFILE_PATH": "/Users/fire/Desktop/programs/ksst/features/login/build/default/intermediates/res/default/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/fire/Desktop/programs/ksst/features/login/build/default/cache/default/default@HarCompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/fire/Desktop/programs/ksst/features/login/build/default/cache/default/default@HarCompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/fire/Desktop/programs/ksst/features/login/build/default/intermediates/loader/default/loader.json",
+          "MANIFEST_JSON": "/Users/fire/Desktop/programs/ksst/features/login/build/default/intermediates/manifest/default",
+          "OUTPUT_METADATA_JSON": "/Users/fire/Desktop/programs/ksst/features/login/build/default/intermediates/hap_metadata/default/output_metadata.json",
+          "SOURCE_MAP_DIR": "/Users/fire/Desktop/programs/ksst/features/login/build/default/intermediates/source_map/default"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "strictMode": {
+          "useNormalizedOHMUrl": true
+        },
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {},
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": false,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "ohosTest"
+        }
+      ]
+    },
+    "BUILD_CACHE_DIR": ""
+  },
+  "ohos-module-setting": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "/Users/fire/Desktop/programs/ksst/features/setting/build",
+    "DEPENDENCY_INFO": {
+      "utils": "/Users/fire/Desktop/programs/ksst/commons/utils",
+      "widget": "/Users/fire/Desktop/programs/ksst/commons/widget",
+      "search": "/Users/fire/Desktop/programs/ksst/commons/search",
+      "db": "/Users/fire/Desktop/programs/ksst/commons/db",
+      "network": "/Users/fire/Desktop/programs/ksst/commons/network",
+      "login": "/Users/fire/Desktop/programs/ksst/features/login",
+      "@candies/image_cropper": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@candies+image_cropper@1.1.1/oh_modules/@candies/image_cropper",
+      "@csj/openadsdk": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+openadsdk@6.9.1/oh_modules/@csj/openadsdk",
+      "@csj/adapter_ks": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+adapter_ks@3.0.6-1/oh_modules/@csj/adapter_ks",
+      "@csj/adapter_gdt": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+adapter_gdt@1.1.0-1/oh_modules/@csj/adapter_gdt",
+      "encryption": "/Users/fire/Desktop/programs/ksst/commons/encryption",
+      "@tencent/wechat_open_sdk": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@tencent+wechat_open_sdk@1.0.14/oh_modules/@tencent/wechat_open_sdk",
+      "@candies/image_editor": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@candies+image_editor@1.0.0/oh_modules/@candies/image_editor",
+      "@csj/panglearmor": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@csj+panglearmor@cksmdebfkaayuazinfq2bjsbl2liolozgz0idliqkoi=/oh_modules/@csj/panglearmor",
+      "@bdms/bdmssdk_pgl": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@bdms+bdmssdk_pgl@uj8yipotnt2kw6duljuflmytrqjyvr8n+3zwgb2vucm=/oh_modules/@bdms/bdmssdk_pgl",
+      "@hpem/apmplus_crash_lite": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@hpem+apmplus_crash_lite@172xrcqiqpb07ddsgbluiijz24mrpldphza+5vlddka=/oh_modules/@hpem/apmplus_crash_lite",
+      "@dp/applog": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@dp+applog@+e6gtiy4h3epopwj9muptqswanljuqcdrohmi055hmq=/oh_modules/@dp/applog",
+      "@ohos/lottie": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+lottie@2.0.20/oh_modules/@ohos/lottie",
+      "@ohos/axios": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+axios@2.2.4/oh_modules/@ohos/axios",
+      "@ohos/okio": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+okio@2.0.1/oh_modules/@ohos/okio",
+      "@umeng/common": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@umeng+common@1.1.3/oh_modules/@umeng/common",
+      "@umeng/analytics": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@umeng+analytics@1.2.4/oh_modules/@umeng/analytics"
+    },
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "/Users/fire/Desktop/programs/ksst/features/setting/src/main",
+        "RESOURCES_PATH": [
+          "/Users/fire/Desktop/programs/ksst/features/setting/src/main/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Users/fire/Desktop/programs/ksst/features/setting/build/default/outputs/default",
+          "INTERMEDIA_PATH": "/Users/fire/Desktop/programs/ksst/features/setting/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/fire/Desktop/programs/ksst/features/setting/build/default/intermediates/loader_out/default",
+          "JS_LITE_ASSETS_PATH": "/Users/fire/Desktop/programs/ksst/features/setting/build/default/intermediates/loader_out_lite/default",
+          "RES_PATH": "/Users/fire/Desktop/programs/ksst/features/setting/build/default/intermediates/res/default",
+          "RES_PROFILE_PATH": "/Users/fire/Desktop/programs/ksst/features/setting/build/default/intermediates/res/default/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/fire/Desktop/programs/ksst/features/setting/build/default/cache/default/default@HarCompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/fire/Desktop/programs/ksst/features/setting/build/default/cache/default/default@HarCompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/fire/Desktop/programs/ksst/features/setting/build/default/intermediates/loader/default/loader.json",
+          "MANIFEST_JSON": "/Users/fire/Desktop/programs/ksst/features/setting/build/default/intermediates/manifest/default",
+          "OUTPUT_METADATA_JSON": "/Users/fire/Desktop/programs/ksst/features/setting/build/default/intermediates/hap_metadata/default/output_metadata.json",
+          "SOURCE_MAP_DIR": "/Users/fire/Desktop/programs/ksst/features/setting/build/default/intermediates/source_map/default"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "strictMode": {
+          "useNormalizedOHMUrl": true
+        },
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {},
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": false,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "ohosTest"
+        }
+      ]
+    },
+    "BUILD_CACHE_DIR": ""
+  },
+  "ohos-module-web": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "/Users/fire/Desktop/programs/ksst/commons/web/build",
+    "DEPENDENCY_INFO": {
+      "widget": "/Users/fire/Desktop/programs/ksst/commons/widget",
+      "@ohos/axios": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+axios@2.2.4/oh_modules/@ohos/axios",
+      "@ohos/okio": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+okio@2.0.1/oh_modules/@ohos/okio",
+      "@umeng/common": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@umeng+common@1.1.3/oh_modules/@umeng/common",
+      "@umeng/analytics": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@umeng+analytics@1.2.4/oh_modules/@umeng/analytics",
+      "@tencent/wechat_open_sdk": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@tencent+wechat_open_sdk@1.0.14/oh_modules/@tencent/wechat_open_sdk",
+      "@ohos/lottie": "/Users/fire/Desktop/programs/ksst/oh_modules/.ohpm/@ohos+lottie@2.0.20/oh_modules/@ohos/lottie"
+    },
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "/Users/fire/Desktop/programs/ksst/commons/web/src/main",
+        "RESOURCES_PATH": [
+          "/Users/fire/Desktop/programs/ksst/commons/web/src/main/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Users/fire/Desktop/programs/ksst/commons/web/build/default/outputs/default",
+          "INTERMEDIA_PATH": "/Users/fire/Desktop/programs/ksst/commons/web/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/fire/Desktop/programs/ksst/commons/web/build/default/intermediates/loader_out/default",
+          "JS_LITE_ASSETS_PATH": "/Users/fire/Desktop/programs/ksst/commons/web/build/default/intermediates/loader_out_lite/default",
+          "RES_PATH": "/Users/fire/Desktop/programs/ksst/commons/web/build/default/intermediates/res/default",
+          "RES_PROFILE_PATH": "/Users/fire/Desktop/programs/ksst/commons/web/build/default/intermediates/res/default/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/fire/Desktop/programs/ksst/commons/web/build/default/cache/default/default@HarCompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/fire/Desktop/programs/ksst/commons/web/build/default/cache/default/default@HarCompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/fire/Desktop/programs/ksst/commons/web/build/default/intermediates/loader/default/loader.json",
+          "MANIFEST_JSON": "/Users/fire/Desktop/programs/ksst/commons/web/build/default/intermediates/manifest/default",
+          "OUTPUT_METADATA_JSON": "/Users/fire/Desktop/programs/ksst/commons/web/build/default/intermediates/hap_metadata/default/output_metadata.json",
+          "SOURCE_MAP_DIR": "/Users/fire/Desktop/programs/ksst/commons/web/build/default/intermediates/source_map/default"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "strictMode": {
+          "useNormalizedOHMUrl": true
+        },
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {},
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": true,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        }
+      ]
+    },
+    "BUILD_CACHE_DIR": ""
+  },
+  "ohos-project": {
+    "SELECT_PRODUCT_NAME": "default",
+    "MODULE_BUILD_DIR": "/Users/fire/Desktop/programs/ksst/build",
+    "BUNDLE_NAME": "com.chznai.ikst",
+    "BUILD_PATH": {
+      "OUTPUT_PATH": "/Users/fire/Desktop/programs/ksst/build/outputs/default"
+    },
+    "MODULES": [
+      {
+        "name": "entry",
+        "srcPath": "/Users/fire/Desktop/programs/ksst/products/entry",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "/Users/fire/Desktop/programs/ksst"
+      },
+      {
+        "name": "mine",
+        "srcPath": "/Users/fire/Desktop/programs/ksst/features/mine",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "/Users/fire/Desktop/programs/ksst"
+      },
+      {
+        "name": "home",
+        "srcPath": "/Users/fire/Desktop/programs/ksst/features/home",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "/Users/fire/Desktop/programs/ksst"
+      },
+      {
+        "name": "utils",
+        "srcPath": "/Users/fire/Desktop/programs/ksst/commons/utils",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "/Users/fire/Desktop/programs/ksst"
+      },
+      {
+        "name": "network",
+        "srcPath": "/Users/fire/Desktop/programs/ksst/commons/network",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "/Users/fire/Desktop/programs/ksst"
+      },
+      {
+        "name": "encryption",
+        "srcPath": "/Users/fire/Desktop/programs/ksst/commons/encryption",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "/Users/fire/Desktop/programs/ksst"
+      },
+      {
+        "name": "db",
+        "srcPath": "/Users/fire/Desktop/programs/ksst/commons/db",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "/Users/fire/Desktop/programs/ksst"
+      },
+      {
+        "name": "parseExcel",
+        "srcPath": "/Users/fire/Desktop/programs/ksst/commons/parseExcel",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "/Users/fire/Desktop/programs/ksst"
+      },
+      {
+        "name": "photo",
+        "srcPath": "/Users/fire/Desktop/programs/ksst/features/photo",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "/Users/fire/Desktop/programs/ksst"
+      },
+      {
+        "name": "search",
+        "srcPath": "/Users/fire/Desktop/programs/ksst/commons/search",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "/Users/fire/Desktop/programs/ksst"
+      },
+      {
+        "name": "widget",
+        "srcPath": "/Users/fire/Desktop/programs/ksst/commons/widget",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "/Users/fire/Desktop/programs/ksst"
+      },
+      {
+        "name": "view",
+        "srcPath": "/Users/fire/Desktop/programs/ksst/features/view",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "/Users/fire/Desktop/programs/ksst"
+      },
+      {
+        "name": "bank",
+        "srcPath": "/Users/fire/Desktop/programs/ksst/features/bank",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "/Users/fire/Desktop/programs/ksst"
+      },
+      {
+        "name": "points",
+        "srcPath": "/Users/fire/Desktop/programs/ksst/features/points",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "/Users/fire/Desktop/programs/ksst"
+      },
+      {
+        "name": "pay",
+        "srcPath": "/Users/fire/Desktop/programs/ksst/features/pay",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "/Users/fire/Desktop/programs/ksst"
+      },
+      {
+        "name": "login",
+        "srcPath": "/Users/fire/Desktop/programs/ksst/features/login",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "/Users/fire/Desktop/programs/ksst"
+      },
+      {
+        "name": "setting",
+        "srcPath": "/Users/fire/Desktop/programs/ksst/features/setting",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "/Users/fire/Desktop/programs/ksst"
+      },
+      {
+        "name": "web",
+        "srcPath": "/Users/fire/Desktop/programs/ksst/commons/web",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "/Users/fire/Desktop/programs/ksst"
+      }
+    ],
+    "PROFILE_OPT": {
+      "app": {
+        "products": [
+          {
+            "name": "default",
+            "signingConfig": "default",
+            "compatibleSdkVersion": "5.0.3(15)",
+            "runtimeOS": "HarmonyOS",
+            "buildOption": {
+              "strictMode": {
+                "useNormalizedOHMUrl": true
+              }
+            }
+          }
+        ],
+        "buildModeSet": [
+          {
+            "name": "debug"
+          },
+          {
+            "name": "release"
+          }
+        ],
+        "signingConfigs": [
+          {
+            "name": "default",
+            "type": "HarmonyOS",
+            "material": {
+              "storeFile": "/Users/fire/Downloads/debug/ksstDbug.p12",
+              "storePassword": "00000018A94E7DE091280AEF724D8147793224B22AAE2CE16C381B0A3E2DD65727D018BE8BE0EA59",
+              "keyAlias": "Tl",
+              "keyPassword": "000000185BAD6B1DEFA7D8A4A323640F2B9285D1881B0CFEA653CC649A8B1F120357E4D4802450B7",
+              "signAlg": "SHA256withECDSA",
+              "profile": "/Users/fire/Downloads/debug/ksstDebugNewDebug.p7b",
+              "certpath": "/Users/fire/Downloads/debug/ksstDebugCer.cer"
+            }
+          }
+        ]
+      },
+      "modules": [
+        {
+          "name": "entry",
+          "srcPath": "./products/entry",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "mine",
+          "srcPath": "./features/mine",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "home",
+          "srcPath": "./features/home",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "utils",
+          "srcPath": "./commons/utils",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "network",
+          "srcPath": "./commons/network",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "encryption",
+          "srcPath": "./commons/encryption",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "db",
+          "srcPath": "./commons/db",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "parseExcel",
+          "srcPath": "./commons/parseExcel",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "photo",
+          "srcPath": "./features/photo",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "search",
+          "srcPath": "./commons/search",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "widget",
+          "srcPath": "./commons/widget",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "view",
+          "srcPath": "./features/view",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "bank",
+          "srcPath": "./features/bank",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "points",
+          "srcPath": "./features/points",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "pay",
+          "srcPath": "./features/pay",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "login",
+          "srcPath": "./features/login",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "setting",
+          "srcPath": "./features/setting",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "web",
+          "srcPath": "./commons/web",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "CONFIG_PROPERTIES": {
+      "enableSignTask": true,
+      "skipNativeIncremental": false,
+      "hvigor.keepDependency": true
+    },
+    "OVERALL_PROJECT_PATHS": [
+      "/Users/fire/Desktop/programs/ksst"
+    ],
+    "BUILD_CACHE_DIR": ""
+  },
+  "version": 1
+}

@@ -1,0 +1,1 @@
+export declare class o81 extends Error { errorCode: number; constructor(errorCode: number, message?: string); } 

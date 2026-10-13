@@ -1,0 +1,1 @@
+export declare class DownloadDirIdl { readonly dirName: string; } 

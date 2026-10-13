@@ -1,0 +1,931 @@
+{
+  "lockVersion": "1.0",
+  "settings": {
+    "resolveConflict": true,
+    "resolveConflictStrict": false,
+    "installAll": true
+  },
+  "overrides": {},
+  "overrideDependencyMap": {},
+  "modules": {
+    ".": {
+      "name": "",
+      "dependencies": {
+        "@ohos/axios": {
+          "specifier": "^2.2.4",
+          "version": "2.2.4"
+        },
+        "@ohos/okio": {
+          "specifier": "^2.0.1",
+          "version": "2.0.1"
+        },
+        "class-transformer": {
+          "specifier": "^0.5.1",
+          "version": "0.5.1"
+        },
+        "reflect-metadata": {
+          "specifier": "^0.1.13",
+          "version": "0.1.13"
+        },
+        "@umeng/common": {
+          "specifier": "^1.1.3",
+          "version": "1.1.3"
+        },
+        "@umeng/analytics": {
+          "specifier": "^1.2.4",
+          "version": "1.2.4"
+        },
+        "@tencent/wechat_open_sdk": {
+          "specifier": "^1.0.14",
+          "version": "1.0.14"
+        },
+        "@ohos/lottie": {
+          "specifier": "^2.0.20",
+          "version": "2.0.20"
+        }
+      },
+      "devDependencies": {
+        "@ohos/hypium": {
+          "specifier": "1.0.18",
+          "version": "1.0.18"
+        },
+        "@ohos/hamock": {
+          "specifier": "1.0.0",
+          "version": "1.0.0"
+        }
+      },
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "commons/db": {
+      "name": "db",
+      "dependencies": {
+        "utils": {
+          "specifier": "file:commons/utils",
+          "version": "file:commons/utils"
+        },
+        "encryption": {
+          "specifier": "file:commons/encryption",
+          "version": "file:commons/encryption"
+        }
+      },
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "commons/encryption": {
+      "name": "encryption",
+      "dependencies": {
+        "utils": {
+          "specifier": "file:commons/utils",
+          "version": "file:commons/utils"
+        }
+      },
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "commons/network": {
+      "name": "network",
+      "dependencies": {
+        "utils": {
+          "specifier": "file:commons/utils",
+          "version": "file:commons/utils"
+        }
+      },
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "commons/search": {
+      "name": "search",
+      "dependencies": {
+        "utils": {
+          "specifier": "file:commons/utils",
+          "version": "file:commons/utils"
+        },
+        "db": {
+          "specifier": "file:commons/db",
+          "version": "file:commons/db"
+        },
+        "encryption": {
+          "specifier": "file:commons/encryption",
+          "version": "file:commons/encryption"
+        }
+      },
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "commons/utils": {
+      "name": "utils",
+      "dependencies": {
+        "@csj/openadsdk": {
+          "specifier": "6.9.1",
+          "version": "6.9.1"
+        },
+        "@csj/adapter_ks": {
+          "specifier": "3.0.6-1",
+          "version": "3.0.6-1"
+        },
+        "@csj/adapter_gdt": {
+          "specifier": "1.1.0-1",
+          "version": "1.1.0-1"
+        },
+        "@candies/image_cropper": {
+          "specifier": "^1.1.1",
+          "version": "1.1.1"
+        }
+      },
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "commons/web": {
+      "name": "web",
+      "dependencies": {
+        "widget": {
+          "specifier": "file:commons/widget",
+          "version": "file:commons/widget"
+        }
+      },
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "commons/widget": {
+      "name": "widget",
+      "dependencies": {},
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "features/bank": {
+      "name": "bank",
+      "dependencies": {
+        "network": {
+          "specifier": "file:commons/network",
+          "version": "file:commons/network"
+        },
+        "utils": {
+          "specifier": "file:commons/utils",
+          "version": "file:commons/utils"
+        },
+        "search": {
+          "specifier": "file:commons/search",
+          "version": "file:commons/search"
+        },
+        "encryption": {
+          "specifier": "file:commons/encryption",
+          "version": "file:commons/encryption"
+        },
+        "db": {
+          "specifier": "file:commons/db",
+          "version": "file:commons/db"
+        },
+        "widget": {
+          "specifier": "file:commons/widget",
+          "version": "file:commons/widget"
+        }
+      },
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "features/home": {
+      "name": "home",
+      "dependencies": {
+        "network": {
+          "specifier": "file:commons/network",
+          "version": "file:commons/network"
+        },
+        "utils": {
+          "specifier": "file:commons/utils",
+          "version": "file:commons/utils"
+        },
+        "search": {
+          "specifier": "file:commons/search",
+          "version": "file:commons/search"
+        },
+        "encryption": {
+          "specifier": "file:commons/encryption",
+          "version": "file:commons/encryption"
+        },
+        "db": {
+          "specifier": "file:commons/db",
+          "version": "file:commons/db"
+        },
+        "web": {
+          "specifier": "file:commons/web",
+          "version": "file:commons/web"
+        },
+        "parseexcel": {
+          "specifier": "file:commons/parseExcel",
+          "version": "file:commons/parseExcel"
+        },
+        "photo": {
+          "specifier": "file:features/photo",
+          "version": "file:features/photo"
+        },
+        "view": {
+          "specifier": "file:features/view",
+          "version": "file:features/view"
+        },
+        "widget": {
+          "specifier": "file:commons/widget",
+          "version": "file:commons/widget"
+        },
+        "bank": {
+          "specifier": "file:features/bank",
+          "version": "file:features/bank"
+        },
+        "setting": {
+          "specifier": "file:features/setting",
+          "version": "file:features/setting"
+        },
+        "libscrcap2pixel.so": {
+          "specifier": "file:features/home/src/main/cpp/types/libscrcap2pixel",
+          "version": "file:features/home/src/main/cpp/types/libscrcap2pixel"
+        },
+        "@candies/image_cropper": {
+          "specifier": "^1.1.1",
+          "version": "1.1.1"
+        }
+      },
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "features/login": {
+      "name": "login",
+      "dependencies": {
+        "@tencent/wechat_open_sdk": {
+          "specifier": "^1.0.14",
+          "version": "1.0.14"
+        }
+      },
+      "devDependencies": {
+        "utils": {
+          "specifier": "file:commons/utils",
+          "version": "file:commons/utils"
+        },
+        "network": {
+          "specifier": "file:commons/network",
+          "version": "file:commons/network"
+        },
+        "db": {
+          "specifier": "file:commons/db",
+          "version": "file:commons/db"
+        }
+      },
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "features/mine": {
+      "name": "mine",
+      "dependencies": {
+        "widget": {
+          "specifier": "file:commons/widget",
+          "version": "file:commons/widget"
+        },
+        "utils": {
+          "specifier": "file:commons/utils",
+          "version": "file:commons/utils"
+        },
+        "login": {
+          "specifier": "file:features/login",
+          "version": "file:features/login"
+        },
+        "points": {
+          "specifier": "file:features/points",
+          "version": "file:features/points"
+        },
+        "setting": {
+          "specifier": "file:features/setting",
+          "version": "file:features/setting"
+        },
+        "pay": {
+          "specifier": "file:features/pay",
+          "version": "file:features/pay"
+        }
+      },
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "features/pay": {
+      "name": "pay",
+      "dependencies": {
+        "network": {
+          "specifier": "file:commons/network",
+          "version": "file:commons/network"
+        },
+        "utils": {
+          "specifier": "file:commons/utils",
+          "version": "file:commons/utils"
+        }
+      },
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "features/photo": {
+      "name": "photo",
+      "dependencies": {
+        "utils": {
+          "specifier": "file:commons/utils",
+          "version": "file:commons/utils"
+        },
+        "widget": {
+          "specifier": "file:commons/widget",
+          "version": "file:commons/widget"
+        },
+        "search": {
+          "specifier": "file:commons/search",
+          "version": "file:commons/search"
+        },
+        "db": {
+          "specifier": "file:commons/db",
+          "version": "file:commons/db"
+        },
+        "network": {
+          "specifier": "file:commons/network",
+          "version": "file:commons/network"
+        }
+      },
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "features/points": {
+      "name": "points",
+      "dependencies": {
+        "utils": {
+          "specifier": "file:commons/utils",
+          "version": "file:commons/utils"
+        },
+        "widget": {
+          "specifier": "file:commons/widget",
+          "version": "file:commons/widget"
+        },
+        "search": {
+          "specifier": "file:commons/search",
+          "version": "file:commons/search"
+        },
+        "db": {
+          "specifier": "file:commons/db",
+          "version": "file:commons/db"
+        },
+        "network": {
+          "specifier": "file:commons/network",
+          "version": "file:commons/network"
+        },
+        "home": {
+          "specifier": "file:features/home",
+          "version": "file:features/home"
+        }
+      },
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "features/setting": {
+      "name": "setting",
+      "dependencies": {
+        "utils": {
+          "specifier": "file:commons/utils",
+          "version": "file:commons/utils"
+        },
+        "widget": {
+          "specifier": "file:commons/widget",
+          "version": "file:commons/widget"
+        },
+        "search": {
+          "specifier": "file:commons/search",
+          "version": "file:commons/search"
+        },
+        "db": {
+          "specifier": "file:commons/db",
+          "version": "file:commons/db"
+        },
+        "network": {
+          "specifier": "file:commons/network",
+          "version": "file:commons/network"
+        },
+        "login": {
+          "specifier": "file:features/login",
+          "version": "file:features/login"
+        },
+        "@candies/image_cropper": {
+          "specifier": "^1.1.1",
+          "version": "1.1.1"
+        }
+      },
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "features/view": {
+      "name": "view",
+      "dependencies": {},
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "products/entry": {
+      "name": "entry",
+      "dependencies": {
+        "home": {
+          "specifier": "file:features/home",
+          "version": "file:features/home"
+        },
+        "bank": {
+          "specifier": "file:features/bank",
+          "version": "file:features/bank"
+        },
+        "mine": {
+          "specifier": "file:features/mine",
+          "version": "file:features/mine"
+        },
+        "db": {
+          "specifier": "file:commons/db",
+          "version": "file:commons/db"
+        },
+        "login": {
+          "specifier": "file:features/login",
+          "version": "file:features/login"
+        },
+        "utils": {
+          "specifier": "file:commons/utils",
+          "version": "file:commons/utils"
+        },
+        "search": {
+          "specifier": "file:commons/search",
+          "version": "file:commons/search"
+        },
+        "network": {
+          "specifier": "file:commons/network",
+          "version": "file:commons/network"
+        },
+        "@csj/openadsdk": {
+          "specifier": "6.9.1",
+          "version": "6.9.1"
+        },
+        "@csj/adapter_ks": {
+          "specifier": "3.0.6-1",
+          "version": "3.0.6-1"
+        },
+        "@csj/adapter_gdt": {
+          "specifier": "1.1.0-1",
+          "version": "1.1.0-1"
+        }
+      },
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    }
+  },
+  "packages": {
+    "view@file:features/view": {
+      "storePath": "features/view",
+      "dependencies": {},
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "widget@file:commons/widget": {
+      "storePath": "commons/widget",
+      "dependencies": {},
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "web@file:commons/web": {
+      "storePath": "commons/web",
+      "dependencies": {
+        "widget": "commons/widget"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "@tencent/wechat_open_sdk@1.0.14": {
+      "integrity": "sha512-qTA/XkKqBp5Bji6D4ePCnxdGpaDvzcqeI/vK6FRUwdBIlO9T/o0xuO1akCMCEB9c6qshIUAYqyRlHYmkRIkm4g==",
+      "storePath": "oh_modules/.ohpm/@tencent+wechat_open_sdk@1.0.14",
+      "dependencies": {},
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "@ohos/axios@2.2.4": {
+      "integrity": "sha512-5oH753kGFwfJP1kvCnI92RRaSqRbN0b24vmNNrUV+T8+5ako98rtVQOhA7ezMPox5Z3PFWndLQTF/P/hEK/yeQ==",
+      "storePath": "oh_modules/.ohpm/@ohos+axios@2.2.4",
+      "dependencies": {},
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "@ohos/okio@2.0.1": {
+      "integrity": "sha512-qsgBVSGaGcCVnUVZjBijM0N/IeqDykBIXDo49ZA8M1P/nH+e977UQWvhUCLD6Dc315houSlemwzV/YndbSjeHg==",
+      "storePath": "oh_modules/.ohpm/@ohos+okio@2.0.1",
+      "dependencies": {},
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "class-transformer@0.5.1": {
+      "integrity": "sha512-SQa1Ws6hUbfC98vKGxZH3KFY0Y1lm5Zm0SY8XX9zbK7FJCyVEac3ATW0RIpwzW+oOfmHE5PMPufDG9hCfoEOMw==",
+      "storePath": "oh_modules/.ohpm/class-transformer@0.5.1",
+      "dependencies": {},
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "reflect-metadata@0.1.13": {
+      "integrity": "sha512-Ts1Y/anZELhSsjMcU605fU9RE4Oi3p5ORujwbIKXfWa+0Zxs510Qrmrce5/Jowq3cHSZSJqBjypxmHarc+vEWg==",
+      "storePath": "oh_modules/.ohpm/reflect-metadata@0.1.13",
+      "dependencies": {},
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "@umeng/analytics@1.2.4": {
+      "integrity": "sha512-qth9hSUkHtgL9NBSZYHznmZpgU9uFK6LDKyRvqjih6+HRtOi7lXl6PblN8993x5i+hfBgSWMdDxqD0wgl7tWdQ==",
+      "storePath": "oh_modules/.ohpm/@umeng+analytics@1.2.4",
+      "dependencies": {},
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "@ohos/lottie@2.0.20": {
+      "integrity": "sha512-V19ZvOK/fDqzZUIJ70WweIliTClvyZcZbqkAOLR7I+3/z/CW9fGKbHQBGlIFelDdodYptU+dgf7hg5E8/u36tQ==",
+      "storePath": "oh_modules/.ohpm/@ohos+lottie@2.0.20",
+      "dependencies": {},
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "@ohos/hypium@1.0.18": {
+      "integrity": "sha512-RGe/iLGdeywdQilMWZsHKUoiE9OJ+9QxQsorF92R2ImLNVHVhbpSePNITGpW7TnvLgOIP/jscOqfIOhk6X7XRQ==",
+      "storePath": "oh_modules/.ohpm/@ohos+hypium@1.0.18",
+      "dependencies": {},
+      "dynamicDependencies": {},
+      "dev": true,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "@ohos/hamock@1.0.0": {
+      "integrity": "sha512-K6lDPYc6VkKe6ZBNQa9aoG+ZZMiwqfcR/7yAVFSUGIuOAhPvCJAo9+t1fZnpe0dBRBPxj2bxPPbKh69VuyAtDg==",
+      "storePath": "oh_modules/.ohpm/@ohos+hamock@1.0.0",
+      "dependencies": {},
+      "dynamicDependencies": {},
+      "dev": true,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "@umeng/common@1.1.3": {
+      "integrity": "sha512-0pYi/JuQzZ8Gsy97Bw5lqCwkTUIK+vImQC+4mgWYbZKH+OxKu4HOoKds0bz+9xbVIyfx88dR7lEdcGeQfR6eug==",
+      "storePath": "oh_modules/.ohpm/@umeng+common@1.1.3",
+      "dependencies": {
+        "libcommon.so": "oh_modules/.ohpm/@umeng+common@1.1.3/oh_modules/@umeng/common/src/main/cpp/types/libcommon"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "libcommon.so@file:oh_modules/.ohpm/@umeng+common@1.1.3/oh_modules/@umeng/common/src/main/cpp/types/libcommon": {
+      "storePath": "oh_modules/.ohpm/@umeng+common@1.1.3/oh_modules/@umeng/common/src/main/cpp/types/libcommon",
+      "dependencies": {},
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "@csj/adapter_ks@3.0.6-1": {
+      "integrity": "sha512-hertcYL8DpE4ZXfm6pt9n0KB3od-45IH15OJf7n9hncJhSaYdWh1SFrufhzrzx7HZ0T13mbx8zMb8Uey-DRQUQ==",
+      "storePath": "oh_modules/.ohpm/@csj+adapter_ks@3.0.6-1",
+      "dependencies": {
+        "@csj/openadsdk": "6.9.1"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "@csj/adapter_gdt@1.1.0-1": {
+      "integrity": "sha512-vKKTOC0E9SBJsqnpyWt4PuiJBhsO-TYvbnXsLyFMm6szmzyIZ24AFG0rj-LhI3tkcuWHihjMS--xSpv14tYg5A==",
+      "storePath": "oh_modules/.ohpm/@csj+adapter_gdt@1.1.0-1",
+      "dependencies": {
+        "@csj/openadsdk": "6.9.1"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "@csj/openadsdk@6.9.1": {
+      "integrity": "sha512-C2GUqv0CZ0GZyYkNVPboYuGF97xmuSpncbUMuHeXuVZyb0QWRbfjiE4juqg-zLTExPAT_GIp6K3-MffXuRYiqw==",
+      "storePath": "oh_modules/.ohpm/@csj+openadsdk@6.9.1",
+      "dependencies": {
+        "@csj/panglearmor": "oh_modules/.ohpm/@csj+openadsdk@6.9.1/oh_modules/@csj/openadsdk/harlib/panglearmor.har",
+        "@bdms/bdmssdk_pgl": "oh_modules/.ohpm/@csj+openadsdk@6.9.1/oh_modules/@csj/openadsdk/harlib/bdmssdk.har",
+        "@hpem/apmplus_crash_lite": "oh_modules/.ohpm/@csj+openadsdk@6.9.1/oh_modules/@csj/openadsdk/harlib/apm.har",
+        "@dp/applog": "oh_modules/.ohpm/@csj+openadsdk@6.9.1/oh_modules/@csj/openadsdk/harlib/applog.har",
+        "@ohos/lottie": "2.0.20"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "@hpem/apmplus_crash_lite@file:oh_modules/.ohpm/@csj+openadsdk@6.9.1/oh_modules/@csj/openadsdk/harlib/apm.har": {
+      "storePath": "oh_modules/.ohpm/@hpem+apmplus_crash_lite@172xrcqiqpb07ddsgbluiijz24mrpldphza+5vlddka=",
+      "dependencies": {},
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "@csj/panglearmor@file:oh_modules/.ohpm/@csj+openadsdk@6.9.1/oh_modules/@csj/openadsdk/harlib/panglearmor.har": {
+      "storePath": "oh_modules/.ohpm/@csj+panglearmor@cksmdebfkaayuazinfq2bjsbl2liolozgz0idliqkoi=",
+      "dependencies": {
+        "libpanglearmor.so": "oh_modules/.ohpm/@csj+panglearmor@cksmdebfkaayuazinfq2bjsbl2liolozgz0idliqkoi=/oh_modules/@csj/panglearmor/src/main/cpp/types/libpanglearmor"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "@bdms/bdmssdk_pgl@file:oh_modules/.ohpm/@csj+openadsdk@6.9.1/oh_modules/@csj/openadsdk/harlib/bdmssdk.har": {
+      "storePath": "oh_modules/.ohpm/@bdms+bdmssdk_pgl@uj8yipotnt2kw6duljuflmytrqjyvr8n+3zwgb2vucm=",
+      "dependencies": {
+        "libbdmssdk.so": "oh_modules/.ohpm/@bdms+bdmssdk_pgl@uj8yipotnt2kw6duljuflmytrqjyvr8n+3zwgb2vucm=/oh_modules/@bdms/bdmssdk_pgl/src/main/cpp/types/libbdmssdk"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "@dp/applog@file:oh_modules/.ohpm/@csj+openadsdk@6.9.1/oh_modules/@csj/openadsdk/harlib/applog.har": {
+      "storePath": "oh_modules/.ohpm/@dp+applog@+e6gtiy4h3epopwj9muptqswanljuqcdrohmi055hmq=",
+      "dependencies": {
+        "libapplogrs.so": "oh_modules/.ohpm/@dp+applog@+e6gtiy4h3epopwj9muptqswanljuqcdrohmi055hmq=/oh_modules/@dp/applog/src/main/ets/types/libapplogrs"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "search@file:commons/search": {
+      "storePath": "commons/search",
+      "dependencies": {
+        "utils": "commons/utils",
+        "db": "commons/db",
+        "encryption": "commons/encryption"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "encryption@file:commons/encryption": {
+      "storePath": "commons/encryption",
+      "dependencies": {
+        "utils": "commons/utils"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "utils@file:commons/utils": {
+      "storePath": "commons/utils",
+      "dependencies": {
+        "@csj/openadsdk": "6.9.1",
+        "@csj/adapter_ks": "3.0.6-1",
+        "@csj/adapter_gdt": "1.1.0-1",
+        "@candies/image_cropper": "1.1.1"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "@candies/image_cropper@1.1.1": {
+      "integrity": "sha512-vNbzWkGGYRASiRIyS+91O4wrGmt2/h1RyLKW1+PD5G9KjZOJkv7ahjwdI/syNGLDG7aS5Yvk+XlHfqt3jddz8g==",
+      "storePath": "oh_modules/.ohpm/@candies+image_cropper@1.1.1",
+      "dependencies": {
+        "@candies/image_editor": "1.0.0"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "@candies/image_editor@1.0.0": {
+      "integrity": "sha512-xYFQeR4FHYlzUrpPSgnKAXaydWfNaRwM12uPBqBdLQzpNL8OWIRcexL1Z9V7jm0OvKlIgVSr7VWW6c4mFKyJPg==",
+      "storePath": "oh_modules/.ohpm/@candies+image_editor@1.0.0",
+      "dependencies": {},
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "login@file:features/login": {
+      "storePath": "features/login",
+      "dependencies": {
+        "@tencent/wechat_open_sdk": "1.0.14"
+      },
+      "devDependencies": {
+        "utils": "commons/utils",
+        "network": "commons/network",
+        "db": "commons/db"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "db@file:commons/db": {
+      "storePath": "commons/db",
+      "dependencies": {
+        "utils": "commons/utils",
+        "encryption": "commons/encryption"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "network@file:commons/network": {
+      "storePath": "commons/network",
+      "dependencies": {
+        "utils": "commons/utils"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "bank@file:features/bank": {
+      "storePath": "features/bank",
+      "dependencies": {
+        "network": "commons/network",
+        "utils": "commons/utils",
+        "search": "commons/search",
+        "encryption": "commons/encryption",
+        "db": "commons/db",
+        "widget": "commons/widget"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "mine@file:features/mine": {
+      "storePath": "features/mine",
+      "dependencies": {
+        "widget": "commons/widget",
+        "utils": "commons/utils",
+        "login": "features/login",
+        "points": "features/points",
+        "setting": "features/setting",
+        "pay": "features/pay"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "points@file:features/points": {
+      "storePath": "features/points",
+      "dependencies": {
+        "utils": "commons/utils",
+        "widget": "commons/widget",
+        "search": "commons/search",
+        "db": "commons/db",
+        "network": "commons/network",
+        "home": "features/home"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "setting@file:features/setting": {
+      "storePath": "features/setting",
+      "dependencies": {
+        "utils": "commons/utils",
+        "widget": "commons/widget",
+        "search": "commons/search",
+        "db": "commons/db",
+        "network": "commons/network",
+        "login": "features/login",
+        "@candies/image_cropper": "1.1.1"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "pay@file:features/pay": {
+      "storePath": "features/pay",
+      "dependencies": {
+        "network": "commons/network",
+        "utils": "commons/utils"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "home@file:features/home": {
+      "storePath": "features/home",
+      "dependencies": {
+        "network": "commons/network",
+        "utils": "commons/utils",
+        "search": "commons/search",
+        "encryption": "commons/encryption",
+        "db": "commons/db",
+        "web": "commons/web",
+        "parseexcel": "commons/parseExcel",
+        "photo": "features/photo",
+        "view": "features/view",
+        "widget": "commons/widget",
+        "bank": "features/bank",
+        "setting": "features/setting",
+        "libscrcap2pixel.so": "features/home/src/main/cpp/types/libscrcap2pixel",
+        "@candies/image_cropper": "1.1.1"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "parseexcel@file:commons/parseExcel": {
+      "storePath": "commons/parseExcel",
+      "dependencies": {},
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "photo@file:features/photo": {
+      "storePath": "features/photo",
+      "dependencies": {
+        "utils": "commons/utils",
+        "widget": "commons/widget",
+        "search": "commons/search",
+        "db": "commons/db",
+        "network": "commons/network"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "libscrcap2pixel.so@file:features/home/src/main/cpp/types/libscrcap2pixel": {
+      "storePath": "features/home/src/main/cpp/types/libscrcap2pixel",
+      "dependencies": {},
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "libpanglearmor.so@file:oh_modules/.ohpm/@csj+panglearmor@cksmdebfkaayuazinfq2bjsbl2liolozgz0idliqkoi=/oh_modules/@csj/panglearmor/src/main/cpp/types/libpanglearmor": {
+      "storePath": "oh_modules/.ohpm/@csj+panglearmor@cksmdebfkaayuazinfq2bjsbl2liolozgz0idliqkoi=/oh_modules/@csj/panglearmor/src/main/cpp/types/libpanglearmor",
+      "dependencies": {},
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "libapplogrs.so@file:oh_modules/.ohpm/@dp+applog@+e6gtiy4h3epopwj9muptqswanljuqcdrohmi055hmq=/oh_modules/@dp/applog/src/main/ets/types/libapplogrs": {
+      "storePath": "oh_modules/.ohpm/@dp+applog@+e6gtiy4h3epopwj9muptqswanljuqcdrohmi055hmq=/oh_modules/@dp/applog/src/main/ets/types/libapplogrs",
+      "dependencies": {},
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "libbdmssdk.so@file:oh_modules/.ohpm/@bdms+bdmssdk_pgl@uj8yipotnt2kw6duljuflmytrqjyvr8n+3zwgb2vucm=/oh_modules/@bdms/bdmssdk_pgl/src/main/cpp/types/libbdmssdk": {
+      "storePath": "oh_modules/.ohpm/@bdms+bdmssdk_pgl@uj8yipotnt2kw6duljuflmytrqjyvr8n+3zwgb2vucm=/oh_modules/@bdms/bdmssdk_pgl/src/main/cpp/types/libbdmssdk",
+      "dependencies": {},
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    }
+  }
+}

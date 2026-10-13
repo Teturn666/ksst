@@ -1,0 +1,1 @@
+import { AdSlot } from "../../../../k/l"; import { w31 } from "../../f4/express/k7"; import { p19 } from "../../../l1/f1/p5"; export declare const y31: string; export declare class z31 extends w31 { constructor(a32: p19, adSlot: AdSlot, adType: number); setCanInterruptVideoPlay(canInterruptVideoPlay: boolean): void; } 

@@ -1,0 +1,1 @@
+export declare abstract class ConfigListener { constructor(); abstract getSessionId(): string; abstract getDeviceId(): string; abstract getInstallId(): string; abstract getBdDeviceId(): string; } 

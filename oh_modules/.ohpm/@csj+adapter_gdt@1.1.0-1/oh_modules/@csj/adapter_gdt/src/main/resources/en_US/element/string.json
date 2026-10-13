@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "adapter_gdt_desc",
+      "value": "description"
+    },
+    {
+      "name": "adapter_gdt_label",
+      "value": "label"
+    }
+  ]
+}

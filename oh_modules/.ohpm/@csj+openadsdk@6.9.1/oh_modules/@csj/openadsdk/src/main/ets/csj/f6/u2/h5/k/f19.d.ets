@@ -1,0 +1,1 @@
+export interface n127 { z103(dir: string): void; h104(): string; e104(): string; f104(): string; i104(): string; b52(): void; q104(meta: object): boolean; t104(meta: object): boolean; v104(meta: object): number; a104(meta: object): string; j104(meta: object): number; s104(meta: object): number; } 

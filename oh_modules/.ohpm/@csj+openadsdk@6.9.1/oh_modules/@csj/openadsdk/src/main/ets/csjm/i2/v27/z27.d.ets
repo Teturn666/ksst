@@ -1,0 +1,1 @@
+import { CustomAdnInfo, CustomConfigAdapter } from "../../k/i2/j2"; export declare class h209 extends CustomConfigAdapter { initializeAdapter(initConfig: CustomAdnInfo, context: Context): void; adapterVersion(): string; networkSdkVersion(): string; } 

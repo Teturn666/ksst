@@ -1,0 +1,1 @@
+export declare class AbtestIdl { readonly param: string; readonly version: string; } 

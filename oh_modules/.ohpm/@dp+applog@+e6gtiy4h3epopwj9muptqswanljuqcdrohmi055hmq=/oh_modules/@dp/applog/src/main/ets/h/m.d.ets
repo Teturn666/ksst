@@ -1,0 +1,1 @@
+import { AAIDModel, OaidModel } from "./n"; export declare class DeviceFingerHelper { static getOaid(context: Context): Promise<OaidModel>; static getAAid(context: Context): Promise<AAIDModel>; static getHarmonyId(): Promise<string>; } 

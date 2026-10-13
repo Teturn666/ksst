@@ -1,0 +1,1 @@
+export declare class FileReader { static readonly f151: string; static readonly CR: string; s151: number; length: number; stream: any; buf: ArrayBuffer; constructor(path: string); p151(): string; isEnd(): boolean; close(): void; } 

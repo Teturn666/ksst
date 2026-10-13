@@ -1,0 +1,1 @@
+export declare class PlayAgainIdl { readonly againType: number; readonly buttonText: string; readonly entrancePrefix: string; readonly entranceSuffix: string; readonly preSessions: string; readonly playAgainRit: string; } 

@@ -1,0 +1,1 @@
+import { l233, h230 } from "./j30"; export declare class b236 implements h230 { d185(c236: l233): void; } 

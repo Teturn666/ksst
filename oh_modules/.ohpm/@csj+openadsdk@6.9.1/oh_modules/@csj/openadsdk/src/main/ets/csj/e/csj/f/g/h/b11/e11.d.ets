@@ -1,0 +1,1 @@
+import { w52 } from "../f/y9";  @CustomDialog export declare struct n57 { _controller?: CustomDialogController;  @Consume(KEY_RewardFullState) _state: w52;  @State _isLoading: boolean; build(): void; } 

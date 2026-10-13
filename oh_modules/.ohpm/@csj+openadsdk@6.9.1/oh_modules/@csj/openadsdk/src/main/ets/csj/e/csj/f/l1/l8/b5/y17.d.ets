@@ -1,0 +1,1 @@
+export declare class PluginsIdl { readonly downloadUrl: string; readonly maxVersion: string; readonly minVersion: string; readonly packageName: string; readonly pluginUpdateNetwork: number; readonly sign: string; readonly versionCode: number; readonly versionName: string; } 

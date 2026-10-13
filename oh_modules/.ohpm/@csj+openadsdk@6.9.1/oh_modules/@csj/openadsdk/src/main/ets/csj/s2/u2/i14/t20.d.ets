@@ -1,0 +1,1 @@
+import { Permissions } from '@ohos.abilityAccessCtrl'; export interface d157 { j126?: (deniedPermissions: Permissions[]) => Promise<boolean>; } 

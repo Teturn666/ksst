@@ -1,0 +1,1 @@
+export declare abstract class BDMSPglSettingListener { constructor(); abstract getSettingConfig(): string; } 

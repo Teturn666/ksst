@@ -1,0 +1,1 @@
+export interface l115 { k85(urls: string[]): void; m85(context: Context): void; } 

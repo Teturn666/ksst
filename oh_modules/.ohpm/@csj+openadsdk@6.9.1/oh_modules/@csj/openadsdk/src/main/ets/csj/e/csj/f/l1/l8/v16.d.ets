@@ -1,0 +1,1 @@
+export declare class TwistConfigIdl { x_threshold: number; y_threshold: number; z_threshold: number; is_last_direction: number; } export declare class TwistInteractConfigIdl { double_direct_match: number; } export declare class ShakeInteractConfigIdl { double_direct_match: number; double_direct_type: number; } 

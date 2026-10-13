@@ -1,0 +1,1 @@
+import ArrayList from '@ohos.util.ArrayList'; export declare class c215 { static addAll<T>(b251: ArrayList<T>, list: ArrayList<T> | Array<T>): void; static o194<T>(z250: ArrayList<T>, list: ArrayList<T> | Array<T>): void; static isEmpty<T>(list: ArrayList<T>): boolean; static z191<T>(list: ArrayList<T>): boolean; } 

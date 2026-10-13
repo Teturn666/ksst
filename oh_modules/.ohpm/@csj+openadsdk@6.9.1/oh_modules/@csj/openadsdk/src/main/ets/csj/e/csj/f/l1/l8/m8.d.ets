@@ -1,0 +1,1 @@
+export declare class ClickTriggerType { static readonly CLICK = 0; static readonly SHAKE = 1; } export declare class ClickTriggerConfigIdl { triggerType: ClickTriggerType; shakeStartTime: number; shakeEndTime: number; } 

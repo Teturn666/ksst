@@ -1,0 +1,1 @@
+import { o15 } from "./j4"; export declare class p18 { y18: boolean; param: o15; a19?: () => void; b19?: () => void; x18?: (param: o15) => void; d19?: () => void; i19?: (adViewVisible: boolean) => void; constructor(param: o15); } 

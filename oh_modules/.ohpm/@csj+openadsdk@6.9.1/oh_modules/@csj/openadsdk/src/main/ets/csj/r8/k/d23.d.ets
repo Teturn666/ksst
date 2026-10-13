@@ -1,0 +1,1 @@
+import { o180 } from "./a23"; export interface r180 { o141: (step: string, request: o180) => void; p141: (step: string, request: o180) => void; } 

@@ -1,0 +1,1 @@
+import { d1 } from "../../../../../s2/x2"; export declare class x95 { static getDeviceInfo(): d1; } 

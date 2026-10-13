@@ -1,0 +1,1 @@
+import { Config } from "./m1"; export declare namespace ConfigCallback { type Realize = (code: number, desc: string, cfg: Config) => void; } 

@@ -1,0 +1,1 @@
+export declare class ModuleEnableIdl { readonly lynxEnable: boolean; } 

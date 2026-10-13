@@ -1,0 +1,1 @@
+@Component export declare struct g107 {  @Consume private _suggestContent; private _userSuggestDialogCancelListener?; private _userSuggestDialogCommitListener?; _suggestCommit: (suggestContent: string) => void; _onCancel: (suggestContent: string) => void; private _suggestionDialogController?; aboutToDisappear(): void; build(): void; } 

@@ -1,0 +1,1 @@
+import { w52 } from "../f/y9"; export declare class z57 { f44: WebviewController; e44: string; e18: boolean; onAppear(state: w52): void; } 

@@ -1,0 +1,13 @@
+{
+  "module": {
+    "name": "encryption",
+    "type": "har",
+    "description": "$string:module_desc",
+    "mainElement": "EncryptionAbility",
+    "deviceTypes": [
+      "phone",
+      "tablet",
+      "2in1"
+    ],
+  }
+}

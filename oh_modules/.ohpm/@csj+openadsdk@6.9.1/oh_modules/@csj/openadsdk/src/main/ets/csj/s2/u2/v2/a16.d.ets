@@ -1,0 +1,1 @@
+import { d1 } from "../../x2"; export declare class u115 { private name; private b127; private j77; private c127; private constructor(); static start(name: string, startTime?: number): u115; finish(): number; record(n158: string, o158?: number): number; getDuration(): number; getRecords(): d1; write(target?: d1, threshold?: number): d1; d127(threshold?: number): string; } 

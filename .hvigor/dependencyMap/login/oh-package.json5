@@ -1,0 +1,1 @@
+{"name":"login","version":"1.0.0","description":"Please describe the basic information.","main":"Index.ets","author":"","license":"","dependencies":{"@tencent/wechat_open_sdk":"^1.0.14"},"devDependencies":{"utils":"file:../../commons/utils","network":"file:../../commons/network","db":"file:../../commons/db"}}

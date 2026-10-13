@@ -1,0 +1,1 @@
+export declare class RequestErrorCode { static readonly n110 = 0; static readonly s110 = 1; static readonly a113 = 2; static readonly a111 = 3; static readonly x111 = 4; static readonly q110 = 5; static readonly m111 = 6; static readonly n111 = 7; static readonly m112 = 8; static readonly n112 = 9; static readonly t111 = 10; static readonly o112 = 11; } 

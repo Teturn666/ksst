@@ -1,0 +1,1 @@
+export declare class TplInfoIdl { readonly id: string; readonly data: string; readonly md5: string; readonly url: string; readonly version: string; } 

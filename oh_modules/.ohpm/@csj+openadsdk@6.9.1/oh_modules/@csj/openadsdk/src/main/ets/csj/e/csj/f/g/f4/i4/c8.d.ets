@@ -1,0 +1,1 @@
+export declare class y34 { currentPlayTime: number; from?: string; constructor(currentPlayTime: number, from?: string); } 

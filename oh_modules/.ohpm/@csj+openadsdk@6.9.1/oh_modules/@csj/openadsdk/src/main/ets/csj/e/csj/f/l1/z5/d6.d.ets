@@ -1,0 +1,1 @@
+export declare class a20 { isExpress: boolean; r45: string; t45: number; } 

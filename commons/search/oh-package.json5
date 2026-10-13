@@ -1,0 +1,15 @@
+{
+  "name": "search",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "Index.ets",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "utils": "file:../utils",
+    "db": "file:../../commons/db",
+    "encryption": "file:../encryption",
+
+  }
+}
+

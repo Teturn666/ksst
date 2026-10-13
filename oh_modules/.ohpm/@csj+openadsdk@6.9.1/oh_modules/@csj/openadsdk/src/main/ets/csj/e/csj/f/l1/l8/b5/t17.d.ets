@@ -1,0 +1,1 @@
+export declare class LiveSdkConfIdl { readonly adLiveStatus: number; readonly appId: number; readonly partner: string; readonly secureKey: string; } 

@@ -1,0 +1,1 @@
+import { IAppLogInstance } from "./a1"; export declare const AppLog: IAppLogInstance; 

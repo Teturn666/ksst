@@ -1,0 +1,1 @@
+export declare class CSJImage { width: number; height: number; url: string; imageKey: string; constructor(width: number, height: number, url: string, imageKey: string); static i110(e135: object): CSJImage; j110(): object; } 

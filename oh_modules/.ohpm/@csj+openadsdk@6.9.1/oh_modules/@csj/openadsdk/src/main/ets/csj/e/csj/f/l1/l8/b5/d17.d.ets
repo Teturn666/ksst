@@ -1,0 +1,1 @@
+export declare class AntispamAutoclickDetectIdl { readonly expireduation: number; readonly harenable: boolean; readonly interval: number; readonly laccGyro: number; readonly maxanglevar: number; readonly sensorenable: boolean; } 

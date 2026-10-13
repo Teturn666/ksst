@@ -1,0 +1,1 @@
+export {SearchResultPage} from './src/main/ets/pages/SearchResultPage';

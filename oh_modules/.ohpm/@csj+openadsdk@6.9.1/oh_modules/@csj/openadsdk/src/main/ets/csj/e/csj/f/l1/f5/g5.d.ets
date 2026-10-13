@@ -1,0 +1,1 @@
+import { connection } from '@kit.NetworkKit'; export interface g17 { t17: (netWorkType: connection.NetBearType) => void; } 

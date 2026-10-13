@@ -1,0 +1,1 @@
+import { f171 } from "../g6/z21"; export interface g171 { i136(): f171; } 

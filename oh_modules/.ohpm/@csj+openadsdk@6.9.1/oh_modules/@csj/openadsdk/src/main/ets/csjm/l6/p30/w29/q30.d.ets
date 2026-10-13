@@ -1,0 +1,1 @@
+export interface i233 { b183: (code: number, message: string) => void; onAdCached: () => void; onAdLoadSuccess: () => void; } 

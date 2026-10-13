@@ -1,0 +1,1 @@
+export declare class o52 { r35: number; private s35; private t35; u35(v52: p52): void; v35(interval?: number): void; w35(): void; private onTimeTicker; } export interface p52 { onTimeTicker(): void; } 

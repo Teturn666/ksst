@@ -1,0 +1,1 @@
+export interface v189<F, T> { call(first: F, second: T): void; } 

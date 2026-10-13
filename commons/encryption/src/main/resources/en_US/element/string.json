@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EncryptionAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EncryptionAbility_label",
+      "value": "label"
+    }
+  ]
+}

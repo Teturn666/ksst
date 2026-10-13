@@ -1,0 +1,1 @@
+import { BDMSPglStorage } from "./h"; export declare namespace BDMSPglReportRawCallback { type Realize = (code: number, desc: string, raw: BDMSPglStorage) => void; } 

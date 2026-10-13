@@ -1,0 +1,1 @@
+export declare class m197 { key: string; length: number; constructor(key: string, length?: number); r150(key: string): void; getKey(): string; setLength(length: number): void; getLength(): number; toString(): string; } 

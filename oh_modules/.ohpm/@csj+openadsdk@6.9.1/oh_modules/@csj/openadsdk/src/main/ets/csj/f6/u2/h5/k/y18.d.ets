@@ -1,0 +1,1 @@
+import { n127 } from "./f19"; export interface q126 { getUrl(): string | undefined; t146(): object | undefined; d101(meta: object): void; w100(): n127 | undefined; e101(cacheDir: n127): void; } 

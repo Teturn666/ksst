@@ -1,0 +1,1 @@
+import { k36 } from "../g4/q8";  @Component export declare struct r42 { TAG: string;  @State _backup: boolean; _controller: k36; aboutToAppear(): void; build(): void;  @Builder BackupView(s42: k36): void; aboutToDisappear(): void; } 

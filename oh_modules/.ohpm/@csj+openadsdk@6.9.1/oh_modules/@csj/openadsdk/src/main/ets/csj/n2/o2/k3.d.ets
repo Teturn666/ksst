@@ -1,0 +1,1 @@
+export declare class v5 { datetime?: string; params: Record<string, Object>; event?: string; nt?: number; } 

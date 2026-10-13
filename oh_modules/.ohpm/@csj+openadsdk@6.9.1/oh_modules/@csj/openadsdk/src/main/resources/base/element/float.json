@@ -1,0 +1,55 @@
+{
+  "float": [
+    {
+      "name": "list_divider_height",
+      "value": "0.5vp"
+    },
+    {
+      "name": "dialog_radius",
+      "value": "8vp"
+    },
+    {
+      "name": "dialog_left_distance",
+      "value": "24vp"
+    },
+    {
+      "name": "dialog_top_distance",
+      "value": "6vp"
+    },
+
+    {
+      "name": "dialog_bottom_distance",
+      "value": "6vp"
+    },
+    {
+      "name": "suggestion_dialog_TextArea_font_size",
+      "value": "16fp"
+    },
+    {
+      "name": "suggestion_dialog_radius",
+      "value": "8vp"
+    },
+    {
+      "name": "suggestion_dialog_font_size",
+      "value": "16fp"
+    },
+    {
+      "name": "suggestion_dialog_close_image_height",
+      "value": "20vp"
+    }
+  ,
+    {
+      "name": "suggestion_dialog_close_image_width",
+      "value": "20vp"
+    }
+  ,
+    {
+      "name": "suggestion_dialog_padding_left_and_right_distance",
+      "value": "16vp"
+    } ,
+    {
+      "name": "suggestion_dialog_padding_top_and_bottom_distance",
+      "value": "14vp"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+import { AppLogInstance } from "./j"; export const AppLog = new AppLogInstance(); 

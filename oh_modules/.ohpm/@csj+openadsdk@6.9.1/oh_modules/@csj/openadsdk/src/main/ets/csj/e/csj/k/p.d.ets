@@ -1,0 +1,1 @@
+import { CSJNativeAd } from "./y"; export interface CSJAdInteractionListener { onAdClicked: (ad: CSJNativeAd) => void; onAdCreativeClick: (ad: CSJNativeAd) => void; onAdShow: (ad: CSJNativeAd) => void; } 

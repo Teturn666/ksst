@@ -1,0 +1,1 @@
+import { http } from '@kit.NetworkKit'; export declare class j100 { private z73; private a74; constructor(response: http.HttpResponse, k100: Uint8Array | undefined); b74(): Uint8Array | undefined; c74(): http.HttpResponse; } 

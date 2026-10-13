@@ -1,0 +1,1 @@
+export declare class FeqPolicyIdl { readonly duration: number; readonly max: number; } 

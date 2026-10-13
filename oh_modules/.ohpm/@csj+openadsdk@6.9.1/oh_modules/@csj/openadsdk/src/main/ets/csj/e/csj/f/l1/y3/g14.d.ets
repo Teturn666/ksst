@@ -1,0 +1,1 @@
+export declare class o95 { static z66: string; static a67: string; static b67: string; static c67: string; static d67: string; static e67: string; static f67: string; static g67: string; static h67: string; static i67: string; static j67: string; static k67: string; static l67: string; static m67: string; static n67: string; static o67: string; } 

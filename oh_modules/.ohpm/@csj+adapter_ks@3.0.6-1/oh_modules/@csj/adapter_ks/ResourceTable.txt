@@ -1,0 +1,3 @@
+string adapter_ks_desc 0x04000000
+string adapter_ks_label 0x04000001
+string module_desc 0x04000002

@@ -1,0 +1,1 @@
+{"name":"utils","version":"1.0.0","description":"Please describe the basic information.","main":"Index.ets","author":"","license":"","dependencies":{"@csj/openadsdk":"6.9.1","@csj/adapter_ks":"3.0.6-1","@csj/adapter_gdt":"1.1.0-1","@candies/image_cropper":"^1.1.1"}}

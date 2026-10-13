@@ -1,0 +1,1 @@
+export declare class LabelGroupInfo { readonly labelName?: string; readonly timestamp?: string; readonly labelId?: number; readonly labelVersion?: string; readonly upperBound?: number; readonly lowerBound?: number; } 

@@ -1,0 +1,1 @@
+import { AdSlot } from "../../../csj/e/csj/k/l"; import { CSJFeedAdListener } from "../../../csj/e/csj/k/w"; import { p213 } from "./n28"; export declare class l206 extends p213 { private f192?; private b192; loadFeedAd(adSlot: AdSlot, loadListener: CSJFeedAdListener): void; b183(code: number, message: string): void; onAdLoadSuccess(): void; private q6; private c192; } 

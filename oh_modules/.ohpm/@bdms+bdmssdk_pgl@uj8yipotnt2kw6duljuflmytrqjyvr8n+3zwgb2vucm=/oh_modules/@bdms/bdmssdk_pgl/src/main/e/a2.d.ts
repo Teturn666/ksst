@@ -1,0 +1,1 @@
+export declare class MapStrStr { getData(): Map<string, string>; setData(data: Map<string, string>): void; static newMapStrStr(): MapStrStr; protected data: Map<string, string>; protected constructor(); } 

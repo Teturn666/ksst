@@ -1,0 +1,1 @@
+import { Storage } from "./u"; export declare namespace ReportRawCallback { type Realize = (code: number, desc: string, raw: Storage) => void; } 

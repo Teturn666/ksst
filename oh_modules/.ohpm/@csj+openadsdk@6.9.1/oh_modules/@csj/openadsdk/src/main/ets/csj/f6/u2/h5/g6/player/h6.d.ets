@@ -1,0 +1,1 @@
+export declare class u21 { q148: string; private constructor(); static readonly IDLE: u21; static readonly INITIALIZED: u21; static readonly y106: u21; static readonly PLAYING: u21; static readonly PAUSED: u21; static readonly COMPLETED: u21; static readonly r148: u21; static readonly s148: u21; static readonly ERROR: u21; } 

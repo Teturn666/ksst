@@ -1,0 +1,1 @@
+export declare class EventPriority { value: number; private constructor(); static readonly HIGH: EventPriority; static readonly r5: EventPriority; static readonly GENERAL: EventPriority; static readonly BATCH: EventPriority; } 

@@ -1,0 +1,1 @@
+import { w52 } from "../f/y9";  @Component export declare struct a58 {  @State _webviewTitle: string;  @Consume(KEY_RewardFullState) _state: w52;  @State private _controller; aboutToAppear(): void; build(): void; } 

@@ -1,0 +1,1 @@
+import { PitayaAbSettingsIdl } from "./n17"; export declare class ContentIdl { readonly pitayaAbSettings?: PitayaAbSettingsIdl; } 

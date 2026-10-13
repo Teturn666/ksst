@@ -1,0 +1,1 @@
+export declare class OncallUploadFilterWordIdl { readonly filter_name: string; readonly filter_id: string; } export declare class OncallUploadIdl { readonly alertText: string; readonly enable: boolean; readonly uploadApi: string; readonly filterWord?: OncallUploadFilterWordIdl; } 

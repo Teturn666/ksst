@@ -1,0 +1,1 @@
+export declare class FilterWordsIdl { readonly id: string; readonly isSelected: boolean; readonly name: string; readonly options: Array<FilterWordsIdl>; } 

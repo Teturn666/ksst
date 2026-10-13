@@ -1,0 +1,1 @@
+import { p19 } from "../../../l1/f1/p5"; import { o52, p52 } from "./x9"; export declare class e55 implements p52 { s43: o52; sum: number; time: number; l41: boolean; h42: boolean; init(v56: p19): void; onTimeTicker(): void; v35(): void; w35(): void; } 

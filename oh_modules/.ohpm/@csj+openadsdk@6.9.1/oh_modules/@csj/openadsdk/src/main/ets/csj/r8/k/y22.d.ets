@@ -1,0 +1,1 @@
+export interface m180 { o140: () => number; p140: () => number; q140: () => boolean; r140: () => boolean; getCacheDir: () => string; s140: () => boolean; } 

@@ -1,0 +1,1 @@
+import { CSJCustomPrivacyController } from "../../csj/e/csj/k/t"; import { CustomAdnInfo } from "../k/i2/j2"; export declare class z211 implements CustomAdnInfo { readonly appId: string; readonly appKey: string | undefined; readonly customPrivacyController: CSJCustomPrivacyController; constructor(controller: CSJCustomPrivacyController, appId: string, appKey?: string); } 

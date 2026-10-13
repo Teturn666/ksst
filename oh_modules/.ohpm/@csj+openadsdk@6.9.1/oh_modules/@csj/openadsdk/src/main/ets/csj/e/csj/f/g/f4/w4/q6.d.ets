@@ -1,0 +1,1 @@
+@Component export declare struct h23 { private TAG; private _opt; private _controller; scaleType: ImageFit; private _imageWidth; aboutToAppear(): void; build(): void; } 

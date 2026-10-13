@@ -1,0 +1,1 @@
+import { AdSlot } from "../../csj/e/csj/k/l"; import { MediationAdManager } from "../../csj/e/csj/k/q1"; import List from '@ohos.util.List'; export declare const u213: string; export declare class v213 implements MediationAdManager { preload(adSlotList: List<AdSlot>, parallelNum: number, requestIntervalS: number): void; } 

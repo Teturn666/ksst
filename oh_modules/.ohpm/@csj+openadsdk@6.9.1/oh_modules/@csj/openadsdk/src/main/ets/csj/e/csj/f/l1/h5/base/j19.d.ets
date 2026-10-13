@@ -1,0 +1,1 @@
+import { ArrayList, HashMap } from '@kit.ArkTS'; export declare class x127 { static t105: HashMap<string, string>; static u105(fileHash: string, path: string): void; static v105(fileHash: string): void; static p104(): ArrayList<string>; } 

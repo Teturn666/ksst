@@ -1,0 +1,1 @@
+export declare abstract class AdSlotType { static readonly TYPE_BANNER: number; static readonly TYPE_SPLASH: number; static readonly TYPE_CACHED_SPLASH: number; static readonly TYPE_FEED: number; static readonly TYPE_STREAM: number; static readonly TYPE_REWARD_VIDEO: number; static readonly TYPE_FULL_SCREEN_VIDEO: number; static readonly TYPE_DRAW_FEED: number; } 

@@ -1,0 +1,1 @@
+import { List } from '@kit.ArkTS'; import { AdSlot } from "./l"; export interface MediationAdManager { preload(adSlotList: List<AdSlot>, parallelNum: number, requestIntervalS: number): void; } 

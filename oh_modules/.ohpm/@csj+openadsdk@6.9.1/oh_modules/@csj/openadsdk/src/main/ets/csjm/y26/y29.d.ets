@@ -1,0 +1,1 @@
+import { ArrayList } from "@kit.ArkTS"; import { DynamicRrule } from "../base/f1/w26/z28"; export declare class i217 { static p197(v252: string): DynamicRrule | undefined; static v177(t252: string): string | undefined; static t197(q252: string): ArrayList<string> | undefined; } 

@@ -1,0 +1,1 @@
+import { DeviceRequirementsIdl } from "./b17"; export declare class AhPlansIdl { readonly devicePlans: string; readonly deviceRequirements: DeviceRequirementsIdl[]; readonly deviceRom: string; readonly type: string; } 

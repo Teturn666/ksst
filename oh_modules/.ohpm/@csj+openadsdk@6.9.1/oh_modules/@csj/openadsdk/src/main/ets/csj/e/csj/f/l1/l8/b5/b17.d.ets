@@ -1,0 +1,1 @@
+export declare class DeviceRequirementsIdl { readonly packageNames: string; readonly versionAllow: Array<string>; readonly versionBlock: Array<undefined>; } 

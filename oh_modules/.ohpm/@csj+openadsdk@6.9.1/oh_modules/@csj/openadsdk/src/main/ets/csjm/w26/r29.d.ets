@@ -1,0 +1,1 @@
+import { MediationUserInfoForSegment } from "../../csj/e/csj/f/l1/m1/p1"; import { d1 } from "../../csj/s2/x2"; export declare class k216 { static d111: k216; d173?: MediationUserInfoForSegment; constructor(); static update(): void; e173(): d1 | undefined; } 

@@ -1,0 +1,1 @@
+import { d1 } from "../../../../../../s2/x2";  @Component export declare struct o86 { _tipText?: string; private _renderingSettings; private _controller; _jsonData?: d1; private _animateName; aboutToAppear(): void; build(): void; } 

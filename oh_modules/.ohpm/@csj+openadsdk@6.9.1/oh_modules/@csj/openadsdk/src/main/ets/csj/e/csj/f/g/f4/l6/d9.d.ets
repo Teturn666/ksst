@@ -1,0 +1,1 @@
+import { AdSlot } from "../../../../k/l"; import { CSJFeedAdListener } from "../../../../k/w"; import { NativeExpressAdListener } from "../../../../k/z"; export declare class u38 { loadFeedAd(adSlot: AdSlot, loadListener: CSJFeedAdListener): void; loadExpressFeedAd(adSlot: AdSlot, loadListener: NativeExpressAdListener): void; } 

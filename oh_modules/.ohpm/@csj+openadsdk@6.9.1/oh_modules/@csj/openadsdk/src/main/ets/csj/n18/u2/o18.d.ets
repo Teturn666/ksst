@@ -1,0 +1,1 @@
+export interface f122 { z97(): string[]; invoke(methodName: string, params: object): Promise<string>; } 

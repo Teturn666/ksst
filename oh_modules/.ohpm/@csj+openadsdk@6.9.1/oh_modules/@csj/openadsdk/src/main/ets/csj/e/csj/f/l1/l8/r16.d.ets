@@ -1,0 +1,1 @@
+export declare class RenderIdl { readonly backupRenderControl: number; readonly renderSequence: number; readonly renderThread: number; readonly reserveTime: number; } 

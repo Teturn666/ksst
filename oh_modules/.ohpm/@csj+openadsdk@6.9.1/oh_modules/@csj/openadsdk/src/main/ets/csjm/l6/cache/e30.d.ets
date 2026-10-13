@@ -1,0 +1,1 @@
+import { q205 } from "../../k/o26"; import { t205 } from "../../base/r26"; export declare class g227 { o179: t205; private z162; private k182; private v156; constructor(c230: t205, requestId: number, d230: q205); getRequestId(): number; getAdnRitId(): string; b180(): boolean; d180(b230: boolean): void; n163(): q205; } 

@@ -1,0 +1,1 @@
+import { AdSlot } from "../../../k/l"; import { a20 } from "./d6"; export interface j140 { getBiddingToken(adSlot: AdSlot, requestExtData: a20, slotType: number): string; e23(clientBiddingUrl: string): void; } 

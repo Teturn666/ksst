@@ -1,0 +1,1 @@
+import { Header } from "../e21/j21"; import List from '@ohos.util.List'; export declare abstract class j203 { abstract p154(url: string, l203: List<Header>): Map<string, string>; } export declare class k203 { private static q154; static readonly r154: string; static s154(callback: j203): void; static t154(): j203 | null; } 

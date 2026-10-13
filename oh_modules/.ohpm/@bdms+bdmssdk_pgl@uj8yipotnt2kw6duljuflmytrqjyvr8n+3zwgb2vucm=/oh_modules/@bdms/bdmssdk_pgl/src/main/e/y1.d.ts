@@ -1,0 +1,1 @@
+export declare class RegionType { static kUnknow: number; static kSG: number; static kVA: number; static incValue(value: number): boolean; static getStringValue(value: number): string; static getValueByString(z10: string): number; static toString(value: number): string; static stringWithValue(value: number): string; static hasValue(value: number, y10: number): boolean; } 

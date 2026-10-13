@@ -1,0 +1,36 @@
+{
+	"app": {
+		"bundleName": "com.bytedance.sdk.openadsdk",
+		"versionCode": 1000000,
+		"versionName": "1.0.0",
+		"minAPIVersion": 50000012,
+		"targetAPIVersion": 50000012,
+		"apiReleaseType": "Release",
+		"compileSdkVersion": "5.0.0.71",
+		"compileSdkType": "HarmonyOS",
+		"appEnvironments": [],
+		"bundleType": "app"
+	},
+	"module": {
+		"name": "mediation",
+		"type": "har",
+		"deviceTypes": [
+			"default",
+			"tablet",
+			"2in1"
+		],
+		"requestPermissions": [
+			{
+				"name": "ohos.permission.GYROSCOPE"
+			},
+			{
+				"name": "ohos.permission.ACCELEROMETER"
+			}
+		],
+		"packageName": "@csj/openadsdk",
+		"installationFree": false,
+		"virtualMachine": "ark12.0.2.0",
+		"compileMode": "esmodule",
+		"dependencies": []
+	}
+}

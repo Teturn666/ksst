@@ -1,0 +1,1 @@
+export declare class u94 { static y73: number[]; static getLocation(): number[]; } 

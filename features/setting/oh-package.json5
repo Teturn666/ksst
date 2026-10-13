@@ -1,0 +1,17 @@
+{
+  "name": "setting",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "utils": "file:../../commons/utils",
+    "widget": "file:../../commons/widget",
+    "search": "file:../../commons/search",
+    "db": "file:../../commons/db",
+    "network": "file:../../commons/network",
+    "login": "file:../login",
+  }
+}
+

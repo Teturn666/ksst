@@ -1,0 +1,1 @@
+export declare class DeepLinkIdl { readonly deeplinkUrl: string; readonly fallbackType: number; readonly fallbackUrl: string; } 

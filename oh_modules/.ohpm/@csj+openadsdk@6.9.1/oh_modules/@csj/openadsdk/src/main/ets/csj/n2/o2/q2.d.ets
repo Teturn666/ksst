@@ -1,0 +1,1 @@
+export declare class EventType { value: number; private constructor(); static readonly n1: EventType; static readonly s5: EventType; static readonly t5: EventType; static readonly u5: EventType; } 

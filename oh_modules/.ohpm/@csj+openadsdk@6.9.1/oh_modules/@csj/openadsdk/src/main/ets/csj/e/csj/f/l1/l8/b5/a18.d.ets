@@ -1,0 +1,1 @@
+export declare class PushConfigIdl { readonly action: string; readonly package: string; readonly service: string; readonly wakeupInterval: number; } 

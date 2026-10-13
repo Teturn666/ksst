@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "DbAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "DbAbility_label",
+      "value": "label"
+    }
+  ]
+}

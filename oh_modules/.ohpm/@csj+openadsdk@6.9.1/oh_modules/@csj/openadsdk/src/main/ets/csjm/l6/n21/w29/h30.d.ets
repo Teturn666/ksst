@@ -1,0 +1,1 @@
+import { WaterFallConfig } from "../../../base/f1/w26/h28"; import { j230 } from "./l30"; export declare class f230 extends j230 { x186(i236?: WaterFallConfig, triggerType?: number): boolean; } 

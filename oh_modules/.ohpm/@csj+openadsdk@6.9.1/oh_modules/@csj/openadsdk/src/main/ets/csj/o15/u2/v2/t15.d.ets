@@ -1,0 +1,1 @@
+import { Event } from "../../../n2/o2/r2"; import { ArrayList } from '@kit.ArkTS'; export declare class s111 { private static f139; static l84(event: Event, m176: string, level: number): void; private static print; static q136(k176?: ArrayList<Event>, l176?: string, level?: number): void; static g139(i176?: Array<Event>, j176?: string, level?: number): void; } 

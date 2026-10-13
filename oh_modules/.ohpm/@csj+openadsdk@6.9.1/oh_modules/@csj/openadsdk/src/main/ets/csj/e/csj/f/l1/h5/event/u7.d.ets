@@ -1,0 +1,1 @@
+import { y129 } from "./n19"; import { d1 } from "../../../../../../s2/x2"; import { p19 } from "../../f1/p5"; export declare class v33 extends y129 { private errorCode; private extra; constructor(a134: p19, custom: boolean, errorCode: number, extra: number); v3(): string; b107(jsonObject: d1): void; } 

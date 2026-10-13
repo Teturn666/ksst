@@ -1,0 +1,1 @@
+export declare namespace TokenCallback { type Realize = (code: number, desc: string, token: string) => void; } 

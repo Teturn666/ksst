@@ -1,0 +1,1 @@
+export declare class y118 { readonly g111?: string; readonly adPreviewUrl?: string; readonly c126?: string; readonly d126?: string; readonly e126?: string; readonly f126?: string; } 

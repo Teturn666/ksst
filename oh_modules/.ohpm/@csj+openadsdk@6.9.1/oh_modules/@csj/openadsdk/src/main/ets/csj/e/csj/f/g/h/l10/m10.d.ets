@@ -1,0 +1,1 @@
+import { NodeController } from '@kit.ArkUI'; import { w52 } from "../f/y9"; export declare abstract class c55 { protected state: w52; constructor(state: w52); k42(): boolean; o46(): boolean; n42(): boolean; o42(): number; n46(): NodeController | null; start(): void; d42(): void; } 

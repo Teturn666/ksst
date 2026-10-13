@@ -1,0 +1,1 @@
+import { g194 } from "../h25"; import { i194 } from "../i25/j25"; export declare class v194 extends i194 { private readonly g149; intercept(y194: g194): g194; e149(w194: string, x194: string): void; private redirect; } 

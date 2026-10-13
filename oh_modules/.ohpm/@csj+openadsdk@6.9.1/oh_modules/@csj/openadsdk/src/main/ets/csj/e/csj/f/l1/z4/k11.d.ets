@@ -1,0 +1,1 @@
+import inspector from '@ohos.arkui.inspector';  @Component export declare struct k59 { private TAG;  @State rotateAngle: number;  @Prop cancelLoading: boolean;  @State mRadius: number; private firstLayoutComplete; mListener: inspector.ComponentObserver; onLoadingStateChange(): void; startAnimation(): void; aboutToAppear(): void; build(): void; aboutToDisappear(): void; } 

@@ -1,0 +1,1 @@
+import { v180 } from "../../../f23"; export declare class x181 { static g143(size: number): v180; static create(y181: v180): v180; } 

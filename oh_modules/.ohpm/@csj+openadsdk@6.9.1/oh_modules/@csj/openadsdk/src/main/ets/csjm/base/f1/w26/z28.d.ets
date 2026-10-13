@@ -1,0 +1,1 @@
+export declare class DynamicRrule { readonly upper?: number; readonly lower?: number; readonly type?: number; readonly primeRits?: number[]; readonly jsMode?: number; readonly ruleId?: string; getJsMode(): number | undefined; getType(): number | undefined; } 

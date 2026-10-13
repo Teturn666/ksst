@@ -1,0 +1,1 @@
+export declare class PrivacyIdl { readonly adEnable: number; readonly appLogEnable: number; readonly fieldsAllowed: Array<string>; readonly personalizedAd: number; readonly secEnable: number; readonly sladarEnable: number; } 

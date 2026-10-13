@@ -1,0 +1,1 @@
+import { u15 } from "../g4/u4";  @Component export declare struct e24 { _controller: u15; private _mode; private _width; private _height; private _videoWidth; private _videoHeight; aboutToAppear(): void; build(): void; private layoutType_1; private _layoutType_image; private _titleBarOfBigImageOrVideo; private _layoutType_video; private layoutType_3; private _onClickWithType; } 

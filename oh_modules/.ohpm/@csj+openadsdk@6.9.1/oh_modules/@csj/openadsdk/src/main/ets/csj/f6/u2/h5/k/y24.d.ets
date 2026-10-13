@@ -1,0 +1,1 @@
+export interface a190 { v146(): string; getType(): string; w146(): XComponentController; setXComponentSurfaceSize(width: number, height: number): void; } 

@@ -1,0 +1,41 @@
+import common from '@ohos.app.ability.common';
+import { ValuesBucket } from '@ohos.data.ValuesBucket';
+import relationalStore from '@ohos.data.relationalStore';
+import { Biz_Type } from "./h";
+import { NativeEncoder } from "./e";
+import { LogAgent } from "./f";
+import { UMConfig } from "./l";
+export declare class LogStore {
+    tableName: string;
+    context: common.ApplicationContext;
+    static cfg: UMConfig;
+    interval: number | null;
+    cache: ValuesBucket[];
+    static store: relationalStore.RdbStore;
+    maxDelay: number;
+    lastWriteTime: number;
+    maxSize: number;
+    maxDiskSize: number;
+    maxRow: number;
+    logSizeCount: number;
+    eventCount: number;
+    maxDayEventCount: number;
+    encoder: NativeEncoder;
+    dayLogLimit: Array<number>;
+    enable: boolean;
+    agent: LogAgent;
+    isRolling: boolean;
+    constructor(d11: common.ApplicationContext, e11: string, f11: NativeEncoder, g11: LogAgent, { maxDelay: h11, maxDiskSize: i11, maxRow: j11 }: {
+        maxDelay: any;
+        maxDiskSize: any;
+        maxRow: any;
+    });
+    write(o10: any, p10: any, q10: any, r10?: any): boolean;
+    triggerRolling(w9: number): Promise<void>;
+    init(): void;
+    start(): void;
+    stop(): void;
+    private batchInsert;
+    isOverSize(): boolean;
+    static initAll(d9: UMConfig, e9: Biz_Type): Promise<void>;
+}

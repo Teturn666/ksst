@@ -1,0 +1,1 @@
+import { q111 } from "../../s2/q15"; import { u113 } from "./g6/f1/u15"; export interface v113 { x85(json: q111): Promise<u113>; a86(json: q111): Promise<u113>; c86(json: q111): Promise<u113>; } 

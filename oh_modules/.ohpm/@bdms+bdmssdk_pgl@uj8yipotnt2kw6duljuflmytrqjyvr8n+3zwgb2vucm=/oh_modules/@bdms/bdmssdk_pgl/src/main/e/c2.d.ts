@@ -1,0 +1,1 @@
+import * as bdmssdk from 'libbdmssdk.so'; export declare class SignBridgeNatives { static nativeHandleAction(action: number, b11: Map<string, string>): boolean; } export declare class SignBridge { static handleAction(action: number, a11: Map<string, string>): boolean; protected signBridgeNatives: bdmssdk.SignBridgeNatives; } 

@@ -1,0 +1,1 @@
+import { b184 } from "../z12/a24"; import { k184 } from "./d24"; export declare class p185 implements k184 { f144(request: b184): Promise<k184>; cache(request: b184, data: ArrayBuffer): void; e144(): string; } 

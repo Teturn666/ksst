@@ -1,0 +1,1 @@
+export declare class LiveStreamCofIdl { readonly appids: string; readonly enable: number; } 

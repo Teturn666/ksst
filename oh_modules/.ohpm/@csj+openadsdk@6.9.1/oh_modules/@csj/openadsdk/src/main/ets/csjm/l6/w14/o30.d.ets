@@ -1,0 +1,1 @@
+import { AdSlot } from "../../../csj/e/csj/k/l"; import { q205 } from "../../k/o26"; export declare class w230 { static d184(adSlot: AdSlot, adType: number): q205; static b185(ritId: string): boolean; private static g195; } 

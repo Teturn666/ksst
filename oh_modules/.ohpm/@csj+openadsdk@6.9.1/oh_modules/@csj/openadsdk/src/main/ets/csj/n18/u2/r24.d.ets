@@ -1,0 +1,1 @@
+import webview from '@ohos.web.webview'; export declare class o186 { private __event_id; private __msg_type; private params?; constructor(message: string, params?: object); isValid(): boolean; d146(): string; h146(): string; getParams(): object | undefined; sendMessage(controller: webview.WebviewController): void; } 

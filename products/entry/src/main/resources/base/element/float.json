@@ -1,0 +1,20 @@
+{
+  "float": [
+    {
+      "name": "float_14fp",
+      "value": "14fp"
+    },
+    {
+      "name": "float_32vp",
+      "value": "32vp"
+    },
+    {
+      "name": "float_5vp",
+      "value": "5vp"
+    },
+    {
+      "name": "float_line",
+      "value": "0.5vp"
+    }
+  ]
+}

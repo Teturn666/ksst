@@ -1,0 +1,1 @@
+export declare const HAR_VERSION = "6.9.1"; export declare const m = "release"; export declare const DEBUG = false; export declare const a1 = "default"; export default class BuildProfile { static readonly HAR_VERSION = "6.9.1"; static readonly m = "release"; static readonly DEBUG = false; static readonly a1 = "default"; } 

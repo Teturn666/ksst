@@ -1,0 +1,1 @@
+export declare class SplashCacheHitOptimIdl { readonly isNetAdConvertCache: boolean; readonly isPreloadOptim: boolean; readonly isWaitPreload: boolean; } 

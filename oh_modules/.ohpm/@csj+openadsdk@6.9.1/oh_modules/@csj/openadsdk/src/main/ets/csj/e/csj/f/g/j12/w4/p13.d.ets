@@ -1,0 +1,1 @@
+@Component export declare struct n86 { _tipText?: string;  @State _rotateValue: number; _animateList: Array<KeyframeState>; build(): void; } 

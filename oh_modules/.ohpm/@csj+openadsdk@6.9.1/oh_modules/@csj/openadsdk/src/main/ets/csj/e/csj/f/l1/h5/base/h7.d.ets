@@ -1,0 +1,1 @@
+export declare class q31 { r23: string | PixelMap | Resource; s23: number; } 

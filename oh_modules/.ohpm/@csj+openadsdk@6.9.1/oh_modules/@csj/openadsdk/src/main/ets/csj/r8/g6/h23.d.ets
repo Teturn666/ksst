@@ -1,0 +1,1 @@
+import { o180 } from "../k/a23"; export interface i181 { y141(request: o180): string; z141(request: o180): string; } export declare const k181: i181; 

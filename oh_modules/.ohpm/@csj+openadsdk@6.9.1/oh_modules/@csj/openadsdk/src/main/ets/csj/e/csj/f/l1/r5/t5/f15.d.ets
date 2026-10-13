@@ -1,0 +1,1 @@
+export declare class r106 { static s79(): void; static q79(): void; } 

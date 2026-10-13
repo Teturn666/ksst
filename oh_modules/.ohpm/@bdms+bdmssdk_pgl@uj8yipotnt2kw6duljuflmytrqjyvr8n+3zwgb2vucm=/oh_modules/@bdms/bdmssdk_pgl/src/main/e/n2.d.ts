@@ -1,0 +1,1 @@
+export declare class FrameType { static kSignMetaData: number; static kSignSei: number; static incValue(value: number): boolean; static getStringValue(value: number): string; static getValueByString(b13: string): number; static toString(value: number): string; static stringWithValue(value: number): string; static hasValue(value: number, a13: number): boolean; } 

@@ -1,0 +1,1 @@
+import { Context } from '@kit.AbilityKit'; export default class DeviceSPCheckManager { private static oaid; private static did; private static iid; static checkAndroidOAID(context: Context): string; static checkAndroidDeviceId(context: Context): string; static checkAndroidInstallId(context: Context): string; } 

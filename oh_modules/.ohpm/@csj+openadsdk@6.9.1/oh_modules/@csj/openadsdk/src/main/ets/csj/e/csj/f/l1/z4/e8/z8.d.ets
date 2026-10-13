@@ -1,0 +1,1 @@
+export declare class t37 { h19: number; i28: boolean; n28: boolean; m28: number; p28: number; q28: number; j28: number; adType: number; o28: boolean; l28: boolean; } 

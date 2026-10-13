@@ -1,0 +1,1 @@
+declare function retry<T>(func: () => T, condition: (e?: any) => Promise<boolean>): Promise<T>; 

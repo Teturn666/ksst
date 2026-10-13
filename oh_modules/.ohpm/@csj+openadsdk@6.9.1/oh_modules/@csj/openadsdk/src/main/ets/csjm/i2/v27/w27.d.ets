@@ -1,0 +1,1 @@
+export declare class r208 { static getReqId(map: Map<string, object>): string; } 

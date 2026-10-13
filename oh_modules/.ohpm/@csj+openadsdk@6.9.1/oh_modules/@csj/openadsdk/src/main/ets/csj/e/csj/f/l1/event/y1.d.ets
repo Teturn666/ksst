@@ -1,0 +1,1 @@
+import { d1 } from "../../../../../s2/x2"; import { AdEventIdl } from "../../../../../n2/o2/b3"; export declare class EventRequest { static getEventContentHeader(eventIDL: AdEventIdl, gromore?: boolean): d1; private static q86; } 

@@ -1,0 +1,1 @@
+export declare class SkipControlIdl { readonly leftOrRightMargin: number; readonly position: number; readonly skipStyle: number; readonly topOrBottomMargin: number; } 

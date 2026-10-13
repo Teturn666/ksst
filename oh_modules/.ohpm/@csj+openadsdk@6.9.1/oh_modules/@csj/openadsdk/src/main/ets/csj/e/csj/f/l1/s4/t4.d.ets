@@ -1,0 +1,1 @@
+export declare class t15 { private n59; private o59; static create(): t15; k29(u90: boolean): t15; q16(t90: boolean): t15; get l21(): boolean; get p59(): boolean; } 

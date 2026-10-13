@@ -1,0 +1,27 @@
+{
+	"app": {
+		"bundleName": "com.chznai.ikst",
+		"debug": true,
+		"versionCode": 1000000,
+		"versionName": "1.0.0",
+		"minAPIVersion": 50003015,
+		"targetAPIVersion": 50003015,
+		"apiReleaseType": "Release",
+		"compileSdkVersion": "5.0.3.135",
+		"compileSdkType": "HarmonyOS",
+		"appEnvironments": [],
+		"bundleType": "app",
+		"buildMode": "debug"
+	},
+	"module": {
+		"name": "exercise",
+		"type": "har",
+		"description": "$string:module_desc",
+		"mainElement": "ExerciseAbility",
+		"deviceTypes": [
+			"phone"
+		],
+		"packageName": "exercise",
+		"installationFree": false
+	}
+}

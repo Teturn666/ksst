@@ -1,0 +1,1 @@
+export declare class LandingConfigIdl { readonly swipeBackType: number; readonly filterTrack: number; } 

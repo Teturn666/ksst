@@ -1,0 +1,1 @@
+export declare function o195(params: Map<string, Object>): Object; 

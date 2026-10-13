@@ -1,0 +1,1 @@
+import { a190 } from "../../k/y24";  @Component export declare struct o192 { xComponentProxy: a190; load: (event?: Object) => void; destroy: () => void; setSurfaceId: (surfaceId: string) => void; build(): void; } 

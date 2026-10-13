@@ -1,0 +1,25 @@
+{
+	"app": {
+		"bundleName": "com.chznai.ikst",
+		"debug": true,
+		"versionCode": 1000009,
+		"versionName": "2.6.1",
+		"minAPIVersion": 50003015,
+		"targetAPIVersion": 50005017,
+		"apiReleaseType": "Release",
+		"compileSdkVersion": "5.0.5.165",
+		"compileSdkType": "HarmonyOS",
+		"appEnvironments": [],
+		"bundleType": "app",
+		"buildMode": "debug"
+	},
+	"module": {
+		"name": "parseExcel",
+		"type": "har",
+		"deviceTypes": [
+			"default"
+		],
+		"packageName": "parseexcel",
+		"installationFree": false
+	}
+}

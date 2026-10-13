@@ -1,0 +1,11 @@
+{
+  "module": {
+    "name": "setting",
+    "type": "har",
+    "description": "$string:module_desc",
+    "mainElement": "SettingAbility",
+    "deviceTypes": [
+      "phone"
+    ]
+  }
+}

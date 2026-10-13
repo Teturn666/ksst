@@ -1,0 +1,1 @@
+export interface CSJDislikeInteractionCallback { onShow: () => void; onSelected: (position: number, value: string, enforce: boolean) => void; onCancel: () => void; } 

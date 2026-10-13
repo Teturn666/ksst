@@ -1,0 +1,1 @@
+string request_permission 0x01000000

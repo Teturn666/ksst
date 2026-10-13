@@ -1,0 +1,1 @@
+import { p19 } from "../../f1/p5"; export declare class t106 { static t79(message: string, m111: p19): void; static x79(d111: string, message: string, e111: p19): void; static upload(y110: string, z110: string, message: string, a111: p19): Promise<object>; static getDeviceInfo(message: string, v110: string, w110: p19): string; } 

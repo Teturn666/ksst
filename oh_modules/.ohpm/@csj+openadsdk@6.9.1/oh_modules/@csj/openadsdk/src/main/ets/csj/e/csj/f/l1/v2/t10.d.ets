@@ -1,0 +1,1 @@
+export declare class i55 { static showToast(message: string | Resource): void; static showToast(message: string | Resource, duration: number): void; } 

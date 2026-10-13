@@ -1,0 +1,1 @@
+import { p19 } from "../f1/p5"; import { CSJAdDislike } from "../../../k/o";  @Entry({ routeName: RouteUrls.t16 }) @Component export declare struct m143 {  @Prop title: string; private url; meta?: p19; theme: number; isShowDislike: boolean; dislike?: CSJAdDislike; aboutToAppear(): void; aboutToDisappear(): void; private closeClick; private feedbackClick; build(): void; } 

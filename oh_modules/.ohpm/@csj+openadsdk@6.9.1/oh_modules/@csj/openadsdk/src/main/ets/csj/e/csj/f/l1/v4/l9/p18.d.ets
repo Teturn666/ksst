@@ -1,0 +1,1 @@
+import { f122 } from "../../../../../../n18/u2/o18"; import { p19 } from "../../f1/p5"; export declare abstract class g122 implements f122 { protected h21: p19; constructor(h122: p19); abstract z97(): string[]; abstract invoke(methodName: string, params: object): Promise<string>; } 

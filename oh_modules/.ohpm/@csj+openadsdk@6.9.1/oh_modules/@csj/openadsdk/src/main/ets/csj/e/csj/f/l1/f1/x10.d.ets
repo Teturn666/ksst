@@ -1,0 +1,1 @@
+import { p19 } from "./p5"; export declare class k55 { static p43(v134: p19): boolean; static s45(u134: p19): string; static l46(t134: p19): string; static d109(s134: p19): number; static n43(r134: p19): string; static o43(q134: p19): string; } 

@@ -1,0 +1,1 @@
+@Component export declare struct d29 { private _controller; private _currentController?; private _nextBannerController?;  @State private _showCurrent;  @State private _showNext; private doSlide; private onUpdateController; aboutToAppear(): void; build(): void; } 

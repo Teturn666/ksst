@@ -1,0 +1,1 @@
+@Component export declare struct t32 { private readonly TAG; private _videoController; aboutToAppear(): void; build(): void;  @Builder showTrafficNotice(): void; aboutToDisappear(): void; } 

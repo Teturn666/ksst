@@ -1,0 +1,1 @@
+export interface p180 { transform(buf: ArrayBuffer, pixelMap: PixelMap): void; } 

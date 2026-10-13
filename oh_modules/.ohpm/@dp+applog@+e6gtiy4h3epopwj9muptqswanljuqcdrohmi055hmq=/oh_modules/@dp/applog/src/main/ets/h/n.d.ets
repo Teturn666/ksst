@@ -1,0 +1,1 @@
+export declare class OaidModel { id: string; take_ms: string; } export declare class AAIDModel { id: string; } 

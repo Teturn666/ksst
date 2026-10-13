@@ -1,0 +1,1 @@
+import { g194 } from "./h25"; import { i194 } from "./i25/j25"; export type k194 = () => Promise<Object>; export declare class l194 { bindRouteName(routeName: string, o194: k194): void; openRoute(url: string): g194; getParams<T>(): T; back(): void; c149(m194: string, n194: string): void; f149(intercept: i194): void; } export declare const aweRouter: l194; 

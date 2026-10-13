@@ -1,0 +1,1 @@
+import { Manager } from "./s1"; export declare namespace InitCallback { type Realize = (code: number, desc: string, manager: Manager) => void; } 

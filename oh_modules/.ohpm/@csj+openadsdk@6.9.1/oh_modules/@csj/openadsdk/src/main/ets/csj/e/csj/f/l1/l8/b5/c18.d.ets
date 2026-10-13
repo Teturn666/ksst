@@ -1,0 +1,1 @@
+export declare class WebInfoIdl { readonly webInfoPageCount: number; readonly webInfoWifiEnable: number; } 

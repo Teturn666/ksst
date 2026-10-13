@@ -1,0 +1,1 @@
+import { k82 } from "../g13/h13";  @Component export declare struct q82 { _viewModel: k82; _onDownloadBtnClick?: (event: ClickEvent) => void; _imageWidth(): number;  @State _imgSrc: string; aboutToAppear(): void; build(): void; _getImageHeight(): number; } 

@@ -1,0 +1,1 @@
+export declare class b147 { static c118: string; } 

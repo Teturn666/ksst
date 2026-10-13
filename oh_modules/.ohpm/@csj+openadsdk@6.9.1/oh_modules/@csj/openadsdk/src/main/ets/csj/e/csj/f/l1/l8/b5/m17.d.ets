@@ -1,0 +1,1 @@
+export declare class BugfixIdl { readonly default: number; } 

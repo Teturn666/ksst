@@ -1,0 +1,1 @@
+export declare namespace BDMSPglInitTokenCallback { type Realize = (code: number, desc: string) => void; } 

@@ -1,0 +1,1 @@
+import { j143, k143 } from "./i20"; export declare class CSJTaskPool implements k143 { execute(csjTask: j143): Promise<Object>; } export declare const csjTaskPool: CSJTaskPool; 

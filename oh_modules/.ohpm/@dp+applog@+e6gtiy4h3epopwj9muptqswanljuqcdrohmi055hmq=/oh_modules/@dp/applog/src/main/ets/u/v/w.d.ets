@@ -1,0 +1,1 @@
+export declare enum ParamLevel { L0_ALL_PARAMS = 0, L1_NO_SENSITIVE = 1 } 

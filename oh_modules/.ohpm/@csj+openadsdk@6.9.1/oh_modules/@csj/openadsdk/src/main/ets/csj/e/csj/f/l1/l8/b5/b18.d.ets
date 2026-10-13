@@ -1,0 +1,1 @@
+export declare class WebUploadIdl { readonly contentType: Array<string>; readonly enable: number; readonly maxReportSizeSingle: number; readonly maxReportSizeTotal: number; readonly maxReportTimes: number; readonly reportOnlyWifiEnable: number; readonly reportUrl: string; readonly sendResponseToWebview: number; readonly storageType: number; } 

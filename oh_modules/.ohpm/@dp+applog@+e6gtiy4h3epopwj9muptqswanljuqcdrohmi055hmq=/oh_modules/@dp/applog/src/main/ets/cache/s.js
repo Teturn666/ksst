@@ -1,0 +1,1 @@
+import PreferenceStorage from "./o"; export class DeviceCacheFactory { static getSPRepoSync(d3, context) { return PreferenceStorage.getPreferenceRepoSync(d3, context); } static getSPRepo(c3, context) { return PreferenceStorage.getPreferenceRepo(c3, context); } } 

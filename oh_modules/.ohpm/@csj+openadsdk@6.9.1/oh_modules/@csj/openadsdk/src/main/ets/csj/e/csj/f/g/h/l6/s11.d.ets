@@ -1,0 +1,1 @@
+import { p19 } from "../../../l1/f1/p5"; export declare class h62 { static f45(tag: string, r65: p19): void; static v45(tag: string, q65: p19): void; } 

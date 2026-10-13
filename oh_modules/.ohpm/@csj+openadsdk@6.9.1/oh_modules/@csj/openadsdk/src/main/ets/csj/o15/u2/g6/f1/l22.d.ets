@@ -1,0 +1,1 @@
+import { Event } from "../../../../n2/o2/r2"; import { ArrayList } from '@kit.ArkTS'; export declare class e172 { v137: boolean; b138: ArrayList<Event>; } 

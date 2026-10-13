@@ -1,0 +1,1 @@
+@CustomDialog export declare struct u109 { private _suggestionDialogController;  @State _hasContent: boolean; private _cancelListener?; private _commitListener?; private _suggestContent; build(): void; } 

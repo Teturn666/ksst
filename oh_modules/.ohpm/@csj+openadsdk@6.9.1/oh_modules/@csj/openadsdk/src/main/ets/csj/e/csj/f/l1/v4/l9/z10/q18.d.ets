@@ -1,0 +1,1 @@
+import { g122 } from "../p18"; export declare class c124 extends g122 { z97(): string[]; invoke(methodName: string, params: object): Promise<string>; } 

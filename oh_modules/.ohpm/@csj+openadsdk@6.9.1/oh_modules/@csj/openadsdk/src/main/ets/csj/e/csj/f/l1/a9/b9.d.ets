@@ -1,0 +1,1 @@
+import { y92 } from "./n13"; export interface z37 { w28: (result: y92) => void; x28: (result: y92) => void; y28: () => void; z28: () => void; a29: () => void; } 

@@ -1,0 +1,1 @@
+import { AdSlot } from "../../../csj/e/csj/k/l"; import { NativeExpressAdListener } from "../../../csj/e/csj/k/z"; import { p213 } from "./n28"; export declare class p205 extends p213 { private ads?; private n160?; loadBannerAd(adSlot: AdSlot, loadListener: NativeExpressAdListener): void; onAdLoadSuccess(): void; b183(code: number, message: string): void; onAdCached(): void; } 

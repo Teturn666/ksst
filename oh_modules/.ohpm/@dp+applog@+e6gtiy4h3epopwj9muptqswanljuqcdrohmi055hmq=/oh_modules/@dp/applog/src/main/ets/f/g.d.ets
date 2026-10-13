@@ -1,0 +1,1 @@
+export declare class AppLogNetworkClientResponse { status: number; errMsg?: string; body?: string | Object | ArrayBuffer; headers?: Map<string, string>; constructor(status: number); } 

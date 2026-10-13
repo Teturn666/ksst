@@ -1,0 +1,1 @@
+export declare class i82 { private static instance; private e95; private f95; private g95; private h95; private i95; private j95; private e8; private constructor(); init(): void; static get(): i82; k95(): boolean; i57(r118: boolean): void; c56(): boolean; e56(): boolean; l95(open: boolean): void; m95(): boolean; setUserData(data: string): void; getUserData(): string; } 

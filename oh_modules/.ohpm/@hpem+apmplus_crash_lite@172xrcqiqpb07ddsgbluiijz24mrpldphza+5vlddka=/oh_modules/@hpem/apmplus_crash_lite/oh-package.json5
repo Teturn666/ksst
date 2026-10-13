@@ -1,0 +1,1 @@
+{"name":"@hpem/apmplus_crash_lite","version":"2.0.7","description":"Report Launch Event For ApmPlus Lite.","main":"Index.js","author":"Dev Infra/AppInfra/App Health/APM","license":"Apache-2.0","dependencies":{},"types":"Index.d.ets","artifactType":"obfuscation","metadata":{"sourceRoots":["./src/main"]},"compatibleSdkVersion":11,"compatibleSdkType":"HarmonyOS","obfuscated":true}

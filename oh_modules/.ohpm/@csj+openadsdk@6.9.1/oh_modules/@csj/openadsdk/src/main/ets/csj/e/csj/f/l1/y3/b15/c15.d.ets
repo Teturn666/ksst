@@ -1,0 +1,1 @@
+export declare class d106 { ODID: string | undefined; t78: string | undefined; e78: Number; memory: number; h78: number; deviceModel: string; p78: number; r78: number[] | undefined; cache: Map<string, string> | undefined; a78(): Map<string, string>; i3(): Map<string, string>; } 

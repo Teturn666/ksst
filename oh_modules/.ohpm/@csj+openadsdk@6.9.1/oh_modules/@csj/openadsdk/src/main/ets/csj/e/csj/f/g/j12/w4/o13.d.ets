@@ -1,0 +1,1 @@
+@Component export declare struct g86 { _tipText?: string; _buttonColor: string;  @State _rotateValue: number; build(): void; } 

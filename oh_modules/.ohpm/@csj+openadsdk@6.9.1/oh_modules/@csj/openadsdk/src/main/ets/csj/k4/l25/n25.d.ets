@@ -1,0 +1,1 @@
+import { g194 } from "../h25"; import { i194 } from "../i25/j25"; export declare class t194 extends i194 { intercept(u194: g194): g194; } 

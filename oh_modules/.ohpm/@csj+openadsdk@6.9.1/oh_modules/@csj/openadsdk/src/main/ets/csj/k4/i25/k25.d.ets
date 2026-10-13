@@ -1,0 +1,1 @@
+import { g194 } from "../h25"; import { i194 } from "./j25"; declare class c195 { private header; private l149; f149(intercept: i194): void; m149(intercept: i194): void; transform(e195: g194): g194; private j149; } export declare const j194: c195; export {}; 

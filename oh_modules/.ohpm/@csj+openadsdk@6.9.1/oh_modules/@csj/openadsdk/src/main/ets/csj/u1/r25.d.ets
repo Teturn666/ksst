@@ -1,0 +1,1 @@
+export default class StorageSpace { l152(): Promise<number>; m152(): Promise<number>; n152(filePath: string): Promise<number>; o152(filePath: string): Promise<number>; } 

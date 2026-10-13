@@ -1,0 +1,1 @@
+import { AdSlot } from "../../../../k/l"; import { u48 } from "../../../l1/v4/l9/m9"; import { p19 } from "../../../l1/f1/p5"; import { w52 } from "./y9"; export declare class x53 { r36: u48; private state; init(state: w52, a54: p19, adSlot: AdSlot): void; sendMessage(message: string, params: object): void; x36(isVisible: boolean): void; } 

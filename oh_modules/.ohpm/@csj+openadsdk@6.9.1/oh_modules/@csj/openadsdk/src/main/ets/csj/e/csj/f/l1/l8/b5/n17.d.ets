@@ -1,0 +1,1 @@
+import { VideoCacheIdl } from "./w17"; export declare class PitayaAbSettingsIdl { readonly videoCache?: VideoCacheIdl; } 

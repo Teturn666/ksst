@@ -1,0 +1,1 @@
+export declare class AudioIdl { readonly audioUrl: string; readonly rewardAudioCachedType: number; readonly audioPreloadSize: number; readonly size: number; readonly fileHash: string; readonly audioDuration: number; readonly start: number; readonly repeatCount: number; } 

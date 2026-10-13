@@ -1,0 +1,1 @@
+import { ContentIdl } from "./o17"; export declare class PitayaGeneralSettingsIdl { readonly content?: ContentIdl; } 

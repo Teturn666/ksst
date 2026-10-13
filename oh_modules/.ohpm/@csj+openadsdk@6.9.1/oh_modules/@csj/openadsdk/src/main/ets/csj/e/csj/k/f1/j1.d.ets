@@ -1,0 +1,1 @@
+export declare class StartResult { readonly code: number; readonly msg: string; constructor(code?: number, msg?: string); } 

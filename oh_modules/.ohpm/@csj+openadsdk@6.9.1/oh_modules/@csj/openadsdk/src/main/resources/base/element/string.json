@@ -1,0 +1,56 @@
+{
+  "string": [
+    {
+      "name": "page_show",
+      "value": "page from package"
+    },
+    {
+      "name": "csj_page_show",
+      "value": "page from package"
+    },
+    {
+      "name": "reward_retain_dialog_content",
+      "value": "再看%ss可领取奖励"
+    },
+    {
+      "name": "reward_retain_dialog_btn_continue",
+      "value": "继续观看"
+    },
+    {
+      "name": "reward_retain_dialog_btn_exit",
+      "value": "坚持退出"
+    },
+    {
+      "name": "csj_dislike_other_suggestion",
+      "value": "其它建议"
+    },
+    {
+      "name": "csj_dislike_suggestion_commit",
+      "value": "提交"
+    },
+    {
+      "name": "csj_dislike_comment_hint",
+      "value": "请具体说明问题，我们将尽快处理"
+    },
+    {
+      "name": "tt_dislike_feedback_success",
+      "value": "感谢您的反馈！\n我们将为您带来更优质的广告体验"
+    },
+    {
+      "name": "tt_dislike_feedback_repeat",
+      "value": "您已成功提交反馈，请勿重复提交哦！"
+    },
+    {
+      "name": "splash_skip_text",
+      "value": "跳过"
+    },
+    {
+      "name": "csj_play_again_title",
+      "value": "恭喜您已经获得奖励，是否要继续观看视频，再得超值奖励"
+    },
+    {
+      "name": "shared_desc",
+      "value": "存储通用能力组件"
+    }
+  ]
+}

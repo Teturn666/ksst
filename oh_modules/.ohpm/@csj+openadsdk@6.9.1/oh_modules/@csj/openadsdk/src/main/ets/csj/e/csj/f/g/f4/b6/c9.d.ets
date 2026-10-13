@@ -1,0 +1,1 @@
+import { h36 } from "../i4/n8"; import { FrameNode, NodeController } from '@kit.ArkUI'; export declare class a38 { private t22?; n21(g48: h36): z29; release(): void; } export declare class z29 extends NodeController { private u22; private param; private v22?; constructor(param: h36); makeNode(context: UIContext): FrameNode | null; release(): void; } 

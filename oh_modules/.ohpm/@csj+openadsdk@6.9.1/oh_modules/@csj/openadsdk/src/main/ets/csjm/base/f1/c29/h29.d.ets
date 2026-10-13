@@ -1,0 +1,1 @@
+import { BiddingWaterfallMediaConfig } from "./i29"; export declare class BiddingWaterfallModel { readonly version?: string; readonly adnRitConfig?: Array<BiddingWaterfallMediaConfig>; } 

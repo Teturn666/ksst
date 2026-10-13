@@ -1,0 +1,1 @@
+import { u48 } from "../../../l1/v4/l9/m9"; export declare class j54 { q38: boolean; isRenderSuc: boolean; videoWidth: number; videoHeight: number; s38: number; t38: number; v38: u48; sendMessage(message: string, params: object): void; } 

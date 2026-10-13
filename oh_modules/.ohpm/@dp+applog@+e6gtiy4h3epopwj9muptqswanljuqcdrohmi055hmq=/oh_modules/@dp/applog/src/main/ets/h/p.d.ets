@@ -1,0 +1,1 @@
+import { InitConfig } from "../c/d"; export default class DeviceInfoManager { private static extra; static setExtraMap(extra: DeviceExtraParam | undefined): void; static setCommonHeader(context: Context, config: InitConfig): Promise<void>; } export interface DeviceExtraParam { preChannel?: string; } 

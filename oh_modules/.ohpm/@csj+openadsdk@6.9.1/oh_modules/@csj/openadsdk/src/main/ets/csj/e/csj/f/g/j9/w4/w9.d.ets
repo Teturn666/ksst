@@ -1,0 +1,1 @@
+import { s48 } from "../f1/i9";  @Entry({ routeName: RouteUrls.q35 }) @Component export declare struct u50 { private TAG;  @Prop model: s48; private mController;  @State topSafeHeight: number;  @State bottomSafeHeight: number; aboutToAppear(): void; onPageShow(): void; onPageHide(): void; aboutToDisappear(): void; build(): void; } 

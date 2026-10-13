@@ -1,0 +1,1 @@
+import { EventPriority } from "./p2"; import { EventType } from "./q2"; export interface o5 { v3(): string | undefined; d3(): EventPriority; e3(): EventType; toString(): string; } 

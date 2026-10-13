@@ -1,0 +1,1 @@
+import { Event } from '@ohos.worker'; export interface j171 { k136(event: Event): boolean; } 

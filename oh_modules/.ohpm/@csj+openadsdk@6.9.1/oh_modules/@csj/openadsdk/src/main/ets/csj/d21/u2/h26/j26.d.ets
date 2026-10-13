@@ -1,0 +1,1 @@
+export interface q203 { fileName(): string; mimeType(): string; length(): number; v154(stream: ArrayBuffer): number; } 

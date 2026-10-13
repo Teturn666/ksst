@@ -1,0 +1,1 @@
+import { p19 } from "../f1/p5"; export declare class p15 { meta: p19; theme: number; constructor(f144: p19, theme?: number); } 

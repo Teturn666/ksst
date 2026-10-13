@@ -1,0 +1,1 @@
+export declare class u113 { private r107; static BUSY: number; static OTHER_ERROR: number; static j86: number; constructor(code: number); getCode(): number; } 

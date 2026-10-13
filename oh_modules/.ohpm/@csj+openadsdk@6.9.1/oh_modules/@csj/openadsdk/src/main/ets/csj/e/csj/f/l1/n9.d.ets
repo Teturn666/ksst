@@ -1,0 +1,1 @@
+export declare class v48 { static c31: number; static h31: number; static q30: boolean; static r30: boolean; } 

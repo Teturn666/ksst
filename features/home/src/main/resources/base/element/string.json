@@ -1,0 +1,104 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "HomeAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "HomeAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "search_helper",
+      "value": "搜题"
+    },
+    {
+      "name": "online_exercise",
+      "value": "在线练习"
+    },
+    {
+      "name": "use_helper",
+      "value": "使用帮助"
+    },
+    {
+      "name": "pay_times",
+      "value": "充值次数"
+    },
+    {
+      "name": "reside_times",
+      "value": "剩余次数"
+    },
+    {
+      "name": "photo_search",
+      "value": "拍照搜题"
+    },
+    {
+      "name": "order_exercise",
+      "value": "顺序练习"
+    },
+    {
+      "name": "mock_exam",
+      "value": "模拟考试"
+    },
+    {
+      "name": "wrong_review",
+      "value": "错题复习"
+    },
+    {
+      "name": "collection_exercise",
+      "value": "收藏练习"
+    },
+    {
+      "name": "unlimited_times",
+      "value": "不限次数"
+    },
+    {
+      "name": "long",
+      "value": "（长期）"
+    },
+    {
+      "name": "traffic_teach",
+      "value": "12123教程"
+    },
+    {
+      "name": "search_teach",
+      "value": "使用教程"
+    },
+    {
+      "name": "type_car",
+      "value": "C1/C2/C3"
+    },
+    {
+      "name": "type_truck",
+      "value": "A2/B2"
+    },
+    {
+      "name": "type_bus",
+      "value": "A1/A3/B1"
+    },
+    {
+      "name": "type_moto",
+      "value": "D/E/F"
+    },
+    {
+      "name": "notice_tip",
+      "value": "声明：本应用仅供考前练习、学习使用。禁止用于12123正式考试，否则后果自负，与本应用无关。"
+    },
+    {
+      "name": "internet_reason",
+      "value": "Request network data"
+    },
+    {
+      "name": "network_reason",
+      "value": "Obtaining Network Information"
+    },
+    {
+      "name": "almighty_search",
+      "value": "拍照搜题"
+    }
+  ]
+}

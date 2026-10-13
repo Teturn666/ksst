@@ -1,0 +1,1 @@
+import { a17 } from "../../../l1/v4/express/w4/y4"; import { w52 } from "../f/y9"; export declare class l59 { onAppear(state: w52, b60: a17, uiContext: UIContext): void; } 

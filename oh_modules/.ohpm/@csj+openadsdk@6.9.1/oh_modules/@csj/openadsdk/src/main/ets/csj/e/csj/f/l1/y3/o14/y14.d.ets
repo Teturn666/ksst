@@ -1,0 +1,1 @@
+import { q100 } from "./v14"; export declare class s100 implements q100 { static d74: string; getToken(): Promise<Map<string, string>>; private sendRequest; f74(x100: object): Map<string, string>; private e74; private i74; } 

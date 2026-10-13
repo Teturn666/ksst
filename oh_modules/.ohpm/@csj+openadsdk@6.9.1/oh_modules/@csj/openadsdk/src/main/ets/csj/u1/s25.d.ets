@@ -1,0 +1,1 @@
+import { Context } from '@ohos.abilityAccessCtrl'; import e196 from "./r25"; export declare namespace f196 { class h196 { private context; private t149; init(context: Context): void; u149(): e196; v149(): string; w149(): string; x149(): string; y149(): string; z149(): string; a150(): string; } } export declare const g196: f196.h196; 

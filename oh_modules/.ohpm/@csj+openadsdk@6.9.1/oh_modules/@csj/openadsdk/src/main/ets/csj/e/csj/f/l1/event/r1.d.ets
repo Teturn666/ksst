@@ -1,0 +1,1 @@
+import { o94 } from "../../../../../e3/c14"; import { w94 } from "../../../../../e3/f14"; export declare class ServiceAppLog implements w94 { mDeviceId: string; init(context: Context, appInfo: o94): void; getInstallId(): string; getOaid(context: Context): Promise<string>; getDeviceId(): string; getApplogSdkVersion(): string; } 

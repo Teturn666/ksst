@@ -1,0 +1,1 @@
+export declare class ImageIdl { readonly height: number; readonly width: number; readonly url: string; readonly imageKey: string; readonly duration: number; readonly mimagePreview: boolean; getHeight(): number; getWidth(): number; getImageUrl(): string; getDuration(): number; sValid(): boolean; isImagePreview(): boolean; getImageKey(): string; } 

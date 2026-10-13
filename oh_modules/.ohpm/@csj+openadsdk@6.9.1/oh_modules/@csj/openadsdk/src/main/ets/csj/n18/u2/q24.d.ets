@@ -1,0 +1,1 @@
+export declare class n186 { private func; private params; private JSSDK; private __msg_type; private __callback_id; constructor(jsonObject: object); isValid(): string | false; a146(): string; getParams(): object; g146(): string; } 

@@ -1,0 +1,1 @@
+export declare class Mode { type: number; ratio: number; width: number; height: number; constructor(type: number, ratio: number, width: number, height: number); } 

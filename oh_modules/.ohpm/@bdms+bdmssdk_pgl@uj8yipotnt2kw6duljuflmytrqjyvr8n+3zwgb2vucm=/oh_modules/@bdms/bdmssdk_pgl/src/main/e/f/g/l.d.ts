@@ -1,0 +1,1 @@
+export declare namespace BDMSPglUnInitCallback { type Realize = (code: number, desc: string, appId: string) => void; } 

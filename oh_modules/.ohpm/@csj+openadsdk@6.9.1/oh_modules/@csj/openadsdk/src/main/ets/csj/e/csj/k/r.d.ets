@@ -1,0 +1,1 @@
+export interface CSJClientBidding { win(auctionBidToWin?: number): void; loss(auctionPrice?: number, lossReason?: string, winBidder?: string): void; setPrice(auctionPrice?: number): void; } 

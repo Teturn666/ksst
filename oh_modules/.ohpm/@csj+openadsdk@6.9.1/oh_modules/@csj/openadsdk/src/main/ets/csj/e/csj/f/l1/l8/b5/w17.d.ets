@@ -1,0 +1,1 @@
+export declare class VideoCacheIdl { readonly deploymentId: number; readonly enable: boolean; readonly packageName: string; } 

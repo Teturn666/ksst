@@ -1,0 +1,1 @@
+export declare class GeckoIdsIdl { readonly key: string; readonly values: Array<string>; } 

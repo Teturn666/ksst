@@ -1,0 +1,1 @@
+import { h181, f181, g181 } from "../../g23"; export declare class l182 implements h181 { call(request: f181): Promise<g181>; } 

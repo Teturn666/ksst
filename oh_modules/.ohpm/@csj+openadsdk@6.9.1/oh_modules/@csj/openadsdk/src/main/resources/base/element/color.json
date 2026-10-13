@@ -1,0 +1,24 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "background_color",
+      "value": "#30161823"
+    },
+    {
+      "name": "suggest_dialog_textarea_placeholder_color",
+      "value": "#57161823"
+    },
+    {
+      "name": "csj_feed_draw_video_background_color",
+      "value": "#20161823"
+    },
+    {
+      "name": "white",
+      "value": "#FFFFFF"
+    }
+  ]
+}

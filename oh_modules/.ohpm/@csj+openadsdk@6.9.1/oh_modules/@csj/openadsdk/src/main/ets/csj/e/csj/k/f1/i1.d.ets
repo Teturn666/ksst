@@ -1,0 +1,1 @@
+export interface FilterWord { getId(): string; getName(): string; getIsSelected(): boolean; getOptions(): Array<FilterWord>; isValid(): boolean; hasSecondOptions(): boolean; addOption(option: FilterWord): void; setIsSelected(isSelected: boolean): void; } 

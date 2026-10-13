@@ -1,0 +1,1 @@
+import { j143 } from "./i20"; import { taskpool } from '@kit.ArkTS'; export declare class CSJTask implements j143 { private x114; private y114; constructor(func: Function, ...args: Object[]); getTask(): taskpool.Task; } 

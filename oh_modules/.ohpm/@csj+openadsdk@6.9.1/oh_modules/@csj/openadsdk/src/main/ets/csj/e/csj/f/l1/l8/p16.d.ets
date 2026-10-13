@@ -1,0 +1,1 @@
+export declare class LiveInfoIdl { readonly awemeAgreements: string; readonly awemePrivacy: string; readonly enablePlayableAuth: boolean; readonly isSilentAuth: boolean; readonly liveCsjLibraParam: string; readonly promotionId: string; } 

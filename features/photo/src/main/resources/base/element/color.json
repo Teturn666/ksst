@@ -1,0 +1,52 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "c_3f3f3f",
+      "value": "#3f3f3f"
+    },
+    {
+      "name": "c_f4f4f4",
+      "value": "#f4f4f4"
+    },
+    {
+      "name": "c_1f59a8",
+      "value": "#1f59a8"
+    },
+    {
+      "name": "c_ff0000",
+      "value": "#ff0000"
+    },
+    {
+      "name": "c_f75a23",
+      "value": "#f75a23"
+    },
+    {
+      "name": "c_0440dc",
+      "value": "#0440dc"
+    },
+    {
+      "name": "c_3e3e3e",
+      "value": "#3e3e3e"
+    },
+    {
+      "name": "c_9d9d9d",
+      "value": "#9d9d9d"
+    },
+    {
+      "name": "c_d3d3d3",
+      "value": "#d3d3d3"
+    },
+    {
+      "name": "c_b1844e",
+      "value": "#b1844e"
+    },
+    {
+      "name": "c_2a5089",
+      "value": "#2a5089"
+    }
+  ]
+}

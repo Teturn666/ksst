@@ -1,0 +1,1 @@
+import { j17 } from "../g4/k5";  @Component export declare struct h28 { TAG: string;  @State _backup: boolean; _controller: j17; aboutToAppear(): void; build(): void; aboutToDisappear(): void; } 

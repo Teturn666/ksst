@@ -1,0 +1,1 @@
+export declare class g217 { static u177(w250: number[]): string | undefined; } 

@@ -1,0 +1,1 @@
+import { w52 } from "../../f/y9";  @Component export declare struct f60 {  @Consume(KEY_RewardFullState) _state: w52; build(): void; } 

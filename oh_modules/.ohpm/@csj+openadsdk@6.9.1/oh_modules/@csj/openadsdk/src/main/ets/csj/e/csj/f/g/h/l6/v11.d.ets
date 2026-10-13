@@ -1,0 +1,1 @@
+import { p19 } from "../../../l1/f1/p5"; declare class w63 { o45(x63: p19): Promise<void>; } export declare const b63: w63; export {}; 

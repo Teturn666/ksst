@@ -1,0 +1,1 @@
+{"name":"encryption","version":"1.0.0","description":"Please describe the basic information.","main":"Index.ets","author":"","license":"","dependencies":{"utils":"file:../utils"},"devDependencies":{},"dynamicDependencies":{}}

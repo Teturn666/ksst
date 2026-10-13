@@ -1,0 +1,1 @@
+import { ArrayList } from '@kit.ArkTS'; export declare class CSJArrayList<T> extends ArrayList<T> { addAdId(element: T): T; } 

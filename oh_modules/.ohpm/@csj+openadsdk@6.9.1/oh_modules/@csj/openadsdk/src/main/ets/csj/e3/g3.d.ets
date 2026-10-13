@@ -1,0 +1,1 @@
+export interface c106 { c78: boolean; s78: boolean; w123: boolean; d78: boolean; f78: boolean; g78: boolean; i78: boolean; j78: boolean; q78: boolean; } export interface h1 { i3(): Map<string, string>; b78(context: Context, config: c106): Promise<object>; } 

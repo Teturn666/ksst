@@ -1,0 +1,1 @@
+export declare class s33 { static readonly TYPE_CLICK_COMMON: number; static readonly TYPE_CLICK_CREATIVE: number; static readonly i24: number; static readonly n27 = 4; static readonly h24: number; static readonly z56: number; } 

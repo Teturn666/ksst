@@ -1,0 +1,1 @@
+import { l233, t233 } from "./b31"; export declare class u233 implements t233 { intercept(r238: l233): void; } 

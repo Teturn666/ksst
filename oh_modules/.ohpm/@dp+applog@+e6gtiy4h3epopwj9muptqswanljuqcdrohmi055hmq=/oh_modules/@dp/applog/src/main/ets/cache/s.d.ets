@@ -1,0 +1,1 @@
+import PreferenceStorage from "./o"; export declare class DeviceCacheFactory { static getSPRepoSync(f1: string, context: Context): PreferenceStorage; static getSPRepo(e1: string, context: Context): Promise<PreferenceStorage>; } 

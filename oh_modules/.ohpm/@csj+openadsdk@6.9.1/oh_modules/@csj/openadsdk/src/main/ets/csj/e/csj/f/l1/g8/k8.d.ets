@@ -1,0 +1,1 @@
+import { ArrayList } from '@kit.ArkTS'; import { sensor } from '@kit.SensorServiceKit'; export interface m145 { g26: () => number; f26: () => Area | undefined; } export declare class f35 { static readonly t25 = 0.95; static g117(w146: ArrayList<m145>): m145 | undefined; static x116(sensorId: sensor.SensorId): Promise<boolean>; } 

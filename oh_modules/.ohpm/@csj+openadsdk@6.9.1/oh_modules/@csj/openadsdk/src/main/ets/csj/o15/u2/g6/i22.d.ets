@@ -1,0 +1,1 @@
+import { EventType } from "../../../n2/o2/q2"; import { o171 } from "./h22"; export declare class b172 extends o171 { getAdType(): EventType; } 

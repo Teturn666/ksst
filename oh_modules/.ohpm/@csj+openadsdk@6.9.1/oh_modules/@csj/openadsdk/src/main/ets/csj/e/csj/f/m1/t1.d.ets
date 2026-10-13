@@ -1,0 +1,1 @@
+import { StartResult } from "../../k/f1/j1"; import { SDKConfig } from "../l1/m1/n1"; export interface CSJSdkInitializer { initSdk(context: Context, config: SDKConfig): void; startSdk(): Promise<StartResult>; isSdkInitComplete(): boolean; updateAdConfig(config: SDKConfig): void; } 

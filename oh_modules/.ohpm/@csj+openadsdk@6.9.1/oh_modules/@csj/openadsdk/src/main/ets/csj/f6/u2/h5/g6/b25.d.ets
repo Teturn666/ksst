@@ -1,0 +1,1 @@
+export declare class i190 { private domain; private prefix; private format; private isDebug; constructor(prefix?: string, domain?: number); debug(tag: string, args: string): void; info(tag: string, args: string): void; warn(tag: string, args: string): void; error(tag: string, args: string): void; } export declare const d190: i190; 

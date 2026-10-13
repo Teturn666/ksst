@@ -1,0 +1,1 @@
+import { q180 } from "../../../k/c23"; import { f181 } from "../../g23"; export declare class HttpRequest implements f181 { private url; private needHeader; private needRequestTime; private o143?; constructor(url: string, r182: boolean, s182: boolean, t182?: q180); getUrl(): string; u141(): boolean; v141(): boolean; w141(): q180 | undefined; } 

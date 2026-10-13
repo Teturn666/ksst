@@ -1,0 +1,3 @@
+string adapter_gdt_desc 0x03000000
+string adapter_gdt_label 0x03000001
+string module_desc 0x03000002

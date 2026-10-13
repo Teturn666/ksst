@@ -1,0 +1,1 @@
+import { BDMSPglManager } from "./r"; export declare namespace BDMSPglGetCallback { type Realize = (code: number, desc: string, manager: BDMSPglManager) => void; } 

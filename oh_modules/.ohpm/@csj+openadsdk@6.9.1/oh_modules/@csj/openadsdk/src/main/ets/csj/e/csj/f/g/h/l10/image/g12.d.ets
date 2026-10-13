@@ -1,0 +1,1 @@
+import { c55 } from "../m10"; import { NodeController } from '@kit.ArkUI'; import { p19 } from "../../../../l1/f1/p5"; export declare class v71 extends c55 { o46(): boolean; n46(): NodeController; n42(): boolean; o42(): number; start(): void; d42(): void; static isValid(d73: p19): boolean; } 

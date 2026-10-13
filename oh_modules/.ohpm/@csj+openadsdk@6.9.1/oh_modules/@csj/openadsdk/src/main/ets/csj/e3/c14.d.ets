@@ -1,0 +1,1 @@
+export interface o94 { h66(): boolean | undefined; getAppName(): string | undefined; getPackageName(): string | undefined; i66(): string; j66(): number; getAppId(): string; isPaid(): boolean | undefined; l66(): string | undefined; m66(): string | undefined; } 

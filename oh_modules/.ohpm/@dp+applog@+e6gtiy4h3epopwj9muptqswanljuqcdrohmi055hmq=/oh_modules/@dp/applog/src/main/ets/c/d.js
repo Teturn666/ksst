@@ -1,0 +1,1 @@
+export class InitConfig { constructor(appId, k3) { this.autoStart = true; this.logEnable = false; this.spName = 'applog_meta'; this.deviceType = ''; this.trackEvent = true; this.appId = appId; this.channel = k3; } } 

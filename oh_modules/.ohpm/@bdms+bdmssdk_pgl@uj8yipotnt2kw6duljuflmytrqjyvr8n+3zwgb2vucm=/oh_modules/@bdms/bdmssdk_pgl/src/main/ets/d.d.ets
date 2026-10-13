@@ -1,0 +1,1 @@
+export declare class InitImpl { static initialize(): void; } export declare const Initialize: () => void; 

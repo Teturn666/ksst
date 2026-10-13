@@ -1,0 +1,16 @@
+{
+  "module": {
+    "name": "points",
+    "type": "har",
+    "description": "$string:module_desc",
+    "mainElement": "PointsAbility",
+    "deviceTypes": [
+      "phone"
+    ],
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.INTERNET"
+      }
+    ]
+  }
+}

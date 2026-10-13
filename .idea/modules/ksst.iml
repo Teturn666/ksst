@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="EMPTY_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../..">
+      <excludeFolder url="file://$MODULE_DIR$/../../.arkui-x/android/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../.arkui-x/android/app/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../.arkui-x/android/app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../.arkui-x/android/library/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../.arkui-x/android/library/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../.arkui-x/ios/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/db/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/db/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/db/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/db/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/db/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/db/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/encryption/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/encryption/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/encryption/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/encryption/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/encryption/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/encryption/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/network/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/network/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/network/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/network/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/network/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/network/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/search/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/search/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/search/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/search/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/search/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/search/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/utils/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/utils/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/utils/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/utils/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/utils/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/utils/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/widget/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/widget/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/widget/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/widget/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/widget/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/widget/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/bank/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/bank/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/bank/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/bank/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/bank/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/bank/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/exercise/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/exercise/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/exercise/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/exercise/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/exercise/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/exercise/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/home/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/home/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/home/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/home/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/home/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/home/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/login/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/login/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/login/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/login/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/login/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/login/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/mine/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/mine/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/mine/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/mine/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/mine/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/mine/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/pay/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/pay/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/pay/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/pay/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/pay/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/pay/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/photo/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/photo/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/photo/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/photo/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/photo/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/photo/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/points/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/points/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/points/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/points/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/points/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/points/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/setting/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/setting/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/setting/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/setting/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/setting/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/setting/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/share/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/share/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/share/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/share/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/share/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/share/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/view/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/view/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/view/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/view/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/view/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/view/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../products/entry/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../products/entry/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../products/entry/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../products/entry/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../products/entry/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../products/entry/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/web/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/web/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/web/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/web/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/web/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/web/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/web/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/web/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/web/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/web/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/web/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/web/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/webs/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/webs/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/webs/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/webs/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/webs/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/webs/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/webPa/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/webPa/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/webPa/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/webPa/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/webPa/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/webPa/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/pub/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/pub/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/pub/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/pub/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/pub/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/pub/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/web/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/web/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/web/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/web/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/web/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/web/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/parseExcel/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/parseExcel/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/parseExcel/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/parseExcel/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/parseExcel/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/parseExcel/oh_modules" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="" scope="PROVIDED">
+      <library name="ArkTS-HarmonyOS-5.0.5(hms)" type="ArkUI">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$APPLICATION_HOME_DIR$/sdk/default/hms/ets/api" />
+          <root url="file://$APPLICATION_HOME_DIR$/sdk/default/hms/ets/kits" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="" scope="PROVIDED">
+      <library name="ArkTS-HarmonyOS-5.0.5(openharmony)" type="ArkUI">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$APPLICATION_HOME_DIR$/sdk/default/openharmony/ets/api" />
+          <root url="file://$APPLICATION_HOME_DIR$/sdk/default/openharmony/ets/component" />
+          <root url="file://$APPLICATION_HOME_DIR$/sdk/default/openharmony/ets/kits" />
+          <root url="file://$APPLICATION_HOME_DIR$/sdk/default/openharmony/ets/arkts" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="" scope="PROVIDED">
+      <library name="libc++_shared.so" type="ArkUI">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="" scope="PROVIDED">
+      <library name="libscrcap2pixel.so" type="ArkUI">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>

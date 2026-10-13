@@ -1,0 +1,1 @@
+@Component export declare struct q42 { private _width; private _height; private _backUpController; private _videoController; aboutToAppear(): void;  @Builder _adxOrLogoBuilder(): void;  @Builder _smallFeedCoverBuilder(): void;  @Builder _bigFeedCoverBuilder(u45: number): void;  @Builder _groupFeedCoverBuilder(): void; build(): void; aboutToDisappear(): void; } 

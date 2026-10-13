@@ -1,0 +1,1 @@
+export declare class InitImplSpecial { static initialize(): void; } 

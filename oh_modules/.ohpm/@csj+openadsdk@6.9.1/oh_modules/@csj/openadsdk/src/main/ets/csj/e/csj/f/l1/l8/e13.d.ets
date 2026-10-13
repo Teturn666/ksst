@@ -1,0 +1,1 @@
+export declare class SplashClickAreaType { static readonly FULL = 1; static readonly DOWNLOAD = 2; } export declare class SplashControlIdl { readonly clickArea: number; readonly clickText: string; btnBackgroundColor: string; splashStyleId: number; } 

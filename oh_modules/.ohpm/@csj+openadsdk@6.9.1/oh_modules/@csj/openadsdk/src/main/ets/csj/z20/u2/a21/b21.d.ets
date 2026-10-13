@@ -1,0 +1,1 @@
+@Component export declare struct f165 {  @State message: string; build(): void; } 

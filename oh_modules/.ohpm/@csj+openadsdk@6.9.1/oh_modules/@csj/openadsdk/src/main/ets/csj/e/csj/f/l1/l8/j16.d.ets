@@ -1,0 +1,1 @@
+export declare class TemplateInfoIdl { readonly data: string; readonly diffData: string; readonly dyPtplId: number; readonly dynamicCreative: string; readonly id: string; readonly materialType: number; readonly md5: string; readonly url: string; readonly version: string; readonly ugenUrl: string; readonly ugenMd5: string; readonly engineVersion: string; } 

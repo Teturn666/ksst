@@ -1,0 +1,1 @@
+import { x164 } from "../../../e3/h3"; export declare class Md5Impl implements x164 { append(str: string): x164; hash(str: string, raw?: boolean): string; hashBinary(str: ArrayBuffer, raw?: boolean): string; destroy(): void; reset(): void; } 

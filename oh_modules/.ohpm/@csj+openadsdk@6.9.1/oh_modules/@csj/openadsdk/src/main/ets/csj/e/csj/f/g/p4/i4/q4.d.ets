@@ -1,0 +1,1 @@
+import { y22 } from "../../f4/i4/n6"; export declare class r15 extends y22 { } 

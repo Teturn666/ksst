@@ -1,0 +1,1 @@
+export declare class m115 { private static sample; static t86(n115: string | undefined): boolean; } 

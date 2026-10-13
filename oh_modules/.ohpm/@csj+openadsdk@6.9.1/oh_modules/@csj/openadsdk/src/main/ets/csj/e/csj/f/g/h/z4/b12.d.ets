@@ -1,0 +1,1 @@
+import { w52 } from "../f/y9";  @Component export declare struct w68 {  @Link _state: w52; _showLogo: boolean; _minMode: boolean; build(): void; } 

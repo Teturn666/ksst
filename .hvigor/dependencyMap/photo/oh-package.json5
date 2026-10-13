@@ -1,0 +1,1 @@
+{"name":"photo","version":"1.0.0","description":"Please describe the basic information.","main":"Index.ets","author":"","license":"","dependencies":{"utils":"file:../../commons/utils","widget":"file:../../commons/widget","search":"file:../../commons/search","db":"file:../../commons/db","network":"file:../../commons/network"}}

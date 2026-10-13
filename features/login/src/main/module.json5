@@ -1,0 +1,11 @@
+{
+  "module": {
+    "name": "login",
+    "type": "har",
+    "description": "$string:module_desc",
+    "mainElement": "LoginAbility",
+    "deviceTypes": [
+      "phone",
+    ],
+  }
+}

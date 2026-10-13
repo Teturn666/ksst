@@ -1,0 +1,1 @@
+export declare class k101 { static j74: string; static k74: string; static l74: string; static UNKNOWN: string; static m74(): Promise<boolean>; n74(slotId: number): string; q74(): Array<string>; p74(r101: string): string; j72(): string | undefined; k72(): string | undefined; h72(): string | undefined; i72(): string | undefined; } 

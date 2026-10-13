@@ -1,0 +1,1 @@
+import { SDKConfig } from "../base/f1/w26/b29"; export declare class g215 { statusCode: number; config?: SDKConfig; constructor(statusCode: number, config?: SDKConfig); } 

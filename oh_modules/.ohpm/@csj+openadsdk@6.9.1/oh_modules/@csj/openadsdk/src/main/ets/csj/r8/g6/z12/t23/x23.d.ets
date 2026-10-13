@@ -1,0 +1,1 @@
+import { n180 } from "../../../k/z22"; export declare class u182 implements n180 { t140(): number; u140(): number; v140(): number; } 

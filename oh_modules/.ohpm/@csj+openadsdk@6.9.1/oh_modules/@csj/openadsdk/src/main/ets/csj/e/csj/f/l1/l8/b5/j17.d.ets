@@ -1,0 +1,1 @@
+export declare class ClogConfigIdl { readonly expireDays: number; readonly isOpen: boolean; readonly logLevel: number; readonly maxSize: number; readonly privacyLevel: number; } 

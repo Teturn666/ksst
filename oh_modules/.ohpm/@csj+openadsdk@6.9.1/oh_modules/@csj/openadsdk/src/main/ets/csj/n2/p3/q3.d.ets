@@ -1,0 +1,1 @@
+export declare class t10 { private id; private url; private retry_count; constructor(id: string, url: string, u10: number); getId(): string; getUrl(): string; s6(): number; t6(count: number): void; } 

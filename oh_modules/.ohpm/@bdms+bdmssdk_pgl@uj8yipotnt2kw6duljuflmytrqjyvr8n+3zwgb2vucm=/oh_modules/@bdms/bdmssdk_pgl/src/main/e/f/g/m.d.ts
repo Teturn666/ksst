@@ -1,0 +1,1 @@
+import { BDMSPglConfig } from "./t"; export declare namespace BDMSPglConfigCallback { type Realize = (code: number, desc: string, cfg: BDMSPglConfig) => void; } 

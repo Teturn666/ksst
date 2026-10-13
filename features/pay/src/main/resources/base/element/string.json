@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "PayAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "PayAbility_label",
+      "value": "label"
+    }
+  ]
+}

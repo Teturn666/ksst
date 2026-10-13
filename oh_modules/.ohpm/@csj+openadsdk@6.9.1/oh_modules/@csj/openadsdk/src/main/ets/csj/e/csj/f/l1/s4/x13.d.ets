@@ -1,0 +1,1 @@
+import { o90 } from "./u13"; import { u85 } from "./f12"; export declare class n92 extends o90 { onAdClick: (event?: u85, context?: UIContext) => void; s58(): boolean; } 

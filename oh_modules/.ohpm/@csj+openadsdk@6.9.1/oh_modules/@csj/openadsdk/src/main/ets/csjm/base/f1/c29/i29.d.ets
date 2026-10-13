@@ -1,0 +1,1 @@
+export declare class BiddingWaterfallMediaConfig { readonly adnName?: string; readonly adnSlotId?: string; } 

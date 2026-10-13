@@ -1,0 +1,1 @@
+export declare class DownLoadConfIdl { readonly autoControl: number; readonly autoControlChoose: number; readonly autoControlTime: number; readonly autoOpen: number; readonly dlNetwork: number; readonly dlPopup: number; readonly dlSize: number; readonly ifPopp: number; readonly ifSendClick: number; readonly marketPopup: number; readonly popUpStyleId: number; } 

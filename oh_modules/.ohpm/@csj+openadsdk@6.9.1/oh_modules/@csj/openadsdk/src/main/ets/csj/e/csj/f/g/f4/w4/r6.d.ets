@@ -1,0 +1,1 @@
+@Component export declare struct i23 { private TAG; private _videoController; private _playCount;  @State _isPlayComplete: boolean; private _playCompleteStateCallback; aboutToAppear(): void; build(): void;  @Builder _drawResultPageStyle(): void;  @Builder _feedResultPageStyle(): void; _onVideoClick: (type: number, event: ClickEvent) => void; } 

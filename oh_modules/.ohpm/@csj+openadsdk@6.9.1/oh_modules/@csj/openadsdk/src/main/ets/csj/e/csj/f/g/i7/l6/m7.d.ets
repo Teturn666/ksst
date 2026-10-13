@@ -1,0 +1,1 @@
+import { AdSlot } from "../../../../k/l"; import { CSJDrawAdListener } from "../../../../k/v"; import { NativeExpressAdListener } from "../../../../k/z"; export declare class c32 { loadDrawAd(adSlot: AdSlot, loadListener: CSJDrawAdListener): void; loadExpressDrawAd(adSlot: AdSlot, loadListener: NativeExpressAdListener): void; } 

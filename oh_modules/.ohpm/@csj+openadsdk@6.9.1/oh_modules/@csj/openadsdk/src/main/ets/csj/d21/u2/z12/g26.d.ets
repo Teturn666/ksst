@@ -1,0 +1,1 @@
+export declare class m203 { private url; private q130; private headers; private body; constructor(url: string, n203: number, headers: string, o203: string | Object | ArrayBuffer); getUrl(): string; i43(): number; f154(): string; g154(): string | Object | ArrayBuffer; } 

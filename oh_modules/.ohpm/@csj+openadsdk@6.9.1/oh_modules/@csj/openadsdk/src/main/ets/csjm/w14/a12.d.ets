@@ -1,0 +1,1 @@
+export declare class r67 { static sContext: Context; static getContext(): Context; } 

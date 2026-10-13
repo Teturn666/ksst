@@ -1,0 +1,1 @@
+export declare namespace BDMSPglReportCallback { type Realize = (code: number, desc: string, scene: string) => void; } 

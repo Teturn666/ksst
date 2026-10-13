@@ -1,0 +1,1 @@
+export declare class b165 { static encodeToString(src: Uint8Array): string; static x128(src: Uint8Array | string): Uint8Array; private encodeToStringSync; private decodeSync; } 

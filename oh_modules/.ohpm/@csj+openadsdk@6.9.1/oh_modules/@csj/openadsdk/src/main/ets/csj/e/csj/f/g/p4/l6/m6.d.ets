@@ -1,0 +1,1 @@
+import { AdSlot } from "../../../../k/l"; import { CSJNativeAdListener } from "../../../../k/y"; import { NativeExpressAdListener } from "../../../../k/z"; export declare class i22 { e22(adSlot: AdSlot, loadListener: NativeExpressAdListener): void; g22(adSlot: AdSlot, loadListener: CSJNativeAdListener): void; } 

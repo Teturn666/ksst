@@ -1,0 +1,21 @@
+{
+  "module": {
+    "name": "home",
+    "type": "shared",
+    "description": "$string:module_desc",
+//    "mainElement": "HomeAbility",
+    "routerMap": "$profile:route_map",
+    "deviceTypes": [
+      "phone",
+      "tablet",
+      "2in1"
+    ],
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.INTERNET",
+        "reason": "$string:internet_reason"
+      }
+    ],
+    "deliveryWithInstall":true
+  }
+}

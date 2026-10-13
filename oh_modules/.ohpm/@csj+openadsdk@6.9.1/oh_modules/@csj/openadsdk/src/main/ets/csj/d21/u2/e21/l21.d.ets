@@ -1,0 +1,1 @@
+import List from '@ohos.util.List'; import { Header } from "./j21"; export declare class Response<T = string | Object | ArrayBuffer> { private url; private q130; private headers; private body; private u130; constructor(url: string, b202: number, headers: List<Header>, body: T, c202: string); getUrl(): string; w130(): number; o111(): List<Header>; k43(): T; x130(): string; } 

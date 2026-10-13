@@ -1,0 +1,1 @@
+import { AdSlot } from "../../../csj/e/csj/k/l"; import { CSJDrawAdListener } from "../../../csj/e/csj/k/v"; import { p213 } from "./n28"; export declare class c206 extends p213 { private a192?; private b192; loadDrawAd(adSlot: AdSlot, loadListener: CSJDrawAdListener): void; b183(code: number, message: string): void; onAdLoadSuccess(): void; private q6; private c192; } 

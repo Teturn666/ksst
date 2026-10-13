@@ -1,0 +1,1 @@
+import { l233, h230 } from "./j30"; export declare class x236 implements h230 { private r190?; private s190?; private primeRit?; private t190?; private u190?; private v190?; private reason; d185(r237: l233): void; private w190; private y190; private c191; private b191; } 

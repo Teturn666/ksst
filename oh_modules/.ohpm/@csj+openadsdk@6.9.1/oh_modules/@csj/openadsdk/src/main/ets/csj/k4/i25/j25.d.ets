@@ -1,0 +1,1 @@
+import { g194 } from "../h25"; export declare abstract class i194 { private h149; abstract intercept(b195: g194): g194; i149(intercept: i194): void; j149(): void; k149(z194: g194): g194; } 

@@ -1,0 +1,1 @@
+import { x151 } from "../g6/n20"; import { Event } from "../../../n2/o2/r2"; import { EventPriority } from "../../../n2/o2/p2"; import { EventType } from "../../../n2/o2/q2"; export interface d171 { l124(config: x151, type: EventType, context: Context): void; sendEvent(event: Event): void; h136(type?: EventType, priority?: EventPriority): void; } 

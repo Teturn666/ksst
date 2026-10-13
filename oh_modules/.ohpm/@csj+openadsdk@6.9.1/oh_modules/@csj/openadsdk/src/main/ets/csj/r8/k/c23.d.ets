@@ -1,0 +1,1 @@
+export interface q180 { n141: (stepCode: number, data: object) => void; } 

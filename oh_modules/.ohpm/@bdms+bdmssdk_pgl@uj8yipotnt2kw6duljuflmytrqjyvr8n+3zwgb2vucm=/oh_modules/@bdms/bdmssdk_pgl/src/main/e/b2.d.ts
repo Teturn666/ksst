@@ -1,0 +1,1 @@
+export declare abstract class ScenePageNameListener { constructor(); abstract getScenePageName(): number; } 

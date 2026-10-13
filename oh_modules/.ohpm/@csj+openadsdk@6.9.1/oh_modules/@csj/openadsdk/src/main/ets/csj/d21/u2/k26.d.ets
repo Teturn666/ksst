@@ -1,0 +1,1 @@
+import http from '@ohos.net.http'; export declare class r203 { static w154(url: string): Promise<http.HttpResponse>; } 

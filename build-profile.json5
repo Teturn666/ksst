@@ -1,0 +1,272 @@
+{
+  "app": {
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "lianxing",
+        "compatibleSdkVersion": "5.0.3(15)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "useNormalizedOHMUrl": true
+          }
+        },
+        "targetSdkVersion": ""
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug"
+      },
+      {
+        "name": "release"
+      }
+    ],
+    "signingConfigs": [
+            {
+              "name": "default",
+              "type": "HarmonyOS",
+              "material": {
+                "storeFile": "/Users/fire/Downloads/debugSign/ksstDbug.p12",
+                "storePassword": "000000181BD2E79489912C543F33CEDF5DB746F05DF2E8140AF5EC3F55417854CEF624D1C318F495",
+                "keyAlias": "Tl",
+                "keyPassword": "0000001873D3735AA4A7846DAD1B8DA3B065E1D5D08FF6DE1F23C46E6B671D5CA4F30D04A13F33E3",
+                "signAlg": "SHA256withECDSA",
+                "profile": "/Users/fire/Downloads/debugSign/ksstProfileDebug.p7b",
+                "certpath": "/Users/fire/Downloads/debugSign/ksstDebugCer.cer"
+              }
+            },
+      {
+        "name": "lianxing",
+        "type": "HarmonyOS",
+        "material": {
+          "storeFile": "/Users/fire/Downloads/debugSign/ksstDbug.p12",
+          "storePassword": "00000018DD2413AD9D37A53B023C8EE0E3334FBB7E4D3DED80AD61D55F0A7CF861DCF20D065AE60F",
+          "keyAlias": "tl",
+          "keyPassword": "00000018F6BA91D36B6391267E5E28B47C9B45D1279EC26571915FB454987318684C63B271A3D0AF",
+          "signAlg": "SHA256withECDSA",
+          "profile": "/Users/fire/Downloads/debugSign/ksstProfileDebug.p7b",
+          "certpath": "/Users/fire/Downloads/debugSign/ksstDebugCer.cer"
+        }
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./products/entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mine",
+      "srcPath": "./features/mine",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "home",
+      "srcPath": "./features/home",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "utils",
+      "srcPath": "./commons/utils",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "network",
+      "srcPath": "./commons/network",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "encryption",
+      "srcPath": "./commons/encryption",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "db",
+      "srcPath": "./commons/db",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "photo",
+      "srcPath": "./features/photo",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "search",
+      "srcPath": "./commons/search",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "web",
+      "srcPath": "./commons/web",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "widget",
+      "srcPath": "./commons/widget",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "view",
+      "srcPath": "./features/view",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bank",
+      "srcPath": "./features/bank",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "points",
+      "srcPath": "./features/points",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pay",
+      "srcPath": "./features/pay",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "login",
+      "srcPath": "./features/login",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "share",
+      "srcPath": "./features/share",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "setting",
+      "srcPath": "./features/setting",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ],
+}

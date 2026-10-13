@@ -1,0 +1,1 @@
+export interface u127 { onPrepared: () => void; d22: () => void; z21: () => void; b22: (progress: number, duration: number) => void; onCompleted: () => void; onRelease: () => void; } 

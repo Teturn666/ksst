@@ -1,0 +1,1 @@
+export declare class VideoCacheConfigIdl { readonly brand: number; readonly other: number; readonly reward: number; readonly splash: number; } 

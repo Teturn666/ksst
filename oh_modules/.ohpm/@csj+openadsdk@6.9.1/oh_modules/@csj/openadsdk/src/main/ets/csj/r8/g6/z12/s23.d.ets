@@ -1,0 +1,1 @@
+export declare class z181 { private h143; constructor(); s26(k182: ArrayBuffer): boolean; f141(j182: ArrayBuffer): boolean; i143(file: ArrayBuffer): string | null; n143(a182: Uint8Array, signature: Uint8Array): boolean; } 

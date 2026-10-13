@@ -1,0 +1,24 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EncryptionAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EncryptionAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "data_empty",
+      "value": "数据为空，请稍后再试～"
+    },
+    {
+      "name": "key_err",
+      "value": "KEY 错误"
+    }
+  ]
+}

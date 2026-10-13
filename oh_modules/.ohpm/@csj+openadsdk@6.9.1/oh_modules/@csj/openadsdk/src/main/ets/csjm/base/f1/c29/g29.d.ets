@@ -1,0 +1,1 @@
+export declare class InvalidNonServerBiddingResult { readonly name?: string; readonly slotID?: string; readonly errorCode?: number; readonly errorMsg?: string; readonly logSource?: string; } 

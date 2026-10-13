@@ -1,0 +1,1 @@
+import { FilterWord } from "../../../../k/f1/i1";  @Component export declare struct f107 { _fw?: FilterWord; _positionNumber: number;  @Consume private _clickItemInfo; build(): void;  @Builder optionItem(name: string): void;  @Builder filterWordItem(name: string): void; } 

@@ -1,0 +1,1 @@
+import { x75 } from "./o12"; import { n180 } from "./z22"; export interface r81 { d141(): string; getUrl(): string; getResult(): PixelMap | string; getWidth(): number; getHeight(): number; o111(): Map<string, string> | undefined; e141(): n180 | undefined; u104(): number; x50(): x75; f141(): boolean; } 

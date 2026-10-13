@@ -1,0 +1,1 @@
+export declare class r89 { static readonly k57: string; static readonly g58: string; static readonly b58: string; static readonly v57: string; static readonly h58: string; } 

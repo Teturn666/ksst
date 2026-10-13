@@ -1,0 +1,1 @@
+import http from '@ohos.net.http'; import { j100 } from "./t14"; export declare class l100 { postUrl(url: string, requestOptions: http.HttpRequestOptions, m100: Uint8Array | undefined): Promise<j100>; } 

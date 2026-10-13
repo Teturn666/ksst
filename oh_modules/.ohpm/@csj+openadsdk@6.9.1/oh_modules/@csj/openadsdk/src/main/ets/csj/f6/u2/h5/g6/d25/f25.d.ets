@@ -1,0 +1,1 @@
+import { a190 } from "../../k/y24"; export declare class x192 implements a190 { private controller; v146(): string; getType(): string; w146(): XComponentController; setXComponentSurfaceSize(width: number, height: number): void; } 

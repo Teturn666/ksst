@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "adapter_ks_desc",
+      "value": "description"
+    },
+    {
+      "name": "adapter_ks_label",
+      "value": "label"
+    }
+  ]
+}

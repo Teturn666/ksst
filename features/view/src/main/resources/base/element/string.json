@@ -1,0 +1,40 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "ViewAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "ViewAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "login_pay",
+      "value": "支付前登录"
+    },
+    {
+      "name": "txt_pay",
+      "value": "购买前查看该须知"
+    },
+    {
+      "name": "card_pay",
+      "value": "按次购买"
+    },
+    {
+      "name": "infinite_pay",
+      "value": "无限次数"
+    },
+    {
+      "name": "card_pay_rule",
+      "value": "规则：次数卡仅限拍照搜题使用"
+    },
+    {
+      "name": "infinite_pay_rule",
+      "value": "规则：会员有效期间不限次数"
+    }
+  ]
+}

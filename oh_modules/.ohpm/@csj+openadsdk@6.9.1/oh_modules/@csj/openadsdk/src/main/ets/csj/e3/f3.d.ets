@@ -1,0 +1,1 @@
+export interface g1 { l23(body: string): string; o113(body: string): string; d86(body: string): Uint8Array | undefined; h114(body: object): Uint8Array | undefined; j43(body: Uint8Array): string; e4(content: string): string; n3(cipherContent: string): string; } 

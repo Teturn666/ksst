@@ -1,0 +1,1 @@
+import { t205 } from "../../../base/r26"; import { h217 } from "../../v29/w29/x29"; import { t243 } from "./j31"; import { ArrayList } from '@kit.ArkTS'; import { WaterFallConfig } from "../../../base/f1/w26/h28"; export declare class a244 implements t243 { a189(b244: h217, c244: t205, list?: ArrayList<WaterFallConfig>): boolean; } 

@@ -1,0 +1,1 @@
+import { p19 } from "../../f1/p5"; import { u63 } from "./k/x11"; export declare class v63 { static b46(d130: p19, listener: u63): void; static p106(c130: p19, label: string): void; } 

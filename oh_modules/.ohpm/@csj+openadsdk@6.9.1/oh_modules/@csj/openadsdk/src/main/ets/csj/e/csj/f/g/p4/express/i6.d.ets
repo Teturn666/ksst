@@ -1,0 +1,1 @@
+import { AdSlot } from "../../../../k/l"; import { ExpressVideoAdListener } from "../../../../k/z"; import { p19 } from "../../../l1/f1/p5"; import { e20 } from "./e6"; export declare const w21: string; export declare class x21 extends e20 { private y21; constructor(g22: p19, adSlot: AdSlot); setVideoAdListener(videoAdListener: ExpressVideoAdListener): void; } 

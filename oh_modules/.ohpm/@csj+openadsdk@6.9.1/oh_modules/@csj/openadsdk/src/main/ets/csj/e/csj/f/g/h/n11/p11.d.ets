@@ -1,0 +1,1 @@
+@Component export declare struct g60 { build(): void; } 

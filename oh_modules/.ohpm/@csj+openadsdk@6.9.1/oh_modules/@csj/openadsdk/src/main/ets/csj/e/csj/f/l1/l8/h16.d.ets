@@ -1,0 +1,1 @@
+export declare class ClickAreaIdl { readonly clickButtonArea: boolean; readonly clickLowerContentArea: boolean; readonly clickLowerNonontentArea: boolean; readonly clickUpperContentArea: boolean; readonly clickUpperNonContentArea: boolean; readonly clickVideoArea: boolean; } 

@@ -1,0 +1,1 @@
+export interface x48 { n30: () => void; u30: () => void; l31: () => void; } 

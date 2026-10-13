@@ -1,0 +1,1 @@
+import { ArrayList } from '@kit.ArkTS'; import { t205 } from "../../../base/r26"; import { WaterFallConfig } from "../../../base/f1/w26/h28"; export interface j233 { onAdLoaded: (list: ArrayList<t205>, waterFallConfig: WaterFallConfig) => void; y184: (code: number, message: string, waterFallConfig: WaterFallConfig) => void; a185: () => void; } 

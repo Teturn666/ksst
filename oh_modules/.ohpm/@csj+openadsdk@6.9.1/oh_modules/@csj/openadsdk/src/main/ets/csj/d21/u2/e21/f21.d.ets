@@ -1,0 +1,1 @@
+export interface k165 { d129(body: ArrayBuffer): Promise<Object>; } export declare class d202 implements k165 { private static j153; d129(body: ArrayBuffer): Promise<Object>; } export declare const e202: d202; 

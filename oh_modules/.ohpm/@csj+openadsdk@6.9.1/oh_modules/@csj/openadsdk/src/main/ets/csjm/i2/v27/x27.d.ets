@@ -1,0 +1,1 @@
+import { AdSlot } from "../../../csj/e/csj/k/l"; import { AdSlotType } from "../../../csj/e/csj/k/m"; export declare class s208 { static j160(slotID: string, adSlot: AdSlot | undefined, u208: boolean, parameter: Map<string, object> | undefined): AdSlot; static k160: Map<string, number>; static adLoadSeq(type: AdSlotType, t208: boolean): number; } 

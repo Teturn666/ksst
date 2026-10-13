@@ -1,0 +1,1 @@
+import { n127 } from "../k/f19"; import { q126 } from "../k/y18"; import { l54 } from "./i10"; export declare class r126 implements q126 { private g148; private g142?; private h148?; constructor(k190: l54 | undefined); t146(): object | undefined; d101(j190: object): void; e101(cacheDir: n127): void; w100(): n127 | undefined; getUrl(): string | undefined; } 

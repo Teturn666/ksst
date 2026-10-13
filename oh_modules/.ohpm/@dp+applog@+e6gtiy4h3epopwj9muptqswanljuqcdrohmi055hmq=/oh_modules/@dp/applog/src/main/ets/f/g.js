@@ -1,0 +1,1 @@
+export class AppLogNetworkClientResponse { constructor(status) { this.status = -1; this.status = status; } } 

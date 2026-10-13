@@ -1,0 +1,1 @@
+import { image } from '@kit.ImageKit'; export interface o180 { cancelRequest(): boolean; getUrl(): string; getWidth(): number; getHeight(): number; w140(): ImageFit; x140(): string; y140(): string; z140(): image.PixelMapFormat; } 

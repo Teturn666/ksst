@@ -1,0 +1,1 @@
+export declare class u19 { d21: number; e21: number; c21: boolean; videoHeight: number; videoWidth: number; borderRadiusBottomLeft: number; borderRadiusBottomRight: number; borderRadiusTopLeft: number; borderRadiusTopRight: number; s38: number; t38: number; code: number; message: string; constructor(m178?: object); } 

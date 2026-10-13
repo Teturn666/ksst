@@ -1,0 +1,1 @@
+import { d1 } from "../../../../../s2/x2"; export declare class UIUtils { static o85(data: d1, o149: string, p149?: boolean | undefined, q149?: boolean | undefined): d1; static q118(): boolean; static i98(slotType: number, orientation: number, m149: number[]): void; } 

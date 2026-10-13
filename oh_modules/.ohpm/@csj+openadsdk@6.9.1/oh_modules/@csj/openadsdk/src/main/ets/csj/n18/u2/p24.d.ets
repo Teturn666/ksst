@@ -1,0 +1,1 @@
+import webview from '@ohos.web.webview'; import { n186 } from "./q24"; export declare class m186 { private e146; constructor(j187: n186); private f146; c146(controller: webview.WebviewController, result: string): void; b146(controller: webview.WebviewController): void; } 

@@ -1,0 +1,1 @@
+import { w52 } from "../../f/y9"; export declare class x68 { state: w52; private i47; private j47; private k47; init(state: w52): void; l47(): number; m47(): number; f47(state: w52): number; e47(state: w52): boolean; g47(): void; h47(): void; } 

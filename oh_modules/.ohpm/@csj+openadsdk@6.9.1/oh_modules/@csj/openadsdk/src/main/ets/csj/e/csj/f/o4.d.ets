@@ -1,0 +1,1 @@
+export declare namespace q15 { const q35 = "csj://landingPage"; const t16 = "csj://privacyPage"; } 

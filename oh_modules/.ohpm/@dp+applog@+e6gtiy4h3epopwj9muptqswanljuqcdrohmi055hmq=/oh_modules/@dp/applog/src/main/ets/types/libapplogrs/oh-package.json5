@@ -1,0 +1,6 @@
+{
+  "name": "libapplogrs.so",
+  "types": "./index.d.ts",
+  "version": "",
+  "description": "this is the interface of libapplogrs.so"
+}

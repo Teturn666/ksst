@@ -1,0 +1,1 @@
+import { AdRitConfig } from "../../../base/f1/w26/x26"; import { t243 } from "./j31"; export declare class o233 { static z188(d244: AdRitConfig): t243; } 

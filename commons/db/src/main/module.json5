@@ -1,0 +1,13 @@
+{
+  "module": {
+    "name": "db",
+    "type": "har",
+    "description": "$string:module_desc",
+    "mainElement": "DbAbility",
+    "deviceTypes": [
+      "phone",
+      "tablet",
+      "2in1"
+    ],
+  }
+}

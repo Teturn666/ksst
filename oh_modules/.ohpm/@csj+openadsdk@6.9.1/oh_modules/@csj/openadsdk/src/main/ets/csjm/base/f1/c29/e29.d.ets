@@ -1,0 +1,1 @@
+export declare class BiddingAutoExpDetail { readonly estPrice?: string; readonly estPriceSource?: number; readonly biddingEcpm?: string; } 

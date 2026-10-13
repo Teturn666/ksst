@@ -1,0 +1,11 @@
+import { UMConfig } from '@umeng/common';
+import { AnaPlugin } from "./src/main/d/e/f";
+export { AnaPlugin as InternalPlugin };
+export declare function init(): Promise<void>;
+export declare function agree(): void;
+export declare function onProfileSignIn(provider: string, puid: string): void;
+export declare function onProfileSignOff(): void;
+export declare function setLogEnabled(enable: boolean): void;
+export declare function onEventObject(eventID: string, params?: Record<string, string | number>): void;
+export declare function trackEvent(eventID: string, params?: Record<string, string | number>): void;
+export declare function preInit(cfg: UMConfig): void;

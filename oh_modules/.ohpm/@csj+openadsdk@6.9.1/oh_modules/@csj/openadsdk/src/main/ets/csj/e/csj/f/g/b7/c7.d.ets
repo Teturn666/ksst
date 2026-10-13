@@ -1,0 +1,1 @@
+import { AdSlot } from "../../../k/l"; import { a20 } from "../../l1/z5/d6"; export declare class t30 { getBiddingToken(adSlot: AdSlot, u30: a20, adSlotType?: number): string; } 

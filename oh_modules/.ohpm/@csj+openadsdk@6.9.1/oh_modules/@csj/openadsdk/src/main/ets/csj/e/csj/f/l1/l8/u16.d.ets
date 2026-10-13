@@ -1,0 +1,1 @@
+export declare class SplashVideoConfigIdl { readonly videoAdapterType: number; readonly videoMuteType: number; } 

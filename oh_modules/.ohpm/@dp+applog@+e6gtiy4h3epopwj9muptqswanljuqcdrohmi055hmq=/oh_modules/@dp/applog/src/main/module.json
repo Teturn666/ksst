@@ -1,0 +1,71 @@
+{
+	"app": {
+		"bundleName": "com.bytedance.applog",
+		"versionCode": 1000000,
+		"versionName": "1.0.0",
+		"minAPIVersion": 50000012,
+		"targetAPIVersion": 50000012,
+		"apiReleaseType": "Beta1",
+		"compileSdkVersion": "5.0.0.25",
+		"compileSdkType": "HarmonyOS",
+		"appEnvironments": [],
+		"bundleType": "app"
+	},
+	"module": {
+		"name": "applogx",
+		"type": "har",
+		"deviceTypes": [
+			"default",
+			"tablet",
+			"2in1"
+		],
+		"requestPermissions": [
+			{
+				"name": "ohos.permission.INTERNET",
+				"reason": "$string:request_permission",
+				"usedScene": {
+					"when": "always"
+				}
+			},
+			{
+				"name": "ohos.permission.STORE_PERSISTENT_DATA",
+				"reason": "$string:request_permission",
+				"usedScene": {
+					"when": "always"
+				}
+			},
+			{
+				"name": "ohos.permission.APP_TRACKING_CONSENT",
+				"reason": "$string:request_permission",
+				"usedScene": {
+					"when": "always"
+				}
+			},
+			{
+				"name": "ohos.permission.DISTRIBUTED_DATASYNC",
+				"reason": "$string:request_permission",
+				"usedScene": {
+					"when": "always"
+				}
+			},
+			{
+				"name": "ohos.permission.GET_WIFI_INFO",
+				"reason": "$string:request_permission",
+				"usedScene": {
+					"when": "always"
+				}
+			},
+			{
+				"name": "ohos.permission.GET_NETWORK_INFO",
+				"reason": "$string:request_permission",
+				"usedScene": {
+					"when": "always"
+				}
+			}
+		],
+		"installationFree": false,
+		"virtualMachine": "ark12.0.2.0",
+		"compileMode": "esmodule",
+		"dependencies": []
+	}
+}

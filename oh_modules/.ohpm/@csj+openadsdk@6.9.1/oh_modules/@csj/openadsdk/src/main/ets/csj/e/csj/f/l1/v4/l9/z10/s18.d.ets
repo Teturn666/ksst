@@ -1,0 +1,1 @@
+import { p19 } from "../../../f1/p5"; import { g122 } from "../p18"; import { u48 } from "../m9"; export declare class u124 extends g122 { private b97; constructor(w124: p19, x124: u48); z97(): string[]; invoke(methodName: string, params: object): Promise<string>; } export interface v124 { n99(): void; o99(): void; } 

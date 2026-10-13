@@ -1,0 +1,1 @@
+import { o94 } from "./c14"; export interface w94 { init(context: Context, appInfo: o94): void; getInstallId(): string; getOaid(context: Context): Promise<string>; getDeviceId(): string; getApplogSdkVersion(): string; } 

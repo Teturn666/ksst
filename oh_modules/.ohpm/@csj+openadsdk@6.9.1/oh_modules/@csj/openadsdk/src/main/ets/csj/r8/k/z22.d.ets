@@ -1,0 +1,1 @@
+export interface n180 { t140(): number; u140(): number; v140(): number; } 

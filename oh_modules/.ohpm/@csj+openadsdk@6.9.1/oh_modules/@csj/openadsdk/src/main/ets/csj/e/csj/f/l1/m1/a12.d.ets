@@ -1,0 +1,1 @@
+import { d17 } from "../b5/d5"; export declare class r67 { static sContext: Context; static x46: Context; static u86(): d17; static getAppId(): string; static getContext(): Context; } 

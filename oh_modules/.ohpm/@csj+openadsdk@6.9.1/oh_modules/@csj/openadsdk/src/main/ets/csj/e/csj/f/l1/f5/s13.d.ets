@@ -1,0 +1,1 @@
+import e90 from '@ohos.commonEventManager'; export declare class s89 { subscribe(j90: t89, callback: Function): void; unsubscribe(g90: t89, callback: Function): void; } declare const w253: s89; export default w253; export declare class t89 { t57: boolean; subscriber?: e90.CommonEventSubscriber; u57?: Array<string>; f58?: e90.CommonEventData; } 

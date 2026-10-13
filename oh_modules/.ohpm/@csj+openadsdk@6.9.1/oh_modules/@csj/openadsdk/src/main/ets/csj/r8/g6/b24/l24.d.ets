@@ -1,0 +1,1 @@
+import { x75 } from "../../k/o12"; import { g181 } from "../g23"; import { b184 } from "../z12/a24"; import { k184 } from "./d24"; export declare class s185 implements k184 { private data; private dataSrc; private response?; private gif; constructor(data: PixelMap | string, dataSrc: x75, l186: boolean, response?: g181); f144(request: b184): void | k184; e144(): string; } 

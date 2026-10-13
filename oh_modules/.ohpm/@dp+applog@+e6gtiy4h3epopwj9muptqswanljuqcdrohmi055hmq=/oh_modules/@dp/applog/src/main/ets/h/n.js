@@ -1,0 +1,1 @@
+export class OaidModel { constructor() { this.id = ""; this.take_ms = ""; } } export class AAIDModel { constructor() { this.id = ""; } } 

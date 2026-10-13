@@ -1,0 +1,1 @@
+export declare abstract class GlobalConfigListener { constructor(); abstract getDomain(): string; abstract getBrandDomain(): string; abstract getSlardarDomain(): string; abstract getSlardarConfigHosts(): Array<string>; } 

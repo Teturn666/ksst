@@ -1,0 +1,1 @@
+export declare class AssetManager { insertIdToAsset(): Promise<string>; queryIdByAsset(): Promise<string>; private canIUseAsset; } export declare const assetManager: AssetManager; 

@@ -1,0 +1,1 @@
+export declare class j214 { timestamp: number; ecpm: number; constructor(ecpm: number, timestamp: number); } export declare class e251 { jsMode: number; readonly data: Array<j214>; constructor(jsMode: number, data: Array<j214>); } 

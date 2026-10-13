@@ -1,0 +1,1 @@
+export interface CSJImage { getHeight(): number; getWidth(): number; getImageUrl(): string; getDuration(): number; sValid(): boolean; } 

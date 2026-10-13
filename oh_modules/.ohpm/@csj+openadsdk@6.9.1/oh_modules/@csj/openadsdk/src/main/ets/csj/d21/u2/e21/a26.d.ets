@@ -1,0 +1,1 @@
+import { Request } from "./h21"; export interface u201<T> { execute(): Promise<T>; p152(): boolean; cancel(): void; isCanceled(): boolean; request(): Request; } 

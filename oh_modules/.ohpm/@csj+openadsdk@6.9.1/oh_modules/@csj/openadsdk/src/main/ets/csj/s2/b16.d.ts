@@ -1,0 +1,1 @@
+export declare const p117: (obj?: object | Object) => boolean; export declare const o117: (obj?: string) => boolean; export declare const a164: (handler: Function, delay?: number) => number; export declare const b164: (handler: () => boolean, delay?: number) => number; 

@@ -1,0 +1,56 @@
+import { UMConfig } from "./l";
+export declare class MessagePackage {
+    static header: {
+        ct: string;
+        lang: string;
+        dmf: string;
+        dn: string;
+        mnc: string;
+        car: string;
+        ac: string;
+        nt: string;
+        cpu: string;
+        rl: string;
+        dm: string;
+        mant: string;
+        os: string;
+        sdt: string;
+        ov: string;
+        al: number;
+        db: string;
+        dt: string;
+        boa: string;
+        cv: string;
+        pkg: string;
+        hm: string;
+        mn: string;
+        disn: string;
+        ak: string;
+        chn: string;
+        tz: number;
+        bt: number;
+        cot: number;
+        av: string;
+        vc: string;
+        mod: string;
+        issys: boolean;
+        mov: {};
+        prv: string;
+    };
+    static imp: any;
+    static idt: {
+        hm_aaid: string;
+        signature: string;
+        oaid: string;
+        umid: string;
+        utdid: string;
+        hm_odid: string;
+    };
+    static config: UMConfig;
+    static getHeaderStatus: number;
+    static init(o2: UMConfig): void;
+    static pack(h2: any, i2: any, j2: any, k2: number, l2: any): string;
+    static getDataAsync(): Promise<typeof MessagePackage>;
+    static delay(): Promise<unknown>;
+    static getHeaderAsync(a?: number): Promise<unknown>;
+}

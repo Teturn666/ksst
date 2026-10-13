@@ -1,0 +1,1 @@
+export declare const isNotEmptyString: (s?: string) => boolean; export declare function setLogEnabled(e: boolean): void; export declare function printLog(msg: string): void; export declare function stringToArray(str: string): Uint8Array; export declare function arrayToString(a1: Uint8Array): string; 

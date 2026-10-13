@@ -1,0 +1,1 @@
+export declare class LogRateConfIdl { readonly callStackRate: number; readonly getBiddingToken: number; readonly globalRate: number; } 

@@ -1,0 +1,1 @@
+export interface HAIDModel { type: string; id: string | undefined; insert_time: number; } export declare let y95: HAIDModel; export declare function n98(context: Context): Promise<HAIDModel>; export declare function z95(): Promise<HAIDModel>; export declare function o98(): HAIDModel; 

@@ -1,0 +1,1 @@
+export declare class PglamIdl { readonly pglamClazzCheck: string; readonly pglamDnsCheckEnable: number; readonly pglamMainEnable: number; } 

@@ -1,0 +1,1 @@
+import { h55 } from "../../../../../r10/s10"; import { d1 } from "../../../../../s2/x2"; declare class l142 { private static f114; private static g114; m84(json: d1): Promise<void>; h43(json: d1): Promise<h55<ArrayBuffer> | void>; } export declare const f55: l142; export {}; 

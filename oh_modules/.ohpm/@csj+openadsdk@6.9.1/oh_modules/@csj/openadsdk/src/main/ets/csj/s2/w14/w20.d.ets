@@ -1,0 +1,1 @@
+export declare class i164<K, V> { map: Map<K, V>; get(key: K): V | undefined; hasKey(key: K): boolean; put(key: K, value: V): V | undefined; remove(key: K): boolean; getFirstKey(): K; isEmpty(): boolean; size(): number; each(j164: (value: V, key: K, map: Map<K, V>) => void): void; clear(): void; keys(): IterableIterator<K>; } 

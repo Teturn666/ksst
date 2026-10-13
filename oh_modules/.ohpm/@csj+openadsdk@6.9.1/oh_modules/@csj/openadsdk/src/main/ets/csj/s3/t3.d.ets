@@ -1,0 +1,1 @@
+import common from '@ohos.app.ability.common'; import { p12, l169 } from "./u3"; export declare class o12 { private config; private context; static create(context: common.UIAbilityContext, config: p12): o12; private constructor(); startDownload(): Promise<l169>; } 

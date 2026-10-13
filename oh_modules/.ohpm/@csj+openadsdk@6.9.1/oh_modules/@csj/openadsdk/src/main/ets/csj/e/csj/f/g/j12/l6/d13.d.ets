@@ -1,0 +1,1 @@
+import { CSJSplashAdLoadParam } from "../../../../k/c1"; import { z78 } from "./w12"; export declare class f82 { a55: Map<number, z78>; loadSplashAd(param: CSJSplashAdLoadParam): void; } 

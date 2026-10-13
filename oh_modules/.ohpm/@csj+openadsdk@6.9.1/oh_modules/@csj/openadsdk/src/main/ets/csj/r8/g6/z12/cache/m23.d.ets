@@ -1,0 +1,1 @@
+export interface r181<K, V> { a143(key: K, vaule: V): void; b143(key: K, vaule: V): void; } 

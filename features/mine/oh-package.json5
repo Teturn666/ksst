@@ -1,0 +1,16 @@
+{
+  "name": "mine",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "Index.ets",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "widget": "file:../../commons/widget",
+    "utils": "file:../../commons/utils",
+    "login": "file:../login",
+    "points": "file:../points",
+    "setting": "file:../setting",
+  }
+}
+

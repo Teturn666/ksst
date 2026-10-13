@@ -1,0 +1,1 @@
+@Component export declare struct v32 { private _width; private _height; private _backUpController; aboutToAppear(): void; build(): void; } 

@@ -1,0 +1,1 @@
+export interface p203 { mimeType(): string; length(): number; in(): ArrayBuffer; } 

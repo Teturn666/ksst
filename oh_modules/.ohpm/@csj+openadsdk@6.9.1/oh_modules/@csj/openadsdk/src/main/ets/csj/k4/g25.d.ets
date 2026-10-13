@@ -1,0 +1,1 @@
+import { g194 } from "./h25"; import { k194 } from "./l4"; import { v194 } from "./l25/o25"; declare class h195 { private readonly n149; private readonly o149; constructor(); bindRouteName(routeName: string, n195: k194): void; start(l195: g194): void; d149(): v194; private p149; private q149; private s149; } export declare const d194: h195; export {}; 

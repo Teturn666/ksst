@@ -1,0 +1,1 @@
+export declare class TemplateIdl { id: string; data: string; md5: string; } 

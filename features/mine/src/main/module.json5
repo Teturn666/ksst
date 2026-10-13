@@ -1,0 +1,17 @@
+{
+  "module": {
+    "name": "mine",
+    "type": "har",
+    "description": "$string:module_desc",
+    "mainElement": "MineAbility",
+    "deviceTypes": [
+      "phone",
+    ],
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.INTERNET",
+        "reason": "$string:internet_reason",
+      }
+    ]
+  }
+}

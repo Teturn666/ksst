@@ -1,0 +1,1 @@
+import { p19 } from "../../l1/f1/p5"; export declare class x30 { private static b23; static win(j31: p19, k31: number): void; private static d23; static loss(y30: p19, auctionPrice: number, lossReason: string, winBidder: string): void; } 

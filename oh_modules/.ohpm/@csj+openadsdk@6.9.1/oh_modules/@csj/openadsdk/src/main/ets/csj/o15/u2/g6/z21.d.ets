@@ -1,0 +1,1 @@
+export declare class f171 { private params; add(key: string, value: string | number | boolean | f171): f171; remove(key: string): f171; get(key: string): string | number | boolean | undefined | f171; toJsonString(): string; } 

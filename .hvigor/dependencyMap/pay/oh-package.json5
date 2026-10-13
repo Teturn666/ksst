@@ -1,0 +1,1 @@
+{"name":"pay","version":"1.0.0","description":"Please describe the basic information.","main":"Index.ets","author":"","license":"","dependencies":{"network":"file:../../commons/network","utils":"file:../../commons/utils"}}

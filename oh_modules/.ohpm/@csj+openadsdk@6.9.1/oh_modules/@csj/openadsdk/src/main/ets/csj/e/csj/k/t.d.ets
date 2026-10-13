@@ -1,0 +1,1 @@
+export declare abstract class CSJCustomPrivacyController { isCanUseAppTrackingConsent(): boolean; getDevOaid(): string | undefined; isCanUseLocation(): boolean; getTTLocation(): number[] | undefined; isCanUseWifiState(): boolean; getMacAddress(): string | undefined; } export declare class CSJCustomPrivacyDefaultController extends CSJCustomPrivacyController { } 

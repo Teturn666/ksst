@@ -1,0 +1,1 @@
+export declare class ConvertInfoIdl { readonly type: number; readonly url: string; readonly pid: string; readonly ecomLiveParams: string; } 

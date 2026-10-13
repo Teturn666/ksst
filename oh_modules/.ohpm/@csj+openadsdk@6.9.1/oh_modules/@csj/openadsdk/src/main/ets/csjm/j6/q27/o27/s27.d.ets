@@ -1,0 +1,1 @@
+export declare class q207 { readonly isVerify?: boolean; readonly reason?: number; readonly rewardAmount?: number; readonly rewardName?: string; } 

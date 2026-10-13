@@ -1,0 +1,1 @@
+export interface CSJVideoAdListener { onVideoLoad: () => void; onVideoError: (errorCode: number, errorMsg: string) => void; onVideoAdStartPlay: () => void; onVideoAdPaused: () => void; onVideoAdContinuePlay: () => void; onProgressUpdate: (current: number, duration: number) => void; onVideoAdComplete: () => void; } 

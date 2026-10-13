@@ -1,0 +1,1 @@
+import { display } from '@kit.ArkUI';  @Entry @Component export declare struct t50 {  @Prop title: string;  @State theme: number;  @Prop isRewardStatus: boolean;  @Prop isLubanPage: boolean;  @Prop titleSpanColor: boolean; private backClick; private closeClick; private feedbackClick;  @State oritation: display.Orientation; aboutToAppear(): void; build(): void; } 

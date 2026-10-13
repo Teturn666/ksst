@@ -1,0 +1,1 @@
+export declare class v95 { private static q146; private constructor(); static x77(path: string): number | undefined; static getDeviceInfo(): Uint32Array; static getCpuInfo(): Array<string> | undefined; } 

@@ -1,0 +1,1 @@
+export declare class UrlConfig { deviceRegisterDomain?: string; deviceActiveDomain?: string; settingsDomain?: string; logDomain?: string; realtimeDomain?: string; eventVerifyDomain?: string; } 

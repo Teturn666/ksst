@@ -1,0 +1,1 @@
+import { d1 } from "../../../../../s2/x2"; import { SettingIdl } from "../l8/b5/e18"; export interface k142 { getSettings(): Promise<SettingIdl>; l111(): Promise<boolean>; e74(): d1; } 

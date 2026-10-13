@@ -1,0 +1,1 @@
+export declare class ImageFormat { static readonly jpg = "jpg"; static readonly png = "png"; static readonly webp = "webp"; static readonly bmp = "bmp"; static readonly gif = "gif"; static readonly svg = "svg"; static readonly tiff = "tiff"; } 

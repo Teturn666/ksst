@@ -1,0 +1,1 @@
+@Component export declare struct c50 { private appPrivacyClick; private appPermissionClick; private appVersion; private appDeveloper; private appName; private packageName; build(): void; } 

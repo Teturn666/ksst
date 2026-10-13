@@ -1,0 +1,1 @@
+import { p18 } from "../i4/l5"; import { FrameNode, NodeController } from '@kit.ArkUI'; export declare class z19 { private t22?; n21(param: p18): z29; release(): void; } export declare class z29 extends NodeController { private u22; private param; private v22; constructor(param: p18); makeNode(context: UIContext): FrameNode | null; release(): void; } 

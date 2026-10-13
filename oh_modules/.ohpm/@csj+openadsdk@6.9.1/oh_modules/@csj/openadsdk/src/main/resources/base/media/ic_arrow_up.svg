@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24" version="1.1">
+    <title>Public/ic_arrow_up</title>
+    <defs>
+        <path d="M18.78,9.45L10.549,1.22C10.257,0.927 9.782,0.927 9.488,1.22L1.258,9.45C0.965,9.743 0.965,10.219 1.258,10.512C1.551,10.804 2.027,10.804 2.319,10.512L10.019,2.81L17.72,10.512C18.012,10.804 18.487,10.804 18.78,10.512C18.927,10.365 19,10.172 19,9.981C19,9.788 18.927,9.597 18.78,9.45Z" id="_path-1"/>
+    </defs>
+    <g id="_Public/ic_arrow_up" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="_mask-2" fill="white">
+            <use xlink:href="#_path-1"/>
+        </mask>
+        <use id="_形状结合" fill="#000000" fill-rule="nonzero" xlink:href="#_path-1"/>
+    </g>
+</svg>

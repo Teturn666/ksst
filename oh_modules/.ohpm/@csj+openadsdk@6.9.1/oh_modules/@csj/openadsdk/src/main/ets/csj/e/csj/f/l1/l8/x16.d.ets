@@ -1,0 +1,1 @@
+export declare class ExtIdl { readonly rit: number; readonly adSlotType: number; readonly reqId: string; readonly packTime: number; readonly pricing: number; readonly adId: string; readonly customerId = ""; readonly uid: number; readonly device_id: number; readonly global_did: number; } 

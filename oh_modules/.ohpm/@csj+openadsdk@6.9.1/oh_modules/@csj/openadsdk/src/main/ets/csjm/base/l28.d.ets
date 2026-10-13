@@ -1,0 +1,1 @@
+import { CSJCustomPrivacyController } from "../../csj/e/csj/k/t"; import { SDKConfig } from "../../csj/e/csj/f/l1/m1/n1"; export declare class h214 { private b96; constructor(); k66(): SDKConfig; h96(config: SDKConfig): void; getCustomController(): CSJCustomPrivacyController; } export declare const a212: h214; 

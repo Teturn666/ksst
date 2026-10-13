@@ -1,0 +1,16 @@
+{
+  "name": "bank",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "network": "file:../../commons/network",
+    "utils": "file:../../commons/utils",
+    "search": "file:../../commons/search",
+    "encryption": "file:../../commons/encryption",
+    "db": "file:../../commons/db",
+  }
+}
+

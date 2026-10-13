@@ -1,0 +1,1 @@
+import { AppLogNetworkClientResponse } from "./g"; export interface IAppLogNetworkClient { post(url: string, headers: Map<string, string>, body?: string | Object | ArrayBuffer): Promise<AppLogNetworkClientResponse>; } 

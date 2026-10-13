@@ -1,0 +1,1 @@
+import { p213 } from "./n28"; import { CSJSplashAdLoadParam } from "../../../csj/e/csj/k/c1"; import { t205 } from "../../base/r26"; export declare class l208 extends p213 { private n160?; private l192?; c185(param: CSJSplashAdLoadParam): void; g160(): t205 | undefined; b183(code: number, message: string): void; onAdCached(): void; onAdLoadSuccess(): void; private m192; } 

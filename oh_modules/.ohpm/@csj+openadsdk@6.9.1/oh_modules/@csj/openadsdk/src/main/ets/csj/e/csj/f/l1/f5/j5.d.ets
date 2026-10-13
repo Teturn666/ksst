@@ -1,0 +1,1 @@
+import { HashSet } from '@kit.ArkTS'; import { g17 } from "./g5"; export declare class i17 { static readonly k57: string; static readonly o57: string; p57: HashSet<g17>; q57: boolean; r57: boolean; private s57; private c58; init(): void; e58(): void; a18(listener: g17): void; n18(listener: g17): void; private d58; } declare const w253: i17; export default w253; 

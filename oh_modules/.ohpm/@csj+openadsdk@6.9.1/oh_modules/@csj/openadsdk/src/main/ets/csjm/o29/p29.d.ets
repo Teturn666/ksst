@@ -1,0 +1,1 @@
+export declare class h215 { private static w196; private static appId?; static w175(event: Record<string, Object>): void; static j172(): boolean; static x196(): boolean; } 

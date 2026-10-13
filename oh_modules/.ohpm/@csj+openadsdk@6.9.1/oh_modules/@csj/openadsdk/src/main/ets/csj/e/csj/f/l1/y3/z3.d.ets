@@ -1,0 +1,1 @@
+import { common, Permissions } from '@kit.AbilityKit'; export declare class n13 { static n66: Permissions; static o66: Permissions; static LOCATION: Permissions; static r66: Permissions; static requestPermission(context: common.UIAbilityContext): void; t66(context: common.UIAbilityContext): void; private w66; s66(context: common.UIAbilityContext): void; } 

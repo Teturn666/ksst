@@ -1,0 +1,1 @@
+export declare const o224 = "gm_sdk_init"; export declare const p224: string; export declare const q224: string; 

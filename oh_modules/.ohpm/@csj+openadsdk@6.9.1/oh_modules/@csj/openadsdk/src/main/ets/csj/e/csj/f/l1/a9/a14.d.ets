@@ -1,0 +1,1 @@
+import bundleManager from '@ohos.bundle.bundleManager'; export declare class w93 { private static r65; static u65(): boolean; private static v65; static get w65(): bundleManager.BundleInfo; } 

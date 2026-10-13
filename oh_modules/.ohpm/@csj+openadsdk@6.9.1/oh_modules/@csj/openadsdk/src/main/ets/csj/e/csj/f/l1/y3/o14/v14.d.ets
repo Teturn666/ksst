@@ -1,0 +1,1 @@
+export interface q100 { getToken(): Promise<Map<string, string>>; } 

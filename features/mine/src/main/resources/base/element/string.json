@@ -1,0 +1,70 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "MineAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "MineAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "share_friend",
+      "value": "分享好友"
+    },
+    {
+      "name": "support_us",
+      "value": "支持我们"
+    },
+    {
+      "name": "follow_official_account",
+      "value": "关注公众号"
+    },
+    {
+      "name": "help_center",
+      "value": "帮助中心"
+    },
+    {
+      "name": "feedback",
+      "value": "意见反馈"
+    },
+    {
+      "name": "about_us",
+      "value": "关于我们"
+    },
+    {
+      "name": "share_content",
+      "value": "我正在使用快搜答题神器，支持各类答题平台，快来一起轻松答题吧！官方下载链接：http://app.iksdt.com"
+    },
+    {
+      "name": "i_know",
+      "value": "我知道了"
+    },
+    {
+      "name": "privacy_hint",
+      "value": "感谢您的下载和使用!\n\n我们非常重视您的个人信息和隐私保护。为了更好地保障您的个人权益，在您使用我们的产品前，请务必审慎阅读《隐私政策》和《用户协议》内的所有条款，尤其是: 1.我们对您的个人信息的收集/保存/使用/对外提供/保护等规则条款，以及您的用户权利等条款。 2.约定我们的限制责任、免责条款。 3.其他以颜色或加粗进行标说的重要条款。\n\n如您对以上协议有任何疑问，可拒绝使用。您点击“同意并继续”的行为即表示您已阅读完毕并同意以上协议的全部内容。\n\n·如您同意以上协议内容，请点击“同意并继续”，开始使用我们的产品和服务。以下是我们为了更好提供服务需要向您申请的权限和信息:\n\n相机权限用于扫描搜题\n文件读写权限用于题库存储，文件下载"
+    },
+    {
+      "name": "internet_reason",
+      "value": "Request network data"
+    },
+    {
+      "name": "operation_settings",
+      "value": "操作设置"
+    },
+    {
+      "name": "my_points",
+      "value": "我的积分"
+    },
+    {
+      "name": "Recharge",
+      "value": "去充值"
+    }
+
+
+  ]
+}
